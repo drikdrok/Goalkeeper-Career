@@ -6,23 +6,23 @@
       "league": 1,
       "wins": 0,
       "draws": 0,
-      "losses": 1,
-      "GF": 1,
-      "GA": 2,
+      "losses": 0,
+      "GF": 0,
+      "GA": 0,
       "points": 0,
-      "playedInLeague": 1
+      "playedInLeague": 0
     },
     {
       "id": 1,
       "tag": "AGF",
       "league": 1,
       "wins": 0,
-      "draws": 1,
+      "draws": 0,
       "losses": 0,
-      "GF": 2,
-      "GA": 2,
-      "points": 1,
-      "playedInLeague": 1
+      "GF": 0,
+      "GA": 0,
+      "points": 0,
+      "playedInLeague": 0
     },
     {
       "id": 2,
@@ -41,12 +41,12 @@
       "tag": "FCK",
       "league": 1,
       "wins": 1,
-      "draws": 2,
-      "losses": 0,
-      "GF": 6,
-      "GA": 5,
-      "points": 5,
-      "playedInLeague": 3
+      "draws": 0,
+      "losses": 1,
+      "GF": 5,
+      "GA": 4,
+      "points": 3,
+      "playedInLeague": 2
     },
     {
       "id": 4,
@@ -65,24 +65,24 @@
       "tag": "FCN",
       "league": 1,
       "wins": 0,
-      "draws": 1,
-      "losses": 0,
-      "GF": 2,
-      "GA": 2,
-      "points": 1,
-      "playedInLeague": 1
-    },
-    {
-      "id": 6,
-      "tag": "OB",
-      "league": 1,
-      "wins": 0,
       "draws": 0,
       "losses": 0,
       "GF": 0,
       "GA": 0,
       "points": 0,
       "playedInLeague": 0
+    },
+    {
+      "id": 6,
+      "tag": "OB",
+      "league": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "GF": 3,
+      "GA": 2,
+      "points": 3,
+      "playedInLeague": 1
     },
     {
       "id": 7,
@@ -102,11 +102,11 @@
       "league": 1,
       "wins": 0,
       "draws": 0,
-      "losses": 0,
-      "GF": 0,
-      "GA": 0,
+      "losses": 1,
+      "GF": 1,
+      "GA": 3,
       "points": 0,
-      "playedInLeague": 0
+      "playedInLeague": 1
     },
     {
       "id": 9,

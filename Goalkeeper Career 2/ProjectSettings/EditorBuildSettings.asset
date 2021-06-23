@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4a85483d8dda0f541aa578811b5710af
+  - enabled: 1
+    path: Assets/Scenes/Fixtures.unity
+    guid: fdafe8b9b7194a34688215c081fe3cce
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 4ee5b3a543305434c98f6c08bf95ed2d
+  - enabled: 1
+    path: Assets/Scenes/LeagueScreen.unity
+    guid: 0e7f80d52f2bf3f40a50d56c484f0fdc
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

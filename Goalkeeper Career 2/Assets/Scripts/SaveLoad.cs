@@ -29,7 +29,7 @@ public class SaveLoad : MonoBehaviour
         using (StreamReader reader = new StreamReader("Assets/New Data/TeamsData.json"))
         {
             string JSONString = reader.ReadToEnd();
-            return JsonUtility.FromJson<TeamList>(JSONString);
+            return JsonConvert.DeserializeObject<TeamList>(JSONString);
         }
     }
 
@@ -47,7 +47,7 @@ public class SaveLoad : MonoBehaviour
         using (StreamReader reader = new StreamReader("Assets/New Data/LeaguesData.json"))
         {
             string JSONString = reader.ReadToEnd();
-            return JsonUtility.FromJson<LeagueList>(JSONString);
+            return JsonConvert.DeserializeObject<LeagueList>(JSONString);
         }
     }
 }

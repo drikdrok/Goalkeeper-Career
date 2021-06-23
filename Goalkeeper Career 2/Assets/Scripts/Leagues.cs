@@ -2,8 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using Unity.VisualScripting;
 using UnityEngine;
+using Random = System.Random;
 
 public class Leagues : MonoBehaviour
 {
@@ -36,48 +38,77 @@ public class League
     public string name;
     public int[] teamIds;
     public List<List<int>> matches = new List<List<int>>();
-    //Problem: Unity cant parse 2d lists into json...
 
     public void generateFixtures()
     {
+        matches = new List<List<int>>();
+        var numberList = Enumerable.Range(0, teamIds.Length).ToList();
 
-        List<int> teams = teamIds.ToList();
+        var topList = numberList.GetRange(0, teamIds.Length / 2);
+        var bottomList = numberList.GetRange(teamIds.Length / 2, teamIds.Length / 2).ToList();
+        bottomList.Reverse();
 
-        if (teams == null || teams.Count < 2)
+      
+
+
+        string message = "";
+        foreach (var i in topList)
+            message += i.ToString() + ", ";
+
+        Debug.Log("Toplist: " + message);
+
+        message = "";
+        foreach (var i in bottomList)
+            message += i.ToString() + ", ";
+
+        Debug.Log("Bottomlist: " + message);
+
+
+
+        for (int matchday = 1; matchday < teamIds.Length*2; matchday++)
         {
-            Debug.LogError("Not enough teams in league!");
-        }
-
-        var restTeams = new List<int>(teams.Skip(1));
-        var teamsCount = teams.Count;
-        if (teams.Count % 2 != 0)
-        {
-            restTeams.Add(default);
-            teamsCount++;
-        }
-
-        for (var day = 0; day < teamsCount - 1; day++)
-        {
-            if (restTeams[day % restTeams.Count].Equals(default) == false)
+            for (int i = 0; i < topList.Count; i++)
             {
-                matches.Add( new List<int>() { day, teams[0], restTeams[day % restTeams.Count] });
-            }
-
-            for (var index = 1; index < teamsCount / 2; index++)
-            {
-                var firstTeam = restTeams[(day + index) % restTeams.Count];
-                var secondTeam = restTeams[(day + restTeams.Count - index) % restTeams.Count];
-                if (firstTeam.Equals(default) == false && secondTeam.Equals(default) == false)
+                List<int> match = new List<int>();
+                match.Add(matchday);
+                
+                if (matchday % 2 == 0)
                 {
-                    matches.Add(new List<int>() { day, firstTeam, secondTeam});
+                    match.Add(topList[i]);
+                    match.Add(bottomList[i]);
                 }
+                else
+                {
+                    match.Add(bottomList[i]);
+                    match.Add(topList[i]);
+                }
+                Debug.Log("Match: " + match[0] + ": " + match[1] + " - " + match[2]);
+
+                matches.Add(match);
             }
+
+            rotateList(numberList);
+            topList = numberList.GetRange(0, teamIds.Length / 2);
+            bottomList = numberList.GetRange(teamIds.Length / 2, teamIds.Length / 2).ToList();
+            bottomList.Reverse();
         }
 
-        foreach (var match in matches)
+        void rotateList(List<int> list)
         {
-            Debug.Log(match[0] + "=>" + match[1]+ " - " + match[2]);
+            int j, last;
+            last = list[list.Count - 1];
+
+            for (j = list.Count - 1; j > 0; j--)
+            {
+                list[j] = list[j - 1];
+            }
+            list[0] = last;
+
+              int start = list[0];
+              list[0] = list[1];
+              list[1] = start;
         }
+
     }
 }
 
@@ -111,4 +142,5 @@ public class TeamList
     {
         return teams[id].tag;
     }
+
 }

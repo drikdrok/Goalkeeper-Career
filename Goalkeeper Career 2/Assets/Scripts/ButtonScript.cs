@@ -19,6 +19,10 @@ public class ButtonScript : MonoBehaviour
     {
         SceneManager.LoadScene("LeagueScreen");
     }
+    public void GoToFixturesScreen()
+    {
+        SceneManager.LoadScene("Fixtures");
+    }
 
     public void BackToMainMenu()
     {
