@@ -1,0 +1,65 @@
+{
+  "teams":
+  [
+    {
+      "id": 0,
+      "tag": "AAB",
+      "league": 1
+    },
+    {
+      "id": 1,
+      "tag": "AGF",
+      "league": 1
+    },
+    {
+      "id": 2,
+      "tag": "BIF",
+      "league": 1
+    },
+    {
+      "id": 3,
+      "tag": "FCK",
+      "league": 1
+    },
+    {
+      "id": 4,
+      "tag": "FCM",
+      "league": 1
+    },
+    {
+      "id": 5,
+      "tag": "FCN",
+      "league": 1
+    },
+    {
+      "id": 6,
+      "tag": "OB",
+      "league": 1
+    },
+    {
+      "id": 7,
+      "tag": "RFC",
+      "league": 1
+    },
+    {
+      "id": 8,
+      "tag": "SE",
+      "league": 1
+    },
+    {
+      "id": 9,
+      "tag": "VB",
+      "league": 1
+    },
+    {
+      "id": 10,
+      "tag": "VFF",
+      "league": 1
+    },
+    {
+      "id": 11,
+      "tag": "SIF",
+      "league": 1
+    }
+  ]
+}
