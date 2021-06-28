@@ -81,7 +81,6 @@ public class GameScript : MonoBehaviour
         seconds = Random.Range(0, 60);
 
         if (minutes > 95) { //Game finished
-            PlayerPrefs.SetInt("Matchday", PlayerPrefs.GetInt("Matchday") + 1);
 
             teamList.teams[homeTeam].playedInLeague++;
             teamList.teams[homeTeam].GF += homeScore;
@@ -112,7 +111,7 @@ public class GameScript : MonoBehaviour
 
             SaveLoad.saveTeamsData(teamList);
 
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("PostMatchScreen");
         }
     }
 }

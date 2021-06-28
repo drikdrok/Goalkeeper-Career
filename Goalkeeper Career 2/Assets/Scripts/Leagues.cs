@@ -55,13 +55,13 @@ public class League
         foreach (var i in topList)
             message += i.ToString() + ", ";
 
-        Debug.Log("Toplist: " + message);
+       // Debug.Log("Toplist: " + message);
 
         message = "";
         foreach (var i in bottomList)
             message += i.ToString() + ", ";
 
-        Debug.Log("Bottomlist: " + message);
+       // Debug.Log("Bottomlist: " + message);
 
 
 
@@ -82,7 +82,7 @@ public class League
                     match.Add(bottomList[i]);
                     match.Add(topList[i]);
                 }
-                Debug.Log("Match: " + match[0] + ": " + match[1] + " - " + match[2]);
+                //Debug.Log("Match: " + match[0] + ": " + match[1] + " - " + match[2]);
 
                 matches.Add(match);
             }
@@ -132,6 +132,10 @@ public class Team
     public int GA = 0;
     public int points = 0;
     public int playedInLeague = 0;
+
+    public int attackRating= 50;
+    public int midfieldRating = 50;
+    public int defenseRating = 50;
 }
 [System.Serializable]
 public class TeamList
