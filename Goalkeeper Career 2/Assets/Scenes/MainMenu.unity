@@ -758,6 +758,7 @@ GameObject:
   - component: {fileID: 944041992}
   - component: {fileID: 944041991}
   - component: {fileID: 944041993}
+  - component: {fileID: 944041994}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -780,7 +781,6 @@ MonoBehaviour:
   clubText: {fileID: 1589382395}
   matchdayText: {fileID: 1554268462}
   fixtureText: {fileID: 1043880898}
-  leagues: {fileID: 944041993}
 --- !u!4 &944041992
 Transform:
   m_ObjectHideFlags: 0
@@ -807,10 +807,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd36a3e0c518cf4a8ad5c8a7b9a8dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leaguesJson: {fileID: 4900000, guid: a7a9e8dde0d22a144989a72b3e0b7cef, type: 3}
-  teamsJson: {fileID: 4900000, guid: aa385c7b1c51d664482e6f83582b4403, type: 3}
+  leagueList:
+    leagues: []
   teamList:
     teams: []
+--- !u!114 &944041994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944041990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e48af36d2f729e45b8a9e0fe699b00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1043880896
 GameObject:
   m_ObjectHideFlags: 0

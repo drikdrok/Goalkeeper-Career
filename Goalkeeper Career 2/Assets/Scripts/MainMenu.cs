@@ -21,6 +21,10 @@ public class MainMenu : MonoBehaviour
 
         leagueList.leagues[0].generateFixtures();
 
+
+
+
+
         SaveLoad.saveLeaguesData(leagueList);
         SaveLoad.saveTeamsData(teamList);
 

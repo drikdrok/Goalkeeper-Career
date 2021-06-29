@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class PostMatchScript : MonoBehaviour
@@ -26,47 +28,13 @@ public class PostMatchScript : MonoBehaviour
         {
             if (match[0] == matchday && !(PlayerPrefs.GetInt("TeamID") == match[1] || PlayerPrefs.GetInt("TeamID") == match[2]))
             {
-                //Simulate match
                 Team homeTeam = teamList.teams[match[1]];
                 Team awayTeam = teamList.teams[match[2]];
 
-                int homeScore = 0;
-                int awayScore = 0;
+                Tuple<int, int> scoreline = Match.simulateMatch(homeTeam, awayTeam);
+                int homeScore = scoreline.Item1;
+                int awayScore = scoreline.Item2;
 
-                //Home goals
-                int scoringChances = 5 + Random.Range(-1, 1);
-                int scoringProbability = 25;
-                if (homeTeam.stats.attackRating > awayTeam.stats.defenseRating)
-                {
-                    scoringChances += Mathf.FloorToInt((homeTeam.stats.attackRating-awayTeam.stats.defenseRating) / 2);
-                    scoringProbability += Mathf.FloorToInt(homeTeam.stats.attackRating + 5 - awayTeam.stats.defenseRating) * 2;
-                }
-
-                for (int i = 0; i < scoringChances; i++)
-                {
-                    if (Random.Range(0, 100) < scoringProbability)
-                    {
-                        homeScore++;
-                    }
-                }
-
-                //Away goals
-                scoringChances = 5 + Random.Range(-1, 1);
-                scoringProbability = 25;
-
-                if (awayTeam.stats.attackRating > homeTeam.stats.defenseRating)
-                {
-                    scoringChances += Mathf.FloorToInt((awayTeam.stats.attackRating - homeTeam.stats.defenseRating) / 2);
-                    scoringProbability += Mathf.FloorToInt(awayTeam.stats.attackRating - homeTeam.stats.defenseRating) * 2;
-                }
-
-                for (int i = 0; i < scoringChances; i++)
-                {
-                    if (Random.Range(0, 100) < scoringProbability)
-                    {
-                        awayScore++;
-                    }
-                }
 
                 GameObject row = Instantiate(fixtureRow);
                 row.transform.SetParent(scrollView);
@@ -116,3 +84,5 @@ public class PostMatchScript : MonoBehaviour
     }
 
 }
+
+

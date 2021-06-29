@@ -5,8 +5,8 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
 
-    private Rigidbody rigidbody;
-    private Transform transform;
+    private new Rigidbody rigidbody;
+    private new Transform transform;
     
     public HandScript hands;
     public GameScript gameScript;

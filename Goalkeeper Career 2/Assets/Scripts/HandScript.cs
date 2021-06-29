@@ -9,7 +9,7 @@ public class HandScript : MonoBehaviour
     // Start is called before the first frame update
 
 
-    public Transform transform;
+    public new Transform transform;
 
     public Animator animator;
 
