@@ -37,13 +37,13 @@ public class ButtonScript : MonoBehaviour
 
         foreach (Team team in teams.teams)
         {
-            team.playedInLeague = 0;
-            team.wins = 0;
-            team.draws = 0;
-            team.losses = 0;
-            team.GA = 0;
-            team.GF = 0;
-            team.points = 0;
+            team.stats.playedInLeague = 0;
+            team.stats.wins = 0;
+            team.stats.draws = 0;
+            team.stats.losses = 0;
+            team.stats.GA = 0;
+            team.stats.GF = 0;
+            team.stats.points = 0;
         }
 
         SaveLoad.saveTeamsData(teams);

@@ -82,31 +82,31 @@ public class GameScript : MonoBehaviour
 
         if (minutes > 95) { //Game finished
 
-            teamList.teams[homeTeam].playedInLeague++;
-            teamList.teams[homeTeam].GF += homeScore;
-            teamList.teams[homeTeam].GA += awayScore;
+            teamList.teams[homeTeam].stats.playedInLeague++;
+            teamList.teams[homeTeam].stats.GF += homeScore;
+            teamList.teams[homeTeam].stats.GA += awayScore;
 
-            teamList.teams[awayTeam].playedInLeague++;
-            teamList.teams[awayTeam].GF += awayScore;
-            teamList.teams[awayTeam].GA += homeScore;
+            teamList.teams[awayTeam].stats.playedInLeague++;
+            teamList.teams[awayTeam].stats.GF += awayScore;
+            teamList.teams[awayTeam].stats.GA += homeScore;
 
             if (homeScore > awayScore) // Home Win
             {
-                teamList.teams[homeTeam].points += 3;
-                teamList.teams[homeTeam].wins++;
-                teamList.teams[awayTeam].losses++;
+                teamList.teams[homeTeam].stats.points += 3;
+                teamList.teams[homeTeam].stats.wins++;
+                teamList.teams[awayTeam].stats.losses++;
             }
             else if (homeScore < awayScore) // Away Win
             {
-                teamList.teams[awayTeam].points += 3;
-                teamList.teams[awayTeam].wins++;
-                teamList.teams[homeTeam].losses++;
+                teamList.teams[awayTeam].stats.points += 3;
+                teamList.teams[awayTeam].stats.wins++;
+                teamList.teams[homeTeam].stats.losses++;
             }
             else { //Draw
-                teamList.teams[homeTeam].points++;
-                teamList.teams[awayTeam].points++;
-                teamList.teams[homeTeam].draws++;
-                teamList.teams[awayTeam].draws++;
+                teamList.teams[homeTeam].stats.points++;
+                teamList.teams[awayTeam].stats.points++;
+                teamList.teams[homeTeam].stats.draws++;
+                teamList.teams[awayTeam].stats.draws++;
             }
 
             SaveLoad.saveTeamsData(teamList);

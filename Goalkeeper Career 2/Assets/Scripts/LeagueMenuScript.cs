@@ -35,7 +35,7 @@ public class LeagueMenuScript : MonoBehaviour
         }
      
         // Sort by points
-        teams = teams.OrderBy(o => o.points).ThenBy(o => (o.GF - o.GA)).ThenBy(o => o.GF).ToList();
+        teams = teams.OrderBy(o => o.stats.points).ThenBy(o => (o.stats.GF - o.stats.GA)).ThenBy(o => o.stats.GF).ToList();
         teams.Reverse();
 
         for (int i = 0; i < teams.Count; i++)
@@ -47,14 +47,14 @@ public class LeagueMenuScript : MonoBehaviour
             row.transform.Find("Position").GetComponent<Text>().text = (i+1).ToString();
            
             row.transform.Find("Club").GetComponent<Text>().text = team.tag;
-            row.transform.Find("Played").GetComponent<Text>().text = team.playedInLeague.ToString();
-            row.transform.Find("Wins").GetComponent<Text>().text = team.wins.ToString();
-            row.transform.Find("Draws").GetComponent<Text>().text = team.draws.ToString();
-            row.transform.Find("Losses").GetComponent<Text>().text = team.losses.ToString();
-            row.transform.Find("GF").GetComponent<Text>().text = team.GF.ToString();
-            row.transform.Find("GA").GetComponent<Text>().text = team.GA.ToString();
-            row.transform.Find("GD").GetComponent<Text>().text = (team.GF - team.GA).ToString();
-            row.transform.Find("Points").GetComponent<Text>().text = team.points.ToString();
+            row.transform.Find("Played").GetComponent<Text>().text = team.stats.playedInLeague.ToString();
+            row.transform.Find("Wins").GetComponent<Text>().text = team.stats.wins.ToString();
+            row.transform.Find("Draws").GetComponent<Text>().text = team.stats.draws.ToString();
+            row.transform.Find("Losses").GetComponent<Text>().text = team.stats.losses.ToString();
+            row.transform.Find("GF").GetComponent<Text>().text = team.stats.GF.ToString();
+            row.transform.Find("GA").GetComponent<Text>().text = team.stats.GA.ToString();
+            row.transform.Find("GD").GetComponent<Text>().text = (team.stats.GF - team.stats.GA).ToString();
+            row.transform.Find("Points").GetComponent<Text>().text = team.stats.points.ToString();
         }
     }
 

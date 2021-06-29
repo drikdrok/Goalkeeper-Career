@@ -36,10 +36,10 @@ public class PostMatchScript : MonoBehaviour
                 //Home goals
                 int scoringChances = 5 + Random.Range(-1, 1);
                 int scoringProbability = 25;
-                if (homeTeam.attackRating > awayTeam.defenseRating)
+                if (homeTeam.stats.attackRating > awayTeam.stats.defenseRating)
                 {
-                    scoringChances += Mathf.FloorToInt((homeTeam.attackRating-awayTeam.defenseRating) / 2);
-                    scoringProbability += Mathf.FloorToInt(homeTeam.attackRating + 5 - awayTeam.defenseRating) * 2;
+                    scoringChances += Mathf.FloorToInt((homeTeam.stats.attackRating-awayTeam.stats.defenseRating) / 2);
+                    scoringProbability += Mathf.FloorToInt(homeTeam.stats.attackRating + 5 - awayTeam.stats.defenseRating) * 2;
                 }
 
                 for (int i = 0; i < scoringChances; i++)
@@ -54,10 +54,10 @@ public class PostMatchScript : MonoBehaviour
                 scoringChances = 5 + Random.Range(-1, 1);
                 scoringProbability = 25;
 
-                if (awayTeam.attackRating > homeTeam.defenseRating)
+                if (awayTeam.stats.attackRating > homeTeam.stats.defenseRating)
                 {
-                    scoringChances += Mathf.FloorToInt((awayTeam.attackRating - homeTeam.defenseRating) / 2);
-                    scoringProbability += Mathf.FloorToInt(awayTeam.attackRating - homeTeam.defenseRating) * 2;
+                    scoringChances += Mathf.FloorToInt((awayTeam.stats.attackRating - homeTeam.stats.defenseRating) / 2);
+                    scoringProbability += Mathf.FloorToInt(awayTeam.stats.attackRating - homeTeam.stats.defenseRating) * 2;
                 }
 
                 for (int i = 0; i < scoringChances; i++)
@@ -76,33 +76,33 @@ public class PostMatchScript : MonoBehaviour
 
 
 
-                teamList.teams[match[1]].GF += homeScore;
-                teamList.teams[match[1]].GA += awayScore;
-                teamList.teams[match[2]].GF += awayScore;
-                teamList.teams[match[2]].GA += homeScore;
+                teamList.teams[match[1]].stats.GF += homeScore;
+                teamList.teams[match[1]].stats.GA += awayScore;
+                teamList.teams[match[2]].stats.GF += awayScore;
+                teamList.teams[match[2]].stats.GA += homeScore;
 
-                teamList.teams[match[1]].playedInLeague++;
-                teamList.teams[match[2]].playedInLeague++;
+                teamList.teams[match[1]].stats.playedInLeague++;
+                teamList.teams[match[2]].stats.playedInLeague++;
 
                 if (homeScore > awayScore)
                 {
-                    teamList.teams[match[1]].wins++;
-                    teamList.teams[match[1]].points += 3;
-                    teamList.teams[match[2]].losses++;
+                    teamList.teams[match[1]].stats.wins++;
+                    teamList.teams[match[1]].stats.points += 3;
+                    teamList.teams[match[2]].stats.losses++;
 
                 }
                 else if (homeScore < awayScore)
                 {
-                    teamList.teams[match[1]].losses++;
-                    teamList.teams[match[2]].wins++;
-                    teamList.teams[match[2]].points += 3;
+                    teamList.teams[match[1]].stats.losses++;
+                    teamList.teams[match[2]].stats.wins++;
+                    teamList.teams[match[2]].stats.points += 3;
                 }
                 else
                 {
-                    teamList.teams[match[1]].points++;
-                    teamList.teams[match[1]].draws++;
-                    teamList.teams[match[2]].points++;
-                    teamList.teams[match[2]].draws++;
+                    teamList.teams[match[1]].stats.points++;
+                    teamList.teams[match[1]].stats.draws++;
+                    teamList.teams[match[2]].stats.points++;
+                    teamList.teams[match[2]].stats.draws++;
                 }
 
 
