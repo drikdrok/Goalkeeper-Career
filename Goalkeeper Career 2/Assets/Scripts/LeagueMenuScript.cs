@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -34,7 +35,9 @@ public class LeagueMenuScript : MonoBehaviour
         }
      
         // Sort by points
-        teams.Sort((p1, p2) => p2.points.CompareTo(p1.points));
+        teams = teams.OrderBy(o => o.points).ThenBy(o => (o.GF - o.GA)).ThenBy(o => o.GF).ToList();
+        teams.Reverse();
+
         for (int i = 0; i < teams.Count; i++)
         {
             Team team = teams[i];
