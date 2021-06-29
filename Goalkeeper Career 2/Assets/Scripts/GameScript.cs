@@ -21,8 +21,6 @@ public class GameScript : MonoBehaviour
     public Text scoreline;
     public Text timeText;
 
-    public Leagues leagues;
-
     int homeTeam;
     int awayTeam;
 
@@ -43,7 +41,6 @@ public class GameScript : MonoBehaviour
     void Update()
     {
 
-        Debug.Log(leagues.teamList.teams.Length);
         scoreline.text = teamList.getName(homeTeam) + "   " + homeScore + "-" + awayScore + "    " + teamList.getName(awayTeam);
 
 

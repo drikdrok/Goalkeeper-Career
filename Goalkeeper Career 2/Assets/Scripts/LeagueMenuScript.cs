@@ -29,7 +29,7 @@ public class LeagueMenuScript : MonoBehaviour
 
         List<Team> teams = new List<Team>();
 
-        for (int i = 0; i < teamList.teams.Length; i++)
+        for (int i = 0; i <currentLeague.teamIds.Length; i++)
         {
             teams.Add(teamList.teams[currentLeague.teamIds[i]]);
         }

@@ -5,12 +5,12 @@
       "tag": "AAB",
       "league": 1,
       "stats": {
-        "wins": 0,
-        "draws": 1,
+        "wins": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 1,
-        "GA": 1,
-        "points": 1,
+        "GA": 0,
+        "points": 3,
         "playedInLeague": 1,
         "attackRating": 50,
         "midfieldRating": 50,
@@ -20,6 +20,23 @@
     {
       "id": 1,
       "tag": "AGF",
+      "league": 1,
+      "stats": {
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 1,
+        "playedInLeague": 1,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 2,
+      "tag": "BIF",
       "league": 1,
       "stats": {
         "wins": 1,
@@ -35,23 +52,6 @@
       }
     },
     {
-      "id": 2,
-      "tag": "BIF",
-      "league": 1,
-      "stats": {
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
-        "points": 0,
-        "playedInLeague": 1,
-        "attackRating": 50,
-        "midfieldRating": 50,
-        "defenseRating": 50
-      }
-    },
-    {
       "id": 3,
       "tag": "FCK",
       "league": 1,
@@ -59,8 +59,8 @@
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
+        "GF": 4,
+        "GA": 2,
         "points": 3,
         "playedInLeague": 1,
         "attackRating": 50,
@@ -93,8 +93,8 @@
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
+        "GF": 0,
+        "GA": 0,
         "points": 1,
         "playedInLeague": 1,
         "attackRating": 50,
@@ -110,8 +110,8 @@
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
+        "GF": 0,
+        "GA": 0,
         "points": 1,
         "playedInLeague": 1,
         "attackRating": 50,
@@ -144,8 +144,8 @@
         "wins": 0,
         "draws": 0,
         "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "GF": 2,
+        "GA": 4,
         "points": 0,
         "playedInLeague": 1,
         "attackRating": 50,
@@ -156,23 +156,6 @@
     {
       "id": 9,
       "tag": "VB",
-      "league": 1,
-      "stats": {
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "playedInLeague": 1,
-        "attackRating": 50,
-        "midfieldRating": 50,
-        "defenseRating": 50
-      }
-    },
-    {
-      "id": 0,
-      "tag": "VFF",
       "league": 1,
       "stats": {
         "wins": 0,
@@ -188,17 +171,238 @@
       }
     },
     {
-      "id": 11,
-      "tag": "SIF",
+      "id": 0,
+      "tag": "VFF",
       "league": 1,
       "stats": {
         "wins": 0,
         "draws": 1,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
+        "GF": 0,
+        "GA": 0,
         "points": 1,
         "playedInLeague": 1,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 11,
+      "tag": "SIF",
+      "league": 1,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
+        "playedInLeague": 1,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 12,
+      "tag": "ACH",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 13,
+      "tag": "EFB",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 14,
+      "tag": "FCH",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 15,
+      "tag": "FCF",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 16,
+      "tag": "FREM A",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 17,
+      "tag": "HBK",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 18,
+      "tag": "HIK",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 19,
+      "tag": "HIF",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 21,
+      "tag": "JAM",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 22,
+      "tag": "LBK",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 23,
+      "tag": "NFC",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
+        "attackRating": 50,
+        "midfieldRating": 50,
+        "defenseRating": 50
+      }
+    },
+    {
+      "id": 24,
+      "tag": "VEND",
+      "league": 2,
+      "stats": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "playedInLeague": 0,
         "attackRating": 50,
         "midfieldRating": 50,
         "defenseRating": 50
