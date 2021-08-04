@@ -9,7 +9,7 @@ public class PostMatchScript : MonoBehaviour
 {
 
     LeagueList leagueList;
-    TeamList teamList;
+
 
     public Transform scrollView;
     public GameObject fixtureRow;
@@ -17,7 +17,7 @@ public class PostMatchScript : MonoBehaviour
     void Start()
     {
         leagueList = SaveLoad.loadLeaguesData();
-        teamList = SaveLoad.loadTeamsData();
+ 
 
 
         League currentLeague = leagueList.leagues[0];
@@ -28,8 +28,8 @@ public class PostMatchScript : MonoBehaviour
         {
             if (match[0] == matchday && !(PlayerPrefs.GetInt("TeamID") == match[1] || PlayerPrefs.GetInt("TeamID") == match[2]))
             {
-                Team homeTeam = teamList.teams[match[1]];
-                Team awayTeam = teamList.teams[match[2]];
+                Team homeTeam = TeamsManager.Instance.teams[match[1]];
+                Team awayTeam = TeamsManager.Instance.teams[match[2]];
 
                 Tuple<int, int> scoreline = Match.simulateMatch(homeTeam, awayTeam);
                 int homeScore = scoreline.Item1;
@@ -38,46 +38,46 @@ public class PostMatchScript : MonoBehaviour
 
                 GameObject row = Instantiate(fixtureRow);
                 row.transform.SetParent(scrollView);
-                row.transform.Find("Text").GetComponent<Text>().text = teamList.getName(match[1]) + " " + homeScore + " - " + awayScore + " " + teamList.getName(match[2]);
+                row.transform.Find("Text").GetComponent<Text>().text = TeamsManager.Instance.getName(match[1]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[2]);
 
-                Debug.Log(teamList.getName(match[1]) + " " + homeScore + " - " + awayScore + " " + teamList.getName(match[2]));
+                Debug.Log(TeamsManager.Instance.getName(match[1]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[2]));
 
 
 
-                teamList.teams[match[1]].stats.GF += homeScore;
-                teamList.teams[match[1]].stats.GA += awayScore;
-                teamList.teams[match[2]].stats.GF += awayScore;
-                teamList.teams[match[2]].stats.GA += homeScore;
+                TeamsManager.Instance.teams[match[1]].stats.GF += homeScore;
+                TeamsManager.Instance.teams[match[1]].stats.GA += awayScore;
+                TeamsManager.Instance.teams[match[2]].stats.GF += awayScore;
+                TeamsManager.Instance.teams[match[2]].stats.GA += homeScore;
 
-                teamList.teams[match[1]].stats.playedInLeague++;
-                teamList.teams[match[2]].stats.playedInLeague++;
+                TeamsManager.Instance.teams[match[1]].stats.playedInLeague++;
+                TeamsManager.Instance.teams[match[2]].stats.playedInLeague++;
 
                 if (homeScore > awayScore)
                 {
-                    teamList.teams[match[1]].stats.wins++;
-                    teamList.teams[match[1]].stats.points += 3;
-                    teamList.teams[match[2]].stats.losses++;
+                    TeamsManager.Instance.teams[match[1]].stats.wins++;
+                    TeamsManager.Instance.teams[match[1]].stats.points += 3;
+                    TeamsManager.Instance.teams[match[2]].stats.losses++;
 
                 }
                 else if (homeScore < awayScore)
                 {
-                    teamList.teams[match[1]].stats.losses++;
-                    teamList.teams[match[2]].stats.wins++;
-                    teamList.teams[match[2]].stats.points += 3;
+                    TeamsManager.Instance.teams[match[1]].stats.losses++;
+                    TeamsManager.Instance.teams[match[2]].stats.wins++;
+                    TeamsManager.Instance.teams[match[2]].stats.points += 3;
                 }
                 else
                 {
-                    teamList.teams[match[1]].stats.points++;
-                    teamList.teams[match[1]].stats.draws++;
-                    teamList.teams[match[2]].stats.points++;
-                    teamList.teams[match[2]].stats.draws++;
+                    TeamsManager.Instance.teams[match[1]].stats.points++;
+                    TeamsManager.Instance.teams[match[1]].stats.draws++;
+                    TeamsManager.Instance.teams[match[2]].stats.points++;
+                    TeamsManager.Instance.teams[match[2]].stats.draws++;
                 }
 
 
             }
         }
 
-        SaveLoad.saveTeamsData(teamList);
+        SaveLoad.saveTeamsData(TeamsManager.Instance.teams);
         PlayerPrefs.SetInt("Matchday", PlayerPrefs.GetInt("Matchday") + 1);
 
 

@@ -10,12 +10,12 @@ public class FixturesMenuScript : MonoBehaviour
     public GameObject fixtureRow;
 
     LeagueList leagueList;
-    TeamList teamList;
+
 
     void Start()
     {
         leagueList = SaveLoad.loadLeaguesData();
-        teamList = SaveLoad.loadTeamsData();
+  
 
         League currentLeague = leagueList.leagues[0];
 
@@ -36,7 +36,7 @@ public class FixturesMenuScript : MonoBehaviour
            
             GameObject row = Instantiate(fixtureRow);
             row.transform.SetParent(scrollView);
-            row.transform.Find("Text").GetComponent<Text>().text = teamList.getName(match[1]) + " - " + teamList.getName(match[2]);
+            row.transform.Find("Text").GetComponent<Text>().text = TeamsManager.Instance.getName(match[1]) + " - " + TeamsManager.Instance.getName(match[2]);
         }
     }
 

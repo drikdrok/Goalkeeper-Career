@@ -13,7 +13,6 @@ public class LeagueMenuScript : MonoBehaviour
     public Transform tablePanel;
 
 
-    TeamList teamList;
     LeagueList leagueList;
 
     void Start()
@@ -24,14 +23,12 @@ public class LeagueMenuScript : MonoBehaviour
         Debug.Log(currentLeague.name);
 
 
-        teamList = SaveLoad.loadTeamsData();
-
 
         List<Team> teams = new List<Team>();
 
         for (int i = 0; i <currentLeague.teamIds.Length; i++)
         {
-            teams.Add(teamList.teams[currentLeague.teamIds[i]]);
+            teams.Add(TeamsManager.Instance.teams[currentLeague.teamIds[i]]);
         }
      
         // Sort by points

@@ -11,18 +11,18 @@ public class Leagues : MonoBehaviour
 {
 
     public LeagueList leagueList;
-    public TeamList teamList;
+
 
     public void loadData()
     {
-        teamList = SaveLoad.loadTeamsData();
+      
         leagueList = SaveLoad.loadLeaguesData();
     }
 
 
     public string getTeamName(int id)
     {
-        return teamList.teams[id].tag;
+        return TeamsManager.Instance.teams[id].tag;
     }
 
     public void saveTeams()

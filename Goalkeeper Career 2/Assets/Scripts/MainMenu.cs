@@ -8,54 +8,44 @@ public class MainMenu : MonoBehaviour
 {
 
     public Text clubText;
-    public Text matchdayText;
+    public Text weekText;
+    public Text competitionText;
     public Text fixtureText;
 
 
 
     void Start()
     {
-        TeamList teamList = SaveLoad.loadTeamsData();
-        LeagueList leagueList = SaveLoad.loadLeaguesData();
+        
+         PlayerPrefs.SetInt("TeamID", 3);
 
+         clubText.text = "Club: " + TeamsManager.Instance.getName(PlayerPrefs.GetInt("TeamID"));
+         weekText.text = "Week " + CompetitionManager.Instance.week;
 
-        leagueList.leagues[0].generateFixtures();
+         Competition currentCompetition = CompetitionManager.Instance.competitions[0];
 
-
-
-
-
-        SaveLoad.saveLeaguesData(leagueList);
-        SaveLoad.saveTeamsData(teamList);
-
-        PlayerPrefs.SetInt("TeamID", 3);
-         
-        clubText.text = "Club: " + teamList.teams[PlayerPrefs.GetInt("TeamID")].tag;
-        matchdayText.text = "Matchday " + PlayerPrefs.GetInt("Matchday");
-
-        League currentLeague = leagueList.leagues[0];
-
-        foreach (var match in currentLeague.matches)
-        {
-            if (match[0] == PlayerPrefs.GetInt("Matchday"))
+         foreach (var match in currentCompetition.matches[PlayerPrefs.GetInt("Matchday")])
+         {
+            if (match[0] == PlayerPrefs.GetInt("TeamID"))
             {
-                if (match[1] == PlayerPrefs.GetInt("TeamID"))
-                {
-                    PlayerPrefs.SetInt("HomeTeam", match[1]);
-                    PlayerPrefs.SetInt("AwayTeam", match[2]);
-                    break;
-                }
-                else if (match[2] == PlayerPrefs.GetInt("TeamID"))
-                {
-                    PlayerPrefs.SetInt("HomeTeam", match[2]);
-                    PlayerPrefs.SetInt("AwayTeam", match[1]);
-                    break;
-                }
+                PlayerPrefs.SetInt("HomeTeam", match[0]);
+                PlayerPrefs.SetInt("AwayTeam", match[1]);
+                break;
             }
-        }
+            else if (match[1] == PlayerPrefs.GetInt("TeamID"))
+            {
+                PlayerPrefs.SetInt("HomeTeam", match[1]);
+                PlayerPrefs.SetInt("AwayTeam", match[0]);
+                break;
+             }
+         }
 
-        fixtureText.text = teamList.getName(PlayerPrefs.GetInt("HomeTeam")) + " - " + teamList.getName(PlayerPrefs.GetInt("AwayTeam"));
+         fixtureText.text = TeamsManager.Instance.getName(PlayerPrefs.GetInt("HomeTeam")) + " - " + TeamsManager.Instance.getName(PlayerPrefs.GetInt("AwayTeam"));
+         
 
+       // Competition league = CompetitionManager.Instance.GetCompetition("DEN1");
+       // Debug.Log(league.teamIds);
+    
     }
 
     void Update()

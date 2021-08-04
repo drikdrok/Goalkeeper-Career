@@ -16,22 +16,7 @@ public class SaveLoad : MonoBehaviour
         
     }
 
-    public static void saveTeamsData(TeamList teams)
-    {
-        using (StreamWriter writer = new StreamWriter("Assets/Data/TeamsData.json", false))
-        {
-            writer.Write(JsonConvert.SerializeObject(teams, Formatting.Indented));
-        }
-    }
-
-    public static TeamList loadTeamsData()
-    {
-        using (StreamReader reader = new StreamReader("Assets/Data/TeamsData.json"))
-        {
-            string JSONString = reader.ReadToEnd();
-            return JsonConvert.DeserializeObject<TeamList>(JSONString);
-        }
-    }
+    
 
 
     public static void saveLeaguesData(LeagueList leagueList)
@@ -52,15 +37,33 @@ public class SaveLoad : MonoBehaviour
     }
 
 
-    public static void saveCompetitionsData(List<Competition> competitionList)
+    public static void saveTeamsData(Team[] teams)
     {
-        using (StreamWriter writer = new StreamWriter("Assets/Data/CompetitionsData.json", false))
+        using (StreamWriter writer = new StreamWriter("Assets/Data/TeamsData.json", false))
         {
-            writer.Write(JsonConvert.SerializeObject(competitionList, Formatting.Indented));
+            writer.Write(JsonConvert.SerializeObject(teams, Formatting.Indented));
         }
     }
 
-    public static List<Competition> loadCompetitionsData()
+    public static Team[] loadTeamsData()
+    {
+        using (StreamReader reader = new StreamReader("Assets/Data/TeamsData.json"))
+        {
+            string JSONString = reader.ReadToEnd();
+            return JsonConvert.DeserializeObject<Team[]>(JSONString);
+        }
+    }
+
+
+    public static void saveCompitionsData(List<Competition> compitionsData)
+    {
+        using (StreamWriter writer = new StreamWriter("Assets/Data/CompetitionsData.json", false))
+        {
+            writer.Write(JsonConvert.SerializeObject(compitionsData, Formatting.Indented));
+        }
+    }
+
+    public static List<Competition> loadCompitionsData()
     {
         using (StreamReader reader = new StreamReader("Assets/Data/CompetitionsData.json"))
         {

@@ -24,13 +24,8 @@ public class GameScript : MonoBehaviour
     int homeTeam;
     int awayTeam;
 
-    TeamList teamList;
-
     void Start()
     {
-
-        teamList = SaveLoad.loadTeamsData();
-
         minutes = (int)Random.Range(0, 5);
         seconds = Random.Range(0, 58);
 
@@ -41,7 +36,7 @@ public class GameScript : MonoBehaviour
     void Update()
     {
 
-        scoreline.text = teamList.getName(homeTeam) + "   " + homeScore + "-" + awayScore + "    " + teamList.getName(awayTeam);
+        scoreline.text = TeamsManager.Instance.getName(homeTeam) + "   " + homeScore + "-" + awayScore + "    " + TeamsManager.Instance.getName(awayTeam);
 
 
         seconds += Time.deltaTime;
@@ -79,34 +74,34 @@ public class GameScript : MonoBehaviour
 
         if (minutes > 95) { //Game finished
 
-            teamList.teams[homeTeam].stats.playedInLeague++;
-            teamList.teams[homeTeam].stats.GF += homeScore;
-            teamList.teams[homeTeam].stats.GA += awayScore;
+            TeamsManager.Instance.teams[homeTeam].stats.playedInLeague++;
+            TeamsManager.Instance.teams[homeTeam].stats.GF += homeScore;
+            TeamsManager.Instance.teams[homeTeam].stats.GA += awayScore;
 
-            teamList.teams[awayTeam].stats.playedInLeague++;
-            teamList.teams[awayTeam].stats.GF += awayScore;
-            teamList.teams[awayTeam].stats.GA += homeScore;
+            TeamsManager.Instance.teams[awayTeam].stats.playedInLeague++;
+            TeamsManager.Instance.teams[awayTeam].stats.GF += awayScore;
+            TeamsManager.Instance.teams[awayTeam].stats.GA += homeScore;
 
             if (homeScore > awayScore) // Home Win
             {
-                teamList.teams[homeTeam].stats.points += 3;
-                teamList.teams[homeTeam].stats.wins++;
-                teamList.teams[awayTeam].stats.losses++;
+                TeamsManager.Instance.teams[homeTeam].stats.points += 3;
+                TeamsManager.Instance.teams[homeTeam].stats.wins++;
+                TeamsManager.Instance.teams[awayTeam].stats.losses++;
             }
             else if (homeScore < awayScore) // Away Win
             {
-                teamList.teams[awayTeam].stats.points += 3;
-                teamList.teams[awayTeam].stats.wins++;
-                teamList.teams[homeTeam].stats.losses++;
+                TeamsManager.Instance.teams[awayTeam].stats.points += 3;
+                TeamsManager.Instance.teams[awayTeam].stats.wins++;
+                TeamsManager.Instance.teams[homeTeam].stats.losses++;
             }
             else { //Draw
-                teamList.teams[homeTeam].stats.points++;
-                teamList.teams[awayTeam].stats.points++;
-                teamList.teams[homeTeam].stats.draws++;
-                teamList.teams[awayTeam].stats.draws++;
+                TeamsManager.Instance.teams[homeTeam].stats.points++;
+                TeamsManager.Instance.teams[awayTeam].stats.points++;
+                TeamsManager.Instance.teams[homeTeam].stats.draws++;
+                TeamsManager.Instance.teams[awayTeam].stats.draws++;
             }
 
-            SaveLoad.saveTeamsData(teamList);
+            SaveLoad.saveTeamsData(TeamsManager.Instance.teams);
 
             SceneManager.LoadScene("PostMatchScreen");
         }

@@ -33,9 +33,7 @@ public class ButtonScript : MonoBehaviour
     {
         PlayerPrefs.SetInt("Matchday", 1);
 
-        TeamList teams = SaveLoad.loadTeamsData();
-
-        foreach (Team team in teams.teams)
+        foreach (Team team in TeamsManager.Instance.teams)
         {
             team.stats.playedInLeague = 0;
             team.stats.wins = 0;
@@ -46,7 +44,7 @@ public class ButtonScript : MonoBehaviour
             team.stats.points = 0;
         }
 
-        SaveLoad.saveTeamsData(teams);
+        SaveLoad.saveTeamsData(TeamsManager.Instance.teams);
 
         
         SceneManager.LoadScene("MainMenu");
