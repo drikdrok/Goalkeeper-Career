@@ -19,29 +19,58 @@ public class MainMenu : MonoBehaviour
         
          PlayerPrefs.SetInt("TeamID", 3);
 
-         clubText.text = "Club: " + TeamsManager.Instance.getName(PlayerPrefs.GetInt("TeamID"));
-         weekText.text = "Week " + CompetitionManager.Instance.week;
-
-         Competition currentCompetition = CompetitionManager.Instance.competitions[0];
-
-         foreach (var match in currentCompetition.matches[PlayerPrefs.GetInt("Matchday")])
-         {
-            if (match[0] == PlayerPrefs.GetInt("TeamID"))
+        bool foundMatch = false;
+        while (!foundMatch)
+        {
+            foreach (var competition in CompetitionManager.Instance.competitions) //Find next match player plays in
             {
-                PlayerPrefs.SetInt("HomeTeam", match[0]);
-                PlayerPrefs.SetInt("AwayTeam", match[1]);
-                break;
+                if (competition.teamIds.Contains(PlayerPrefs.GetInt("TeamID")) && competition.hasPlayedWeek < PlayerPrefs.GetInt("Week"))
+                {
+                    foreach(var match in competition.matches[PlayerPrefs.GetInt("Week")])
+                    {
+                        if (match[0] == PlayerPrefs.GetInt("TeamID"))
+                        {
+                            PlayerPrefs.SetInt("HomeTeam", match[0]);
+                            PlayerPrefs.SetInt("AwayTeam", match[1]);
+
+                            CompetitionManager.Instance.currentCompetition = competition;
+
+                            goto FoundMatch;
+                        }
+                        else if (match[1] == PlayerPrefs.GetInt("TeamID"))
+                        {
+                            PlayerPrefs.SetInt("HomeTeam", match[1]);
+                            PlayerPrefs.SetInt("AwayTeam", match[0]);
+                        
+                            CompetitionManager.Instance.currentCompetition = competition;
+
+                            goto FoundMatch;
+                        }
+                    }
+                }
             }
-            else if (match[1] == PlayerPrefs.GetInt("TeamID"))
-            {
-                PlayerPrefs.SetInt("HomeTeam", match[1]);
-                PlayerPrefs.SetInt("AwayTeam", match[0]);
-                break;
-             }
-         }
+            //No unplayed match was found this week
 
-         fixtureText.text = TeamsManager.Instance.getName(PlayerPrefs.GetInt("HomeTeam")) + " - " + TeamsManager.Instance.getName(PlayerPrefs.GetInt("AwayTeam"));
-         
+            foreach (var competition in CompetitionManager.Instance.competitions) // Simulate every competition
+                competition.simulateWeek();
+
+            PlayerPrefs.SetInt("Week", PlayerPrefs.GetInt("Week") + 1);
+            if (PlayerPrefs.GetInt("Week") >= 52)
+            {
+                foundMatch = true;
+                PlayerPrefs.SetInt("HomeTeam", 1);
+                PlayerPrefs.SetInt("AwayTeam", 1);
+                CompetitionManager.Instance.currentCompetition = CompetitionManager.Instance.competitions[0];
+                Debug.Log("End of year reached!");
+            }
+        }
+        FoundMatch:
+
+        clubText.text = "Club: " + TeamsManager.Instance.getName(PlayerPrefs.GetInt("TeamID"));
+        weekText.text = "Week " + PlayerPrefs.GetInt("Week");
+        fixtureText.text = TeamsManager.Instance.getName(PlayerPrefs.GetInt("HomeTeam")) + " - " + TeamsManager.Instance.getName(PlayerPrefs.GetInt("AwayTeam"));
+        competitionText.text = CompetitionManager.Instance.currentCompetition.name;
+        
 
        // Competition league = CompetitionManager.Instance.GetCompetition("DEN1");
        // Debug.Log(league.teamIds);

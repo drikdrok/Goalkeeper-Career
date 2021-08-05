@@ -31,7 +31,7 @@ public class ButtonScript : MonoBehaviour
 
     public void reset()
     {
-        PlayerPrefs.SetInt("Matchday", 1);
+        PlayerPrefs.SetInt("Week", 1);
 
         foreach (Team team in TeamsManager.Instance.teams)
         {
@@ -46,6 +46,11 @@ public class ButtonScript : MonoBehaviour
 
         SaveLoad.saveTeamsData(TeamsManager.Instance.teams);
 
+
+        foreach (var competition in CompetitionManager.Instance.competitions)
+        {
+            competition.reset();
+        }
         
         SceneManager.LoadScene("MainMenu");
 

@@ -840,7 +840,6 @@ GameObject:
   - component: {fileID: 944041992}
   - component: {fileID: 944041991}
   - component: {fileID: 944041993}
-  - component: {fileID: 944041994}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -892,20 +891,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leagueList:
     leagues: []
---- !u!114 &944041994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944041990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e48af36d2f729e45b8a9e0fe699b00d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  week: 1
-  competitions: []
 --- !u!1 &1043880896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1004,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   week: 0
   competitions: []
+  currentCompetition:
+    name: league
+    teamIds: 
+    remainingTeams: 
+    type: 
+    matchday: 1
+    hasPlayedWeek: 0
 --- !u!114 &1186480311
 MonoBehaviour:
   m_ObjectHideFlags: 0

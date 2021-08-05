@@ -11,8 +11,9 @@ public class CompetitionManager : MonoBehaviour
 {
     public static CompetitionManager Instance { get; private set; }
 
-    public int week;
     public List<Competition> competitions;
+
+    public Competition currentCompetition;
 
     private void Awake()
     {
@@ -25,7 +26,6 @@ public class CompetitionManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
 
         //Initialize competitions
 
@@ -55,7 +55,7 @@ public class CompetitionManager : MonoBehaviour
 
 }
 
-[System.Serializable]
+
 public class Competition
 {
     public string name = "league";
@@ -63,10 +63,11 @@ public class Competition
     public List<int> remainingTeams;
     public string type;
     public int matchday = 1;
+    public int hasPlayedWeek = 0;
 
     public List<List<List<int>>> matches;
 
-    public void initialize() 
+    public void initialize()
     {
         matches = new List<List<List<int>>>();
         for (int i = 0; i < 52; i++) //52 weeks in a year
@@ -89,7 +90,38 @@ public class Competition
 
         matchday++;
     }
-    
+
+
+    public void simulateWeek()
+    {
+        if (hasPlayedWeek < PlayerPrefs.GetInt("Week"))
+        {
+            Debug.Log(name + ": Simulating week " + PlayerPrefs.GetInt("Week") +"...");
+            foreach (var match in matches[PlayerPrefs.GetInt("Week")])
+            {
+                if (!(PlayerPrefs.GetInt("TeamID") == match[0] || PlayerPrefs.GetInt("TeamID") == match[1])) //Should not simulate match with player's team
+                {
+                    Team homeTeam = TeamsManager.Instance.teams[match[0]];
+                    Team awayTeam = TeamsManager.Instance.teams[match[1]];
+
+                    Tuple<int, int> scoreline = Match.simulateMatch(homeTeam, awayTeam); // Simulate match
+                    int homeScore = scoreline.Item1;
+                    int awayScore = scoreline.Item2;
+
+
+                    Debug.Log(TeamsManager.Instance.getName(match[0]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[1]));
+                }
+            }
+
+            hasPlayedWeek = PlayerPrefs.GetInt("Week");
+        }
+     }
+
+
+    public void reset()
+    {
+        hasPlayedWeek = 0;
+    }
 
     public void rotateList(List<int> list)
     {
@@ -108,7 +140,7 @@ public class Competition
     }
     public void generateGenericLeague()
     {
-       
+
         var numberList = Enumerable.Range(0, teamIds.Count).ToList();
 
         var topList = numberList.GetRange(0, teamIds.Count / 2);
@@ -120,13 +152,13 @@ public class Competition
         foreach (var i in topList)
             message += i.ToString() + ", ";
 
-         //Debug.Log("Toplist: " + message);
+        //Debug.Log("Toplist: " + message);
 
         message = "";
         foreach (var i in bottomList)
             message += i.ToString() + ", ";
 
-         //Debug.Log("Bottomlist: " + message);
+        //Debug.Log("Bottomlist: " + message);
 
         for (int matchday = 1; matchday < teamIds.Count * 2; matchday++)
         {
@@ -137,15 +169,15 @@ public class Competition
 
                 if (matchday % 2 == 0)
                 {
-                    match.Add(topList[i]);
-                    match.Add(bottomList[i]);
+                    match.Add(teamIds[topList[i]]);
+                    match.Add(teamIds[bottomList[i]]);
                 }
                 else
                 {
-                    match.Add(bottomList[i]);
-                    match.Add(topList[i]);
+                    match.Add(teamIds[bottomList[i]]);
+                    match.Add(teamIds[topList[i]]);
                 }
-              //  Debug.Log("Matchday: " + matchday + ": " + match[0] + " - " + match[1]);
+                //  Debug.Log("Matchday: " + matchday + ": " + match[0] + " - " + match[1]);
 
                 matches[matchday].Add(match);
             }
@@ -175,4 +207,3 @@ public class Competition
 
     }
 }
-
