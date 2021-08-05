@@ -74,34 +74,7 @@ public class GameScript : MonoBehaviour
 
         if (minutes > 95) { //Game finished
 
-            TeamsManager.Instance.teams[homeTeam].stats.playedInLeague++;
-            TeamsManager.Instance.teams[homeTeam].stats.GF += homeScore;
-            TeamsManager.Instance.teams[homeTeam].stats.GA += awayScore;
-
-            TeamsManager.Instance.teams[awayTeam].stats.playedInLeague++;
-            TeamsManager.Instance.teams[awayTeam].stats.GF += awayScore;
-            TeamsManager.Instance.teams[awayTeam].stats.GA += homeScore;
-
-            if (homeScore > awayScore) // Home Win
-            {
-                TeamsManager.Instance.teams[homeTeam].stats.points += 3;
-                TeamsManager.Instance.teams[homeTeam].stats.wins++;
-                TeamsManager.Instance.teams[awayTeam].stats.losses++;
-            }
-            else if (homeScore < awayScore) // Away Win
-            {
-                TeamsManager.Instance.teams[awayTeam].stats.points += 3;
-                TeamsManager.Instance.teams[awayTeam].stats.wins++;
-                TeamsManager.Instance.teams[homeTeam].stats.losses++;
-            }
-            else { //Draw
-                TeamsManager.Instance.teams[homeTeam].stats.points++;
-                TeamsManager.Instance.teams[awayTeam].stats.points++;
-                TeamsManager.Instance.teams[homeTeam].stats.draws++;
-                TeamsManager.Instance.teams[awayTeam].stats.draws++;
-            }
-
-            SaveLoad.saveTeamsData(TeamsManager.Instance.teams);
+            CompetitionManager.recordStats(CompetitionManager.Instance.currentCompetition, homeTeam, awayTeam, homeScore, awayScore);
 
             SceneManager.LoadScene("PostMatchScreen");
         }

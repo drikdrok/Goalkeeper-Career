@@ -15,10 +15,10 @@ public class Match : MonoBehaviour
         //Home goals
         int scoringChances = 5 + Random.Range(-1, 1);
         int scoringProbability = 25;
-        if (homeTeam.stats.attackRating > awayTeam.stats.defenseRating)
+        if (homeTeam.attackRating > awayTeam.defenseRating)
         {
-            scoringChances += Mathf.FloorToInt((homeTeam.stats.attackRating - awayTeam.stats.defenseRating) / 2);
-            scoringProbability += Mathf.FloorToInt(homeTeam.stats.attackRating + 5 - awayTeam.stats.defenseRating) * 2;
+            scoringChances += Mathf.FloorToInt((homeTeam.attackRating - awayTeam.defenseRating) / 2);
+            scoringProbability += Mathf.FloorToInt(homeTeam.attackRating + 5 - awayTeam.defenseRating) * 2;
         }
 
         for (int i = 0; i < scoringChances; i++)
@@ -33,10 +33,10 @@ public class Match : MonoBehaviour
         scoringChances = 5 + Random.Range(-1, 1);
         scoringProbability = 25;
 
-        if (awayTeam.stats.attackRating > homeTeam.stats.defenseRating)
+        if (awayTeam.attackRating > homeTeam.defenseRating)
         {
-            scoringChances += Mathf.FloorToInt((awayTeam.stats.attackRating - homeTeam.stats.defenseRating) / 2);
-            scoringProbability += Mathf.FloorToInt(awayTeam.stats.attackRating - homeTeam.stats.defenseRating) * 2;
+            scoringChances += Mathf.FloorToInt((awayTeam.attackRating - homeTeam.defenseRating) / 2);
+            scoringProbability += Mathf.FloorToInt(awayTeam.attackRating - homeTeam.defenseRating) * 2;
         }
 
         for (int i = 0; i < scoringChances; i++)
@@ -49,4 +49,7 @@ public class Match : MonoBehaviour
 
         return Tuple.Create(homeScore, awayScore);
     }
+
+
+    
 }

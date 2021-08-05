@@ -53,6 +53,40 @@ public class CompetitionManager : MonoBehaviour
         throw new Exception("Competition does not exist!: " + competition);
     }
 
+    public static void recordStats(Competition competition, int homeTeam, int awayTeam, int homeScore, int awayScore)
+    {
+        TeamStats homeStats = competition.stats[homeTeam];
+        TeamStats awayStats = competition.stats[awayTeam];
+
+        homeStats.gamesPlayed++;
+        homeStats.GF += homeScore;
+        homeStats.GA += awayScore;
+
+        awayStats.gamesPlayed++;
+        awayStats.GF += awayScore;
+        awayStats.GA += homeScore;
+
+        if (homeScore > awayScore) // Home Win
+        {
+            homeStats.wins++;
+            homeStats.points += 3;
+            awayStats.losses++;
+        }
+        else if (homeScore < awayScore) // Away Win
+        {
+            awayStats.wins++;
+            awayStats.points += 3;
+            homeStats.losses++;
+        }
+        else
+        { //Draw
+            homeStats.draws++;
+            homeStats.points++;
+            awayStats.draws++;
+            awayStats.points++;
+        }
+    }
+
 }
 
 
@@ -65,13 +99,24 @@ public class Competition
     public int matchday = 1;
     public int hasPlayedWeek = 0;
 
+    public Dictionary<int, TeamStats> stats;
+
     public List<List<List<int>>> matches;
+
 
     public void initialize()
     {
         matches = new List<List<List<int>>>();
         for (int i = 0; i < 52; i++) //52 weeks in a year
             matches.Add(new List<List<int>>());
+
+        if (stats == null)
+        {
+           stats = new Dictionary<int, TeamStats>();
+           foreach (int teamId in teamIds)
+                stats.Add(teamId, new TeamStats());
+
+        }
 
         if (type == "league")
         {
@@ -108,6 +153,11 @@ public class Competition
                     int homeScore = scoreline.Item1;
                     int awayScore = scoreline.Item2;
 
+                    match.Add(homeScore);
+                    match.Add(awayScore);
+
+                    CompetitionManager.recordStats(this, homeTeam.id, awayTeam.id, homeScore, awayScore); // Record stats
+
 
                     Debug.Log(TeamsManager.Instance.getName(match[0]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[1]));
                 }
@@ -120,7 +170,12 @@ public class Competition
 
     public void reset()
     {
+        initialize();
         hasPlayedWeek = 0;
+
+        stats = new Dictionary<int, TeamStats>();
+        foreach (int teamId in teamIds)
+            stats.Add(teamId, new TeamStats());
     }
 
     public void rotateList(List<int> list)

@@ -125,7 +125,9 @@ public class Team
     public string tag;
     public int league;
 
-    public TeamStats stats = new TeamStats();
+    public int attackRating = 50;
+    public int midfieldRating = 50;
+    public int defenseRating = 50;
 
 }
 
@@ -138,11 +140,7 @@ public class TeamStats
     public int GF = 0;
     public int GA = 0;
     public int points = 0;
-    public int playedInLeague = 0;
-
-    public int attackRating = 50;
-    public int midfieldRating = 50;
-    public int defenseRating = 50;
+    public int gamesPlayed = 0;
 }
 
 [System.Serializable]

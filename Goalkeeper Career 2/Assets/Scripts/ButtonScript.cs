@@ -33,17 +33,6 @@ public class ButtonScript : MonoBehaviour
     {
         PlayerPrefs.SetInt("Week", 1);
 
-        foreach (Team team in TeamsManager.Instance.teams)
-        {
-            team.stats.playedInLeague = 0;
-            team.stats.wins = 0;
-            team.stats.draws = 0;
-            team.stats.losses = 0;
-            team.stats.GA = 0;
-            team.stats.GF = 0;
-            team.stats.points = 0;
-        }
-
         SaveLoad.saveTeamsData(TeamsManager.Instance.teams);
 
 
