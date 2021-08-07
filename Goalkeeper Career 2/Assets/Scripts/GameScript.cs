@@ -24,6 +24,8 @@ public class GameScript : MonoBehaviour
     int homeTeam;
     int awayTeam;
 
+    public bool playerHome;
+
     void Start()
     {
         minutes = (int)Random.Range(0, 5);
@@ -31,6 +33,8 @@ public class GameScript : MonoBehaviour
 
         homeTeam = PlayerPrefs.GetInt("HomeTeam");
         awayTeam = PlayerPrefs.GetInt("AwayTeam");
+
+        playerHome = (homeTeam == PlayerPrefs.GetInt("TeamID")) ? true : false;
     }
 
     void Update()
@@ -62,7 +66,10 @@ public class GameScript : MonoBehaviour
         if (saveStreak > 3)
         {
             saveStreak -= 4;
-            homeScore++;
+            if (playerHome)
+                homeScore++;
+            else
+                awayScore++;
         }
 
     }
@@ -75,6 +82,9 @@ public class GameScript : MonoBehaviour
         if (minutes > 95) { //Game finished
 
             CompetitionManager.recordStats(CompetitionManager.Instance.currentCompetition, homeTeam, awayTeam, homeScore, awayScore);
+
+            PlayerPrefs.SetInt("HomeScore", homeScore);
+            PlayerPrefs.SetInt("AwayScore", awayScore);
 
             SceneManager.LoadScene("PostMatchScreen");
         }

@@ -28,20 +28,11 @@ public class MainMenu : MonoBehaviour
                 {
                     foreach(var match in competition.matches[PlayerPrefs.GetInt("Week")])
                     {
-                        if (match[0] == PlayerPrefs.GetInt("TeamID"))
+                        if (match[0] == PlayerPrefs.GetInt("TeamID")  || match[1] == PlayerPrefs.GetInt("TeamID"))
                         {
                             PlayerPrefs.SetInt("HomeTeam", match[0]);
                             PlayerPrefs.SetInt("AwayTeam", match[1]);
 
-                            CompetitionManager.Instance.currentCompetition = competition;
-
-                            goto FoundMatch;
-                        }
-                        else if (match[1] == PlayerPrefs.GetInt("TeamID"))
-                        {
-                            PlayerPrefs.SetInt("HomeTeam", match[1]);
-                            PlayerPrefs.SetInt("AwayTeam", match[0]);
-                        
                             CompetitionManager.Instance.currentCompetition = competition;
 
                             goto FoundMatch;

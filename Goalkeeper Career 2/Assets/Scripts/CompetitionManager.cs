@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEditor;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -162,7 +163,7 @@ public class Competition
                     Team homeTeam = TeamsManager.Instance.teams[match[0]];
                     Team awayTeam = TeamsManager.Instance.teams[match[1]];
 
-                    Tuple<int, int> scoreline = Match.simulateMatch(homeTeam, awayTeam); // Simulate match
+                    Tuple<int, int> scoreline = Match.simulateMatch(homeTeam, awayTeam, (type == "cup") ? true : false); // Simulate match
                     int homeScore = scoreline.Item1;
                     int awayScore = scoreline.Item2;
 
@@ -172,7 +173,12 @@ public class Competition
                     CompetitionManager.recordStats(this, homeTeam.id, awayTeam.id, homeScore, awayScore); // Record stats
 
 
-                   // Debug.Log(TeamsManager.Instance.getName(match[0]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[1]));
+                    // Debug.Log(TeamsManager.Instance.getName(match[0]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[1]));
+                }
+                else
+                {
+                    match.Add(PlayerPrefs.GetInt("HomeScore"));
+                    match.Add(PlayerPrefs.GetInt("AwayScore"));
                 }
             }
 
@@ -190,6 +196,9 @@ public class Competition
         stats = new Dictionary<int, TeamStats>();
         foreach (int teamId in teamIds)
             stats.Add(teamId, new TeamStats());
+
+        if (type == "cup")
+            remainingTeams = new List<int>(teamIds);
     }
 
     public void rotateList(List<int> list)
@@ -260,8 +269,13 @@ public class Competition
 
     public void generateGenericCup(int week)
     {
-        remainingTeams = teamIds.OrderBy(x => Random.value).ToList(); //Shuffle
-        for (int i = 0; i < teamIds.Count / 2; i++)
+        remainingTeams = remainingTeams.OrderBy(x => Random.value).ToList(); //Shuffle
+        if (remainingTeams.Count % 2 == 1)
+            Debug.LogError("Number of remaining teams is uneven!");
+
+        int remaining = remainingTeams.Count;
+
+        for (int i = 0; i < remaining / 2; i++)
         {
             List<int> match = new List<int>();
             match.Add(remainingTeams[0]);

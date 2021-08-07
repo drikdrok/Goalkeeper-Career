@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class Match : MonoBehaviour
 {
-    public static Tuple<int, int> simulateMatch(Team homeTeam, Team awayTeam)
+    public static Tuple<int, int> simulateMatch(Team homeTeam, Team awayTeam, bool mustFindWinner)
     {
         //Simulate match
         int homeScore = 0;
@@ -46,6 +46,9 @@ public class Match : MonoBehaviour
                 awayScore++;
             }
         }
+
+        if (mustFindWinner && homeScore == awayScore)
+            homeScore++;
 
         return Tuple.Create(homeScore, awayScore);
     }

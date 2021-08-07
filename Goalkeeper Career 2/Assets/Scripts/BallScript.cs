@@ -65,7 +65,10 @@ public class BallScript : MonoBehaviour
         {
             newPosition();
             gameScript.saveStreak = 0;
-            gameScript.awayScore++;
+            if (gameScript.playerHome)
+                gameScript.awayScore++;
+            else
+                gameScript.homeScore++;
         }
     }
 
