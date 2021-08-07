@@ -15,6 +15,9 @@ public class CompetitionManager : MonoBehaviour
 
     public Competition currentCompetition;
 
+    public Dictionary<string, Action<Competition>> initFunctions;
+    public Dictionary<string, Action<Competition>> handleAfterMatchday;
+
     private void Awake()
     {
         if (Instance == null)
@@ -27,8 +30,13 @@ public class CompetitionManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        //Initialize competitions
+        initFunctions = new Dictionary<string, Action<Competition>>();
+        handleAfterMatchday = new Dictionary<string, Action<Competition>>();
+    }
 
+    private void Start()
+    {
+        //Initialize competitions
         competitions = SaveLoad.loadCompitionsData();
         Debug.Log("Initializing Competitions...");
         foreach (var competition in competitions)
@@ -96,6 +104,7 @@ public class Competition
     public List<int> teamIds;
     public List<int> remainingTeams;
     public string type;
+    public string identifier;
     public int matchday = 1;
     public int hasPlayedWeek = 0;
 
@@ -125,13 +134,17 @@ public class Competition
         else if (type == "cup")
         {
             remainingTeams = new List<int>(teamIds);
-            generateGenericCup();
         }
+
+        if (CompetitionManager.Instance.initFunctions.ContainsKey(identifier))
+            CompetitionManager.Instance.initFunctions[identifier](this);
+
     }
 
     public void handleAfterMatchday()
     {
-
+        if (CompetitionManager.Instance.handleAfterMatchday.ContainsKey(identifier))
+            CompetitionManager.Instance.handleAfterMatchday[identifier](this);
 
         matchday++;
     }
@@ -159,11 +172,12 @@ public class Competition
                     CompetitionManager.recordStats(this, homeTeam.id, awayTeam.id, homeScore, awayScore); // Record stats
 
 
-                    Debug.Log(TeamsManager.Instance.getName(match[0]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[1]));
+                   // Debug.Log(TeamsManager.Instance.getName(match[0]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[1]));
                 }
             }
 
             hasPlayedWeek = PlayerPrefs.GetInt("Week");
+            handleAfterMatchday();
         }
      }
 
@@ -244,7 +258,7 @@ public class Competition
         }
     }
 
-    public void generateGenericCup()
+    public void generateGenericCup(int week)
     {
         remainingTeams = teamIds.OrderBy(x => Random.value).ToList(); //Shuffle
         for (int i = 0; i < teamIds.Count / 2; i++)
@@ -253,7 +267,7 @@ public class Competition
             match.Add(remainingTeams[0]);
             match.Add(remainingTeams[1]);
 
-            matches[matchday].Add(match);
+            matches[week].Add(match);
 
             remainingTeams.RemoveAt(0);
             remainingTeams.RemoveAt(0);

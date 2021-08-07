@@ -17,116 +17,117 @@
     ],
     "remainingTeams": [],
     "type": "league",
-    "matchday": 1,
-    "hasPlayedWeek": 0,
+    "identifier": "DEN1",
+    "matchday": 2,
+    "hasPlayedWeek": 1,
     "stats": {
       "0": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "1": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "2": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "3": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 8,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "4": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "5": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "6": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "7": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "8": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 8,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "9": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "10": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "11": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       }
     },
     "matches": [
@@ -134,15 +135,21 @@
       [
         [
           11,
-          0
+          0,
+          1,
+          1
         ],
         [
           10,
+          1,
+          1,
           1
         ],
         [
           9,
-          2
+          2,
+          1,
+          0
         ],
         [
           8,
@@ -150,11 +157,15 @@
         ],
         [
           7,
-          4
+          4,
+          0,
+          1
         ],
         [
           6,
-          5
+          5,
+          0,
+          1
         ]
       ],
       [
@@ -777,6 +788,7 @@
     ],
     "remainingTeams": [],
     "type": "league",
+    "identifier": "GenericLeague",
     "matchday": 1,
     "hasPlayedWeek": 0,
     "stats": {
@@ -1535,146 +1547,159 @@
       10,
       11
     ],
-    "remainingTeams": [],
+    "remainingTeams": [
+      8
+    ],
     "type": "cup",
+    "identifier": "GenericCup",
     "matchday": 1,
-    "hasPlayedWeek": 0,
+    "hasPlayedWeek": 1,
     "stats": {
       "0": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 2,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "1": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "2": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 2,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "3": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "4": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "5": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "6": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 3,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "7": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "8": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "9": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "10": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "11": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       }
     },
     "matches": [
       [],
       [
         [
-          3,
-          2
-        ],
-        [
-          7,
+          5,
+          8,
+          1,
           1
         ],
         [
-          5,
-          4
+          6,
+          3
+        ],
+        [
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          10,
+          1,
+          0,
+          1
         ],
         [
           9,
+          7,
+          1,
           0
         ],
         [
-          8,
-          11
-        ],
-        [
-          6,
-          10
+          4,
+          11,
+          1,
+          1
         ]
       ],
       [],
@@ -1755,6 +1780,7 @@
     ],
     "remainingTeams": [],
     "type": "league",
+    "identifier": "GenericLeague",
     "matchday": 1,
     "hasPlayedWeek": 0,
     "stats": {
@@ -3623,6 +3649,7 @@
     ],
     "remainingTeams": [],
     "type": "league",
+    "identifier": "GenericLeague",
     "matchday": 1,
     "hasPlayedWeek": 0,
     "stats": {

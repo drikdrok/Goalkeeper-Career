@@ -925,8 +925,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -425, y: -153}
-  m_SizeDelta: {x: 400, y: 100}
+  m_AnchoredPosition: {x: -327, y: -153}
+  m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1043880898
 MonoBehaviour:
@@ -1002,15 +1002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e48af36d2f729e45b8a9e0fe699b00d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  week: 0
-  competitions: []
-  currentCompetition:
-    name: league
-    teamIds: 
-    remainingTeams: 
-    type: 
-    matchday: 1
-    hasPlayedWeek: 0
 --- !u!114 &1186480311
 MonoBehaviour:
   m_ObjectHideFlags: 0
