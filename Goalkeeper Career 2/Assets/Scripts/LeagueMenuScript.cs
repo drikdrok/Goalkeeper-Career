@@ -15,7 +15,7 @@ public class LeagueMenuScript : MonoBehaviour
 
     void Start()
     {
-        Competition currentCompetition = CompetitionManager.Instance.competitions[0];
+        Competition currentCompetition = CompetitionManager.Instance.competitions[TeamsManager.Instance.teams[PlayerPrefs.GetInt("TeamID")].league];
 
         Debug.Log(currentCompetition.name);
 

@@ -2,7 +2,7 @@
   {
     "id": 0,
     "tag": "AAB",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -10,7 +10,7 @@
   {
     "id": 1,
     "tag": "AGF",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "tag": "BIF",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "tag": "FCK",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -34,7 +34,7 @@
   {
     "id": 4,
     "tag": "FCM",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "tag": "FCN",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -50,7 +50,7 @@
   {
     "id": 6,
     "tag": "OB",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -58,7 +58,7 @@
   {
     "id": 7,
     "tag": "RFC",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -66,7 +66,7 @@
   {
     "id": 8,
     "tag": "SE",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "tag": "VB",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -82,7 +82,7 @@
   {
     "id": 10,
     "tag": "VFF",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -90,7 +90,7 @@
   {
     "id": 11,
     "tag": "SIF",
-    "league": 1,
+    "league": 0,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -98,7 +98,7 @@
   {
     "id": 12,
     "tag": "ACH",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -106,7 +106,7 @@
   {
     "id": 13,
     "tag": "EFB",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -114,7 +114,7 @@
   {
     "id": 14,
     "tag": "FCH",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -122,7 +122,7 @@
   {
     "id": 15,
     "tag": "FCF",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -130,7 +130,7 @@
   {
     "id": 16,
     "tag": "FREM A",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -138,7 +138,7 @@
   {
     "id": 17,
     "tag": "HBK",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -146,7 +146,7 @@
   {
     "id": 18,
     "tag": "HIK",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -154,7 +154,7 @@
   {
     "id": 19,
     "tag": "HIF",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -162,7 +162,7 @@
   {
     "id": 20,
     "tag": "JAM",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -170,7 +170,7 @@
   {
     "id": 21,
     "tag": "LBK",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -178,7 +178,7 @@
   {
     "id": 22,
     "tag": "NFC",
-    "league": 2,
+    "league": 1,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
@@ -186,7 +186,359 @@
   {
     "id": 23,
     "tag": "VEND",
-    "league": 2,
+    "league": 1,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 24,
+    "tag": "ARSNL",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 25,
+    "tag": "A VILL",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 26,
+    "tag": "BRENT",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 27,
+    "tag": "BRIGH",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 28,
+    "tag": "BURN",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 29,
+    "tag": "CHELS",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 30,
+    "tag": "CRY PAL",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 31,
+    "tag": "EVERT",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 32,
+    "tag": "LEEDS",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 33,
+    "tag": "LEI C",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 34,
+    "tag": "L'POOL",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 35,
+    "tag": "MAN C",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 36,
+    "tag": "MAN U",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 37,
+    "tag": "NEWCAS",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 38,
+    "tag": "NORWI",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 39,
+    "tag": "SOUTHA",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 40,
+    "tag": "TOTTEN",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 41,
+    "tag": "WATFRD",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 42,
+    "tag": "W HAM",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 43,
+    "tag": "WOLVS",
+    "league": 3,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 44,
+    "tag": "W BROM",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 45,
+    "tag": "BMOUTH",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 46,
+    "tag": "BARNSL",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 47,
+    "tag": "BIRM",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 48,
+    "tag": "BLKBUR",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 49,
+    "tag": "BLPOOL",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 50,
+    "tag": "BRSTOL",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 51,
+    "tag": "CARDFF",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 52,
+    "tag": "COVENT",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 53,
+    "tag": "DERBY",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 54,
+    "tag": "FULHAM",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 55,
+    "tag": "HUDDER",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 56,
+    "tag": "HULL C",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 57,
+    "tag": "LUTON",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 58,
+    "tag": "MIDLSB",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 59,
+    "tag": "MILLWA",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 60,
+    "tag": "N FRST",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 61,
+    "tag": "PETERB",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 62,
+    "tag": "PRESTO",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 63,
+    "tag": "QPR",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 64,
+    "tag": "READNG",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 65,
+    "tag": "SHEF U",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 66,
+    "tag": "STOKE",
+    "league": 4,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 67,
+    "tag": "SWNSEA",
+    "league": 4,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
