@@ -542,5 +542,157 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
-  }
+  },
+  {
+    "id": 68,
+    "tag": "DORTMU",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 69,
+    "tag": "FRANK",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 70,
+    "tag": "RB LEI",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 71,
+    "tag": "M'GLAD",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 72,
+    "tag": "HERTHA",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 73,
+    "tag": "BREMEN",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 74,
+    "tag": "STUTTG",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+   {
+    "id": 75,
+    "tag": "BAY 04",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 76,
+    "tag": "WOLFSB",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 77,
+    "tag": "U BERL",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 78,
+    "tag": "A BIEL",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 79,
+    "tag": "BOCHUM",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 80,
+    "tag": "MAINZ",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+   {
+    "id": 81,
+    "tag": "FREIBG",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+   {
+    "id": 82,
+    "tag": "AUGSBG",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+   {
+    "id": 83,
+    "tag": "FÜRTH",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 84,
+    "tag": "HOFFEN",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+   {
+    "id": 85,
+    "tag": "BAYERN",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+    {
+    "id": 86,
+    "tag": "KÖLN",
+    "league": 5,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
 ]

@@ -125,17 +125,10 @@ public class Competition
            stats = new Dictionary<int, TeamStats>();
            foreach (int teamId in teamIds)
                 stats.Add(teamId, new TeamStats());
-
         }
 
-        if (type == "league")
-        {
-            generateGenericLeague();
-        }
-        else if (type == "cup")
-        {
+        if (type == "cup")
             remainingTeams = new List<int>(teamIds);
-        }
 
         if (CompetitionManager.Instance.initFunctions.ContainsKey(identifier))
             CompetitionManager.Instance.initFunctions[identifier](this);

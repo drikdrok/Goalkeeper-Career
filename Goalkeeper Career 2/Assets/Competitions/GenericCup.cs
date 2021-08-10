@@ -25,7 +25,9 @@ public class GenericCup : MonoBehaviour
             competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1);
 
     }
-    
+
+
+
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     static void OnAfterSceneLoadRuntimeMethod()
     {
