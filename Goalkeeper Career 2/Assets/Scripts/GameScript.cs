@@ -86,6 +86,28 @@ public class GameScript : MonoBehaviour
             PlayerPrefs.SetInt("HomeScore", homeScore);
             PlayerPrefs.SetInt("AwayScore", awayScore);
 
+
+            if (playerHome)
+            {
+                if (homeScore > awayScore)
+                    PlayerPrefs.SetInt("TotalWins", PlayerPrefs.GetInt("TotalWins", 0) + 1);
+                else if (homeScore < awayScore)
+                    PlayerPrefs.SetInt("TotalLosses", PlayerPrefs.GetInt("TotalLosses", 0) + 1);
+                else
+                    PlayerPrefs.SetInt("TotalDraws", PlayerPrefs.GetInt("TotalDraws", 0) + 1);
+            }
+            else
+            {
+                if (homeScore < awayScore)
+                    PlayerPrefs.SetInt("TotalWins", PlayerPrefs.GetInt("TotalWins", 0) + 1);
+                else if (homeScore > awayScore)
+                    PlayerPrefs.SetInt("TotalLosses", PlayerPrefs.GetInt("TotalLosses", 0) + 1);
+                else
+                    PlayerPrefs.SetInt("TotalDraws", PlayerPrefs.GetInt("TotalDraws", 0) + 1);
+            }
+
+            PlayerPrefs.SetInt("GamesPlayed", PlayerPrefs.GetInt("GamesPlayed", 0) + 1);
+
             SceneManager.LoadScene("PostMatchScreen");
         }
     }

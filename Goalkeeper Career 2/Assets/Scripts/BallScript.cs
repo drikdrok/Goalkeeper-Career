@@ -46,8 +46,13 @@ public class BallScript : MonoBehaviour
             if (age >= 2.5)
             {
                 gameScript.saveStreak++;
+                PlayerPrefs.SetInt("TotalSaves", PlayerPrefs.GetInt("TotalSaves", 0) + 1);
                 if (hands.caughtBall)
+                {
                     gameScript.saveStreak++;
+                    PlayerPrefs.SetInt("TotalCatches", PlayerPrefs.GetInt("TotalCatches", 0) + 1);
+
+                }
 
                 newPosition();
             }
@@ -65,6 +70,7 @@ public class BallScript : MonoBehaviour
         {
             newPosition();
             gameScript.saveStreak = 0;
+            PlayerPrefs.SetInt("TotalConceeded", PlayerPrefs.GetInt("TotalConceeded", 0) + 1);
             if (gameScript.playerHome)
                 gameScript.awayScore++;
             else

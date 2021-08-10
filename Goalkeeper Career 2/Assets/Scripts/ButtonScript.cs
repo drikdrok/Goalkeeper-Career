@@ -24,6 +24,11 @@ public class ButtonScript : MonoBehaviour
         SceneManager.LoadScene("Fixtures");
     }
 
+    public void GoToCareerScreen()
+    {
+        SceneManager.LoadScene("Career");
+    }
+
     public void BackToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
@@ -42,6 +47,15 @@ public class ButtonScript : MonoBehaviour
         }
         
         SceneManager.LoadScene("MainMenu");
+
+        PlayerPrefs.SetInt("GamesPlayed", 0);
+        PlayerPrefs.SetInt("TotalWins", 0);
+        PlayerPrefs.SetInt("TotalDraws", 0);
+        PlayerPrefs.SetInt("TotalLosses", 0);
+        PlayerPrefs.SetInt("TotalSaves", 0);
+        PlayerPrefs.SetInt("TotalCatches", 0);
+        PlayerPrefs.SetInt("TotalConceeded", 0);
+
 
     }
 

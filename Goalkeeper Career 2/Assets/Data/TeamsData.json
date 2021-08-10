@@ -599,7 +599,7 @@
     "midfieldRating": 50,
     "defenseRating": 50
   },
-   {
+  {
     "id": 75,
     "tag": "BAY 04",
     "league": 5,
@@ -647,7 +647,7 @@
     "midfieldRating": 50,
     "defenseRating": 50
   },
-   {
+  {
     "id": 81,
     "tag": "FREIBG",
     "league": 5,
@@ -655,7 +655,7 @@
     "midfieldRating": 50,
     "defenseRating": 50
   },
-   {
+  {
     "id": 82,
     "tag": "AUGSBG",
     "league": 5,
@@ -663,7 +663,7 @@
     "midfieldRating": 50,
     "defenseRating": 50
   },
-   {
+  {
     "id": 83,
     "tag": "FÜRTH",
     "league": 5,
@@ -679,7 +679,7 @@
     "midfieldRating": 50,
     "defenseRating": 50
   },
-   {
+  {
     "id": 85,
     "tag": "BAYERN",
     "league": 5,
@@ -687,12 +687,12 @@
     "midfieldRating": 50,
     "defenseRating": 50
   },
-    {
+  {
     "id": 86,
     "tag": "KÖLN",
     "league": 5,
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
-  },
+  }
 ]
