@@ -24,6 +24,12 @@ public class ButtonScript : MonoBehaviour
         SceneManager.LoadScene("Fixtures");
     }
 
+    public void GoToCompetitonScreen()
+    {
+        CompetitionManager.Instance.currentCompetition = CompetitionManager.Instance.competitions[6];
+        SceneManager.LoadScene("CompetitionScreen");
+    }
+
     public void GoToCareerScreen()
     {
         SceneManager.LoadScene("Career");
