@@ -17,66 +17,75 @@
     ],
     "remainingTeams": [],
     "type": "league",
-    "identifier": "DEN1",
-    "matchday": 8,
+    "identifier": "GenericLeague",
+    "matchday": 25,
     "hasPlayedWeek": 1,
     "stats": {
       "0": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "1": {
-        "wins": 0,
         "draws": 0,
         "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "GF": 0,
+        "GA": 2,
         "points": 0,
         "gamesPlayed": 1
       },
-      "2": {
+      "1": {
         "wins": 1,
         "draws": 0,
         "losses": 0,
         "GF": 2,
-        "GA": 1,
+        "GA": 0,
         "points": 3,
+        "gamesPlayed": 1
+      },
+      "2": {
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
         "gamesPlayed": 1
       },
       "3": {
         "wins": 0,
-        "draws": 0,
-        "losses": 1,
+        "draws": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 6,
-        "points": 0,
+        "GA": 0,
+        "points": 1,
         "gamesPlayed": 1
       },
       "4": {
         "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 2,
-        "GA": 3,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "5": {
-        "wins": 0,
         "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
         "points": 1,
+        "gamesPlayed": 1
+      },
+      "5": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 1,
+        "GA": 0,
+        "points": 3,
         "gamesPlayed": 1
       },
       "6": {
         "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "7": {
+        "wins": 0,
         "draws": 1,
         "losses": 0,
         "GF": 0,
@@ -84,49 +93,40 @@
         "points": 1,
         "gamesPlayed": 1
       },
-      "7": {
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "GF": 3,
-        "GA": 2,
-        "points": 3,
-        "gamesPlayed": 1
-      },
       "8": {
-        "wins": 1,
-        "draws": 0,
+        "wins": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 6,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
+        "points": 1,
         "gamesPlayed": 1
       },
       "9": {
         "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
+      },
+      "10": {
+        "wins": 0,
         "draws": 0,
         "losses": 1,
-        "GF": 1,
+        "GF": 0,
         "GA": 2,
         "points": 0,
         "gamesPlayed": 1
       },
-      "10": {
+      "11": {
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
-      },
-      "11": {
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 0,
+        "GF": 2,
         "GA": 0,
-        "points": 1,
+        "points": 3,
         "gamesPlayed": 1
       }
     },
@@ -135,39 +135,27 @@
       [
         [
           11,
-          0,
-          0,
           0
         ],
         [
           10,
-          1,
-          3,
           1
         ],
         [
           9,
-          2,
-          1,
           2
         ],
         [
           8,
-          3,
-          0,
-          6
+          3
         ],
         [
           7,
-          4,
-          3,
-          2
+          4
         ],
         [
           6,
-          5,
-          0,
-          0
+          5
         ]
       ],
       [
@@ -791,116 +779,116 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 7,
-    "hasPlayedWeek": 0,
+    "matchday": 23,
+    "hasPlayedWeek": 1,
     "stats": {
       "12": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "13": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "14": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "15": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "16": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 2,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "17": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 2,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "18": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "19": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 3,
+        "GA": 2,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "20": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "21": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 3,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "22": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "23": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 3,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       }
     },
     "matches": [
@@ -1547,47 +1535,51 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13,
+      14,
+      15
     ],
     "remainingTeams": [],
     "type": "cup",
     "identifier": "GenericCup",
-    "matchday": 6,
+    "matchday": 17,
     "hasPlayedWeek": 1,
     "stats": {
       "0": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 1,
+        "draws": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
+        "points": 0,
         "gamesPlayed": 1
       },
       "1": {
-        "wins": 0,
-        "draws": 1,
+        "wins": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 1,
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
         "gamesPlayed": 1
       },
       "2": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
         "gamesPlayed": 1
       },
       "3": {
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
+        "GF": 1,
+        "GA": 0,
         "points": 3,
         "gamesPlayed": 1
       },
@@ -1595,18 +1587,18 @@
         "wins": 0,
         "draws": 0,
         "losses": 1,
-        "GF": 0,
-        "GA": 3,
+        "GF": 1,
+        "GA": 2,
         "points": 0,
         "gamesPlayed": 1
       },
       "5": {
-        "wins": 0,
-        "draws": 1,
+        "wins": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 1,
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
         "gamesPlayed": 1
       },
       "6": {
@@ -1614,7 +1606,7 @@
         "draws": 0,
         "losses": 1,
         "GF": 1,
-        "GA": 3,
+        "GA": 2,
         "points": 0,
         "gamesPlayed": 1
       },
@@ -1628,6 +1620,42 @@
         "gamesPlayed": 1
       },
       "8": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 1,
+        "GA": 0,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "9": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 3,
+        "GA": 2,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "10": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "11": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "12": {
         "wins": 0,
         "draws": 0,
         "losses": 1,
@@ -1636,31 +1664,31 @@
         "points": 0,
         "gamesPlayed": 1
       },
-      "9": {
+      "13": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
         "gamesPlayed": 1
       },
-      "10": {
+      "14": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 2,
+        "GA": 3,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "15": {
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
+        "GF": 1,
         "GA": 0,
         "points": 3,
-        "gamesPlayed": 1
-      },
-      "11": {
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 1,
         "gamesPlayed": 1
       }
     },
@@ -1668,56 +1696,39 @@
       [],
       [
         [
-          11,
-          0,
-          0,
+          8,
           0
-        ],
-        [
-          1,
-          5,
-          0,
-          0
-        ],
-        [
-          3,
-          6,
-          3,
-          1
-        ],
-        [
-          9,
-          2,
-          2,
-          2
-        ],
-        [
-          4,
-          10,
-          0,
-          3
         ],
         [
           7,
-          8,
-          2,
-          1
-        ]
-      ],
-      [
-        [
-          5,
-          3
+          6
         ],
         [
-          0,
-          7
+          12,
+          4
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          5,
+          14
         ],
         [
           10,
-          2
+          13
+        ],
+        [
+          3,
+          15
         ]
       ],
+      [],
       [],
       [],
       [],
@@ -1796,188 +1807,188 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 7,
-    "hasPlayedWeek": 0,
+    "matchday": 23,
+    "hasPlayedWeek": 1,
     "stats": {
       "24": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "25": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "26": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "27": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "28": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 3,
+        "GA": 2,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "29": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "30": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "31": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "32": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 3,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "33": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "34": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "35": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "36": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "37": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "38": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "39": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 2,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "40": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 3,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "41": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "42": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "43": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 2,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       }
     },
     "matches": [
@@ -3665,224 +3676,224 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 7,
-    "hasPlayedWeek": 0,
+    "matchday": 23,
+    "hasPlayedWeek": 1,
     "stats": {
       "44": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 1,
+        "gamesPlayed": 1
       },
       "45": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "46": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "47": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 2,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "48": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "49": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "50": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "51": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "52": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 1,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "53": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "54": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 3,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "55": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "56": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 3,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "57": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 3,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "58": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "59": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "60": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 0,
-        "GA": 0,
+        "GA": 1,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "61": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 3,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
       },
       "62": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "63": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 0,
+        "GF": 3,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 3,
+        "gamesPlayed": 1
       },
       "64": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 2,
+        "GA": 2,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "65": {
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 0,
-        "GA": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 0
+        "gamesPlayed": 1
       },
       "66": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
       },
       "67": {
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 0,
-        "gamesPlayed": 0
+        "points": 1,
+        "gamesPlayed": 1
       }
     },
     "matches": [
@@ -6242,5 +6253,1663 @@
       [],
       []
     ]
-  }
+  },
+  {
+    "name": "GER1",
+    "teamIds": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ],
+    "remainingTeams": [],
+    "type": "league",
+    "identifier": "GenericLeague",
+    "matchday": 3,
+    "hasPlayedWeek": 1,
+    "stats": {
+      "68": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "69": {
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
+      },
+      "70": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "71": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 3,
+        "GA": 2,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "72": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 1,
+        "GA": 0,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "73": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 2,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "74": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 3,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "75": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 4,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "76": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "77": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "78": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 4,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "79": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 3,
+        "GA": 0,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "80": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 2,
+        "GA": 0,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "81": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "82": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 2,
+        "GA": 3,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "83": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "84": {
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
+      },
+      "85": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 1,
+        "GA": 0,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "86": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      }
+    },
+    "matches": [
+      [],
+      [
+        [
+          85,
+          68
+        ],
+        [
+          84,
+          69
+        ],
+        [
+          83,
+          70
+        ],
+        [
+          82,
+          71
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          80,
+          73
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          78,
+          75
+        ],
+        [
+          77,
+          76
+        ]
+      ],
+      [
+        [
+          68,
+          84
+        ],
+        [
+          86,
+          83
+        ],
+        [
+          69,
+          82
+        ],
+        [
+          70,
+          81
+        ],
+        [
+          71,
+          80
+        ],
+        [
+          72,
+          79
+        ],
+        [
+          73,
+          78
+        ],
+        [
+          74,
+          77
+        ],
+        [
+          75,
+          76
+        ]
+      ],
+      [
+        [
+          83,
+          68
+        ],
+        [
+          82,
+          85
+        ],
+        [
+          81,
+          86
+        ],
+        [
+          80,
+          69
+        ],
+        [
+          79,
+          70
+        ],
+        [
+          78,
+          71
+        ],
+        [
+          77,
+          72
+        ],
+        [
+          76,
+          73
+        ],
+        [
+          75,
+          74
+        ]
+      ],
+      [
+        [
+          68,
+          82
+        ],
+        [
+          84,
+          81
+        ],
+        [
+          85,
+          80
+        ],
+        [
+          86,
+          79
+        ],
+        [
+          69,
+          78
+        ],
+        [
+          70,
+          77
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          72,
+          75
+        ],
+        [
+          73,
+          74
+        ]
+      ],
+      [
+        [
+          81,
+          68
+        ],
+        [
+          80,
+          83
+        ],
+        [
+          79,
+          84
+        ],
+        [
+          78,
+          85
+        ],
+        [
+          77,
+          86
+        ],
+        [
+          76,
+          69
+        ],
+        [
+          75,
+          70
+        ],
+        [
+          74,
+          71
+        ],
+        [
+          73,
+          72
+        ]
+      ],
+      [
+        [
+          68,
+          80
+        ],
+        [
+          82,
+          79
+        ],
+        [
+          83,
+          78
+        ],
+        [
+          84,
+          77
+        ],
+        [
+          85,
+          76
+        ],
+        [
+          86,
+          75
+        ],
+        [
+          69,
+          74
+        ],
+        [
+          70,
+          73
+        ],
+        [
+          71,
+          72
+        ]
+      ],
+      [
+        [
+          79,
+          68
+        ],
+        [
+          78,
+          81
+        ],
+        [
+          77,
+          82
+        ],
+        [
+          76,
+          83
+        ],
+        [
+          75,
+          84
+        ],
+        [
+          74,
+          85
+        ],
+        [
+          73,
+          86
+        ],
+        [
+          72,
+          69
+        ],
+        [
+          71,
+          70
+        ]
+      ],
+      [
+        [
+          68,
+          78
+        ],
+        [
+          80,
+          77
+        ],
+        [
+          81,
+          76
+        ],
+        [
+          82,
+          75
+        ],
+        [
+          83,
+          74
+        ],
+        [
+          84,
+          73
+        ],
+        [
+          85,
+          72
+        ],
+        [
+          86,
+          71
+        ],
+        [
+          69,
+          70
+        ]
+      ],
+      [
+        [
+          77,
+          68
+        ],
+        [
+          76,
+          79
+        ],
+        [
+          75,
+          80
+        ],
+        [
+          74,
+          81
+        ],
+        [
+          73,
+          82
+        ],
+        [
+          72,
+          83
+        ],
+        [
+          71,
+          84
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          69,
+          86
+        ]
+      ],
+      [
+        [
+          68,
+          76
+        ],
+        [
+          78,
+          75
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          80,
+          73
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          82,
+          71
+        ],
+        [
+          83,
+          70
+        ],
+        [
+          84,
+          69
+        ],
+        [
+          85,
+          86
+        ]
+      ],
+      [
+        [
+          75,
+          68
+        ],
+        [
+          74,
+          77
+        ],
+        [
+          73,
+          78
+        ],
+        [
+          72,
+          79
+        ],
+        [
+          71,
+          80
+        ],
+        [
+          70,
+          81
+        ],
+        [
+          69,
+          82
+        ],
+        [
+          86,
+          83
+        ],
+        [
+          85,
+          84
+        ]
+      ],
+      [
+        [
+          68,
+          74
+        ],
+        [
+          76,
+          73
+        ],
+        [
+          77,
+          72
+        ],
+        [
+          78,
+          71
+        ],
+        [
+          79,
+          70
+        ],
+        [
+          80,
+          69
+        ],
+        [
+          81,
+          86
+        ],
+        [
+          82,
+          85
+        ],
+        [
+          83,
+          84
+        ]
+      ],
+      [
+        [
+          73,
+          68
+        ],
+        [
+          72,
+          75
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          70,
+          77
+        ],
+        [
+          69,
+          78
+        ],
+        [
+          86,
+          79
+        ],
+        [
+          85,
+          80
+        ],
+        [
+          84,
+          81
+        ],
+        [
+          83,
+          82
+        ]
+      ],
+      [
+        [
+          68,
+          72
+        ],
+        [
+          74,
+          71
+        ],
+        [
+          75,
+          70
+        ],
+        [
+          76,
+          69
+        ],
+        [
+          77,
+          86
+        ],
+        [
+          78,
+          85
+        ],
+        [
+          79,
+          84
+        ],
+        [
+          80,
+          83
+        ],
+        [
+          81,
+          82
+        ]
+      ],
+      [
+        [
+          71,
+          68
+        ],
+        [
+          70,
+          73
+        ],
+        [
+          69,
+          74
+        ],
+        [
+          86,
+          75
+        ],
+        [
+          85,
+          76
+        ],
+        [
+          84,
+          77
+        ],
+        [
+          83,
+          78
+        ],
+        [
+          82,
+          79
+        ],
+        [
+          81,
+          80
+        ]
+      ],
+      [
+        [
+          68,
+          70
+        ],
+        [
+          72,
+          69
+        ],
+        [
+          73,
+          86
+        ],
+        [
+          74,
+          85
+        ],
+        [
+          75,
+          84
+        ],
+        [
+          76,
+          83
+        ],
+        [
+          77,
+          82
+        ],
+        [
+          78,
+          81
+        ],
+        [
+          79,
+          80
+        ]
+      ],
+      [
+        [
+          69,
+          68
+        ],
+        [
+          86,
+          71
+        ],
+        [
+          85,
+          72
+        ],
+        [
+          84,
+          73
+        ],
+        [
+          83,
+          74
+        ],
+        [
+          82,
+          75
+        ],
+        [
+          81,
+          76
+        ],
+        [
+          80,
+          77
+        ],
+        [
+          79,
+          78
+        ]
+      ],
+      [
+        [
+          68,
+          86
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          71,
+          84
+        ],
+        [
+          72,
+          83
+        ],
+        [
+          73,
+          82
+        ],
+        [
+          74,
+          81
+        ],
+        [
+          75,
+          80
+        ],
+        [
+          76,
+          79
+        ],
+        [
+          77,
+          78
+        ]
+      ],
+      [
+        [
+          85,
+          68
+        ],
+        [
+          84,
+          69
+        ],
+        [
+          83,
+          70
+        ],
+        [
+          82,
+          71
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          80,
+          73
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          78,
+          75
+        ],
+        [
+          77,
+          76
+        ]
+      ],
+      [
+        [
+          68,
+          84
+        ],
+        [
+          86,
+          83
+        ],
+        [
+          69,
+          82
+        ],
+        [
+          70,
+          81
+        ],
+        [
+          71,
+          80
+        ],
+        [
+          72,
+          79
+        ],
+        [
+          73,
+          78
+        ],
+        [
+          74,
+          77
+        ],
+        [
+          75,
+          76
+        ]
+      ],
+      [
+        [
+          83,
+          68
+        ],
+        [
+          82,
+          85
+        ],
+        [
+          81,
+          86
+        ],
+        [
+          80,
+          69
+        ],
+        [
+          79,
+          70
+        ],
+        [
+          78,
+          71
+        ],
+        [
+          77,
+          72
+        ],
+        [
+          76,
+          73
+        ],
+        [
+          75,
+          74
+        ]
+      ],
+      [
+        [
+          68,
+          82
+        ],
+        [
+          84,
+          81
+        ],
+        [
+          85,
+          80
+        ],
+        [
+          86,
+          79
+        ],
+        [
+          69,
+          78
+        ],
+        [
+          70,
+          77
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          72,
+          75
+        ],
+        [
+          73,
+          74
+        ]
+      ],
+      [
+        [
+          81,
+          68
+        ],
+        [
+          80,
+          83
+        ],
+        [
+          79,
+          84
+        ],
+        [
+          78,
+          85
+        ],
+        [
+          77,
+          86
+        ],
+        [
+          76,
+          69
+        ],
+        [
+          75,
+          70
+        ],
+        [
+          74,
+          71
+        ],
+        [
+          73,
+          72
+        ]
+      ],
+      [
+        [
+          68,
+          80
+        ],
+        [
+          82,
+          79
+        ],
+        [
+          83,
+          78
+        ],
+        [
+          84,
+          77
+        ],
+        [
+          85,
+          76
+        ],
+        [
+          86,
+          75
+        ],
+        [
+          69,
+          74
+        ],
+        [
+          70,
+          73
+        ],
+        [
+          71,
+          72
+        ]
+      ],
+      [
+        [
+          79,
+          68
+        ],
+        [
+          78,
+          81
+        ],
+        [
+          77,
+          82
+        ],
+        [
+          76,
+          83
+        ],
+        [
+          75,
+          84
+        ],
+        [
+          74,
+          85
+        ],
+        [
+          73,
+          86
+        ],
+        [
+          72,
+          69
+        ],
+        [
+          71,
+          70
+        ]
+      ],
+      [
+        [
+          68,
+          78
+        ],
+        [
+          80,
+          77
+        ],
+        [
+          81,
+          76
+        ],
+        [
+          82,
+          75
+        ],
+        [
+          83,
+          74
+        ],
+        [
+          84,
+          73
+        ],
+        [
+          85,
+          72
+        ],
+        [
+          86,
+          71
+        ],
+        [
+          69,
+          70
+        ]
+      ],
+      [
+        [
+          77,
+          68
+        ],
+        [
+          76,
+          79
+        ],
+        [
+          75,
+          80
+        ],
+        [
+          74,
+          81
+        ],
+        [
+          73,
+          82
+        ],
+        [
+          72,
+          83
+        ],
+        [
+          71,
+          84
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          69,
+          86
+        ]
+      ],
+      [
+        [
+          68,
+          76
+        ],
+        [
+          78,
+          75
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          80,
+          73
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          82,
+          71
+        ],
+        [
+          83,
+          70
+        ],
+        [
+          84,
+          69
+        ],
+        [
+          85,
+          86
+        ]
+      ],
+      [
+        [
+          75,
+          68
+        ],
+        [
+          74,
+          77
+        ],
+        [
+          73,
+          78
+        ],
+        [
+          72,
+          79
+        ],
+        [
+          71,
+          80
+        ],
+        [
+          70,
+          81
+        ],
+        [
+          69,
+          82
+        ],
+        [
+          86,
+          83
+        ],
+        [
+          85,
+          84
+        ]
+      ],
+      [
+        [
+          68,
+          74
+        ],
+        [
+          76,
+          73
+        ],
+        [
+          77,
+          72
+        ],
+        [
+          78,
+          71
+        ],
+        [
+          79,
+          70
+        ],
+        [
+          80,
+          69
+        ],
+        [
+          81,
+          86
+        ],
+        [
+          82,
+          85
+        ],
+        [
+          83,
+          84
+        ]
+      ],
+      [
+        [
+          73,
+          68
+        ],
+        [
+          72,
+          75
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          70,
+          77
+        ],
+        [
+          69,
+          78
+        ],
+        [
+          86,
+          79
+        ],
+        [
+          85,
+          80
+        ],
+        [
+          84,
+          81
+        ],
+        [
+          83,
+          82
+        ]
+      ],
+      [
+        [
+          68,
+          72
+        ],
+        [
+          74,
+          71
+        ],
+        [
+          75,
+          70
+        ],
+        [
+          76,
+          69
+        ],
+        [
+          77,
+          86
+        ],
+        [
+          78,
+          85
+        ],
+        [
+          79,
+          84
+        ],
+        [
+          80,
+          83
+        ],
+        [
+          81,
+          82
+        ]
+      ],
+      [
+        [
+          71,
+          68
+        ],
+        [
+          70,
+          73
+        ],
+        [
+          69,
+          74
+        ],
+        [
+          86,
+          75
+        ],
+        [
+          85,
+          76
+        ],
+        [
+          84,
+          77
+        ],
+        [
+          83,
+          78
+        ],
+        [
+          82,
+          79
+        ],
+        [
+          81,
+          80
+        ]
+      ],
+      [
+        [
+          68,
+          70
+        ],
+        [
+          72,
+          69
+        ],
+        [
+          73,
+          86
+        ],
+        [
+          74,
+          85
+        ],
+        [
+          75,
+          84
+        ],
+        [
+          76,
+          83
+        ],
+        [
+          77,
+          82
+        ],
+        [
+          78,
+          81
+        ],
+        [
+          79,
+          80
+        ]
+      ],
+      [
+        [
+          69,
+          68
+        ],
+        [
+          86,
+          71
+        ],
+        [
+          85,
+          72
+        ],
+        [
+          84,
+          73
+        ],
+        [
+          83,
+          74
+        ],
+        [
+          82,
+          75
+        ],
+        [
+          81,
+          76
+        ],
+        [
+          80,
+          77
+        ],
+        [
+          79,
+          78
+        ]
+      ],
+      [
+        [
+          68,
+          86
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          71,
+          84
+        ],
+        [
+          72,
+          83
+        ],
+        [
+          73,
+          82
+        ],
+        [
+          74,
+          81
+        ],
+        [
+          75,
+          80
+        ],
+        [
+          76,
+          79
+        ],
+        [
+          77,
+          78
+        ]
+      ],
+      [
+        [
+          85,
+          68
+        ],
+        [
+          84,
+          69
+        ],
+        [
+          83,
+          70
+        ],
+        [
+          82,
+          71
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          80,
+          73
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          78,
+          75
+        ],
+        [
+          77,
+          76
+        ]
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Euro Cup",
+    "teamIds": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "remainingTeams": [],
+    "type": "euro",
+    "identifier": "EuroCup",
+    "matchday": 1,
+}
 ]

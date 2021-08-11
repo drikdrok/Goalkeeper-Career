@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         
-         PlayerPrefs.SetInt("TeamID", 3);
+        PlayerPrefs.SetInt("TeamID", 3);
 
         bool foundMatch = false;
         while (!foundMatch)

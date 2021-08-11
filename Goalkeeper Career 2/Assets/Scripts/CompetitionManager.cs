@@ -111,6 +111,8 @@ public class Competition
 
     public Dictionary<int, TeamStats> stats;
 
+    public GroupStage groupStage = null;
+
     public List<List<List<int>>> matches;
 
 
@@ -185,6 +187,7 @@ public class Competition
     {
         initialize();
         hasPlayedWeek = 0;
+        matchday = 1;
 
         stats = new Dictionary<int, TeamStats>();
         foreach (int teamId in teamIds)
@@ -256,6 +259,41 @@ public class Competition
             rotateList(numberList);
             topList = numberList.GetRange(0, teamIds.Count / 2);
             bottomList = numberList.GetRange(teamIds.Count / 2, teamIds.Count / 2).ToList();
+            bottomList.Reverse();
+        }
+    }
+
+    public void generateLeagueFrom(List<int> teams)
+    {
+        var numberList = Enumerable.Range(0, teams.Count).ToList();
+
+        var topList = numberList.GetRange(0, teams.Count / 2);
+        var bottomList = numberList.GetRange(teams.Count / 2, teams.Count / 2).ToList();
+        bottomList.Reverse();
+
+        for (int matchday = 1; matchday < teams.Count * 2; matchday++)
+        {
+            for (int i = 0; i < topList.Count; i++)
+            {
+                List<int> match = new List<int>();
+
+                if (matchday % 2 == 0)
+                {
+                    match.Add(teams[topList[i]]);
+                    match.Add(teams[bottomList[i]]);
+                }
+                else
+                {
+                    match.Add(teams[bottomList[i]]);
+                    match.Add(teams[topList[i]]);
+                }
+
+                matches[matchday].Add(match);
+            }
+
+            rotateList(numberList);
+            topList = numberList.GetRange(0, teams.Count / 2);
+            bottomList = numberList.GetRange(teams.Count / 2, teams.Count / 2).ToList();
             bottomList.Reverse();
         }
     }
