@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PostMatchScreen.unity
     guid: 99baf975c7a24594699bdec255edea4a
   - enabled: 1
+    path: Assets/Scenes/SelectCompetition.unity
+    guid: 08a8ea362f845e2438313d5bafcf8d0f
+  - enabled: 1
     path: Assets/Scenes/Career.unity
     guid: 3ff85c29851997a4794ca370d67437fc
   m_configObjects: {}

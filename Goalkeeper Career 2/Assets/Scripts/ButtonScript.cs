@@ -26,8 +26,13 @@ public class ButtonScript : MonoBehaviour
 
     public void GoToCompetitonScreen()
     {
-        CompetitionManager.Instance.currentCompetition = CompetitionManager.Instance.competitions[6];
+        CompetitionManager.Instance.currentCompetition = CompetitionManager.Instance.competitions[TeamsManager.Instance.teams[PlayerPrefs.GetInt("TeamID")].league];
         SceneManager.LoadScene("CompetitionScreen");
+    }
+
+    public void GoToSelectCompetition()
+    {
+        SceneManager.LoadScene("SelectCompetition");
     }
 
     public void GoToCareerScreen()
