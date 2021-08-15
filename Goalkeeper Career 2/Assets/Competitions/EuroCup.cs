@@ -63,15 +63,21 @@ public class EuroCup : MonoBehaviour
                         if (leg1[0] == leg2[1] || leg1[1] == leg2[0]) // Found first leg
                         {
                             if (leg1[2] + leg2[3] > leg1[3] + leg2[2]) // Winner over 2 legs
+                            { 
                                 competition.remainingTeams.Add(leg1[0]);
+                                Debug.Log("Leg Winner: " + leg1[0]);
+                            }
                             else
+                            {
                                 competition.remainingTeams.Add(leg1[1]);
+                                Debug.Log("Leg Winner: " + leg1[1]);
+                            }
+                            break;
                         }
-                        break;
                     }
                 }
 
-                competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1, true);
+                competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1, (competition.remainingTeams.Count == 2) ? false : true);
 
             }
             else

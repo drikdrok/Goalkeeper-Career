@@ -18,117 +18,117 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 8,
-    "hasPlayedWeek": 7,
+    "matchday": 14,
+    "hasPlayedWeek": 13,
     "lastLegWeek": 0,
     "stats": {
       "0": {
-        "wins": 1,
-        "draws": 1,
-        "losses": 5,
-        "GF": 7,
-        "GA": 12,
-        "points": 4,
-        "gamesPlayed": 7
+        "wins": 4,
+        "draws": 5,
+        "losses": 4,
+        "GF": 16,
+        "GA": 17,
+        "points": 17,
+        "gamesPlayed": 13
       },
       "1": {
-        "wins": 3,
+        "wins": 7,
         "draws": 3,
-        "losses": 1,
-        "GF": 11,
-        "GA": 9,
-        "points": 12,
-        "gamesPlayed": 7
+        "losses": 3,
+        "GF": 22,
+        "GA": 12,
+        "points": 24,
+        "gamesPlayed": 13
       },
       "2": {
-        "wins": 4,
-        "draws": 2,
-        "losses": 1,
-        "GF": 9,
-        "GA": 4,
-        "points": 14,
-        "gamesPlayed": 7
+        "wins": 5,
+        "draws": 1,
+        "losses": 7,
+        "GF": 14,
+        "GA": 17,
+        "points": 16,
+        "gamesPlayed": 13
       },
       "3": {
         "wins": 0,
-        "draws": 7,
+        "draws": 13,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 7,
-        "gamesPlayed": 7
+        "points": 13,
+        "gamesPlayed": 13
       },
       "4": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 3,
-        "GF": 5,
-        "GA": 4,
-        "points": 8,
-        "gamesPlayed": 7
+        "wins": 4,
+        "draws": 3,
+        "losses": 6,
+        "GF": 11,
+        "GA": 15,
+        "points": 15,
+        "gamesPlayed": 13
       },
       "5": {
-        "wins": 4,
-        "draws": 0,
-        "losses": 3,
-        "GF": 10,
-        "GA": 8,
-        "points": 12,
-        "gamesPlayed": 7
+        "wins": 6,
+        "draws": 3,
+        "losses": 4,
+        "GF": 17,
+        "GA": 14,
+        "points": 21,
+        "gamesPlayed": 13
       },
       "6": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 2,
-        "GF": 9,
-        "GA": 8,
-        "points": 11,
-        "gamesPlayed": 7
+        "wins": 4,
+        "draws": 3,
+        "losses": 6,
+        "GF": 13,
+        "GA": 14,
+        "points": 15,
+        "gamesPlayed": 13
       },
       "7": {
-        "wins": 4,
+        "wins": 6,
         "draws": 2,
-        "losses": 1,
-        "GF": 10,
-        "GA": 5,
-        "points": 14,
-        "gamesPlayed": 7
+        "losses": 5,
+        "GF": 12,
+        "GA": 10,
+        "points": 20,
+        "gamesPlayed": 13
       },
       "8": {
-        "wins": 1,
-        "draws": 4,
-        "losses": 2,
-        "GF": 8,
-        "GA": 10,
-        "points": 7,
-        "gamesPlayed": 7
+        "wins": 7,
+        "draws": 3,
+        "losses": 3,
+        "GF": 14,
+        "GA": 9,
+        "points": 24,
+        "gamesPlayed": 13
       },
       "9": {
-        "wins": 1,
-        "draws": 4,
-        "losses": 2,
-        "GF": 6,
-        "GA": 9,
-        "points": 7,
-        "gamesPlayed": 7
+        "wins": 3,
+        "draws": 2,
+        "losses": 8,
+        "GF": 10,
+        "GA": 20,
+        "points": 11,
+        "gamesPlayed": 13
       },
       "10": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 3,
-        "GF": 6,
-        "GA": 7,
-        "points": 8,
-        "gamesPlayed": 7
+        "wins": 8,
+        "draws": 3,
+        "losses": 2,
+        "GF": 18,
+        "GA": 9,
+        "points": 27,
+        "gamesPlayed": 13
       },
       "11": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 4,
-        "GF": 5,
-        "GA": 10,
-        "points": 7,
-        "gamesPlayed": 7
+        "wins": 1,
+        "draws": 5,
+        "losses": 7,
+        "GF": 7,
+        "GA": 17,
+        "points": 8,
+        "gamesPlayed": 13
       }
     },
     "groupStage": null,
@@ -137,421 +137,577 @@
       [
         [
           11,
-          0
-        ],
-        [
-          10,
+          0,
+          1,
           1
         ],
         [
+          10,
+          1,
+          0,
+          2
+        ],
+        [
           9,
+          2,
+          1,
           2
         ],
         [
           8,
-          3
+          3,
+          0,
+          0
         ],
         [
           7,
-          4
+          4,
+          2,
+          1
         ],
         [
           6,
-          5
+          5,
+          2,
+          0
         ]
       ],
       [
         [
           0,
-          10
+          10,
+          2,
+          2
         ],
         [
           11,
-          9
+          9,
+          0,
+          1
         ],
         [
           1,
-          8
+          8,
+          0,
+          2
         ],
         [
           2,
-          7
-        ],
-        [
-          3,
-          6
-        ],
-        [
-          4,
-          5
-        ]
-      ],
-      [
-        [
-          9,
-          0
-        ],
-        [
-          8,
-          10
-        ],
-        [
           7,
-          11
-        ],
-        [
-          6,
-          1
-        ],
-        [
-          5,
+          1,
           2
         ],
         [
-          4,
-          3
-        ]
-      ],
-      [
-        [
+          3,
+          6,
           0,
-          8
+          0
         ],
         [
-          9,
-          7
-        ],
-        [
-          10,
-          6
-        ],
-        [
-          11,
-          5
-        ],
-        [
-          1,
-          4
-        ],
-        [
+          4,
+          5,
           2,
           3
         ]
       ],
       [
         [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          10,
+          0,
+          2
+        ],
+        [
           7,
+          11,
+          2,
           0
         ],
         [
           6,
-          8
+          1,
+          0,
+          2
         ],
         [
           5,
-          9
+          2,
+          0,
+          1
         ],
         [
           4,
-          10
-        ],
-        [
           3,
-          11
-        ],
-        [
-          2,
-          1
+          0,
+          0
         ]
       ],
       [
         [
           0,
-          6
-        ],
-        [
-          7,
-          5
-        ],
-        [
           8,
-          4
+          1,
+          2
         ],
         [
           9,
+          7,
+          0,
           3
         ],
         [
           10,
-          2
+          6,
+          2,
+          1
         ],
         [
           11,
-          1
-        ]
-      ],
-      [
-        [
           5,
-          0
-        ],
-        [
-          4,
-          6
-        ],
-        [
-          3,
-          7
-        ],
-        [
-          2,
-          8
+          1,
+          1
         ],
         [
           1,
-          9
+          4,
+          1,
+          1
         ],
         [
-          11,
-          10
+          2,
+          3,
+          0,
+          0
         ]
       ],
       [
         [
+          7,
           0,
-          4
-        ],
-        [
-          5,
-          3
+          2,
+          0
         ],
         [
           6,
-          2
-        ],
-        [
-          7,
+          8,
+          0,
           1
         ],
         [
-          8,
-          11
-        ],
-        [
+          5,
           9,
-          10
-        ]
-      ],
-      [
-        [
-          3,
-          0
-        ],
-        [
-          2,
-          4
-        ],
-        [
-          1,
-          5
-        ],
-        [
-          11,
-          6
-        ],
-        [
-          10,
-          7
-        ],
-        [
-          9,
-          8
-        ]
-      ],
-      [
-        [
-          0,
-          2
-        ],
-        [
           3,
           1
         ],
         [
           4,
-          11
-        ],
-        [
-          5,
-          10
-        ],
-        [
-          6,
-          9
-        ],
-        [
-          7,
-          8
-        ]
-      ],
-      [
-        [
-          1,
-          0
-        ],
-        [
-          11,
-          2
-        ],
-        [
           10,
-          3
-        ],
-        [
-          9,
-          4
-        ],
-        [
-          8,
-          5
-        ],
-        [
-          7,
-          6
-        ]
-      ],
-      [
-        [
           0,
-          11
-        ],
-        [
-          1,
-          10
-        ],
-        [
-          2,
-          9
-        ],
-        [
-          3,
-          8
-        ],
-        [
-          4,
-          7
-        ],
-        [
-          5,
-          6
-        ]
-      ],
-      [
-        [
-          10,
-          0
-        ],
-        [
-          9,
-          11
-        ],
-        [
-          8,
-          1
-        ],
-        [
-          7,
-          2
-        ],
-        [
-          6,
-          3
-        ],
-        [
-          5,
-          4
-        ]
-      ],
-      [
-        [
-          0,
-          9
-        ],
-        [
-          10,
-          8
-        ],
-        [
-          11,
-          7
-        ],
-        [
-          1,
-          6
-        ],
-        [
-          2,
-          5
-        ],
-        [
-          3,
-          4
-        ]
-      ],
-      [
-        [
-          8,
-          0
-        ],
-        [
-          7,
-          9
-        ],
-        [
-          6,
-          10
-        ],
-        [
-          5,
-          11
-        ],
-        [
-          4,
           1
         ],
         [
           3,
-          2
+          11,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          3
         ]
       ],
       [
         [
           0,
-          7
-        ],
-        [
-          8,
-          6
-        ],
-        [
-          9,
-          5
-        ],
-        [
-          10,
+          6,
+          1,
           4
         ],
         [
-          11,
-          3
+          7,
+          5,
+          0,
+          1
         ],
         [
+          8,
+          4,
+          1,
+          0
+        ],
+        [
+          9,
+          3,
+          0,
+          0
+        ],
+        [
+          10,
+          2,
+          0,
+          1
+        ],
+        [
+          11,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          5,
+          0,
+          0,
+          1
+        ],
+        [
+          4,
+          6,
+          2,
+          0
+        ],
+        [
+          3,
+          7,
+          0,
+          0
+        ],
+        [
+          2,
+          8,
+          0,
+          1
+        ],
+        [
+          1,
+          9,
+          3,
+          1
+        ],
+        [
+          11,
+          10,
           1,
           2
         ]
       ],
       [
         [
+          0,
+          4,
+          3,
+          0
+        ],
+        [
+          5,
+          3,
+          0,
+          0
+        ],
+        [
+          6,
+          2,
+          2,
+          4
+        ],
+        [
+          7,
+          1,
+          0,
+          2
+        ],
+        [
+          8,
+          11,
+          3,
+          1
+        ],
+        [
+          9,
+          10,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          1
+        ],
+        [
+          1,
+          5,
+          2,
+          2
+        ],
+        [
+          11,
+          6,
+          1,
+          1
+        ],
+        [
+          10,
+          7,
+          2,
+          0
+        ],
+        [
+          9,
+          8,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          4,
+          11,
+          0,
+          0
+        ],
+        [
+          5,
+          10,
+          1,
+          3
+        ],
+        [
+          6,
+          9,
+          2,
+          0
+        ],
+        [
+          7,
+          8,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          11,
+          2,
+          0,
+          2
+        ],
+        [
+          10,
+          3,
+          0,
+          0
+        ],
+        [
+          9,
+          4,
+          1,
+          2
+        ],
+        [
+          8,
+          5,
+          1,
+          2
+        ],
+        [
+          7,
+          6,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          11,
+          1,
+          2
+        ],
+        [
+          1,
+          10,
+          1,
+          2
+        ],
+        [
+          2,
+          9,
+          0,
+          3
+        ],
+        [
+          3,
+          8,
+          0,
+          0
+        ],
+        [
+          4,
+          7,
+          2,
+          0
+        ],
+        [
+          5,
+          6,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          9,
+          11,
+          2,
+          0
+        ],
+        [
+          8,
+          1,
+          0,
+          3
+        ],
+        [
+          7,
+          2,
+          1,
+          0
+        ],
+        [
+          6,
+          3,
+          0,
+          0
+        ],
+        [
+          5,
+          4,
+          3,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          9
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        [
+          8,
+          0
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          7
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
           6,
           0
         ],
@@ -706,32 +862,7 @@
           7
         ]
       ],
-      [
-        [
-          11,
-          0
-        ],
-        [
-          10,
-          1
-        ],
-        [
-          9,
-          2
-        ],
-        [
-          8,
-          3
-        ],
-        [
-          7,
-          4
-        ],
-        [
-          6,
-          5
-        ]
-      ],
+      [],
       [],
       [],
       [],
@@ -781,117 +912,117 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 7,
-    "hasPlayedWeek": 6,
+    "matchday": 13,
+    "hasPlayedWeek": 12,
     "lastLegWeek": 0,
     "stats": {
       "12": {
         "wins": 4,
-        "draws": 2,
-        "losses": 0,
-        "GF": 9,
-        "GA": 5,
-        "points": 14,
-        "gamesPlayed": 6
+        "draws": 4,
+        "losses": 4,
+        "GF": 15,
+        "GA": 18,
+        "points": 16,
+        "gamesPlayed": 12
       },
       "13": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 7,
-        "GA": 6,
-        "points": 8,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 4,
+        "losses": 4,
+        "GF": 11,
+        "GA": 9,
+        "points": 16,
+        "gamesPlayed": 12
       },
       "14": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 8,
-        "GA": 6,
-        "points": 11,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 5,
+        "losses": 2,
+        "GF": 17,
+        "GA": 14,
+        "points": 20,
+        "gamesPlayed": 12
       },
       "15": {
-        "wins": 0,
+        "wins": 6,
         "draws": 3,
         "losses": 3,
-        "GF": 6,
-        "GA": 10,
-        "points": 3,
-        "gamesPlayed": 6
+        "GF": 19,
+        "GA": 15,
+        "points": 21,
+        "gamesPlayed": 12
       },
       "16": {
-        "wins": 0,
-        "draws": 4,
-        "losses": 2,
-        "GF": 9,
-        "GA": 11,
-        "points": 4,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 3,
+        "losses": 5,
+        "GF": 12,
+        "GA": 14,
+        "points": 15,
+        "gamesPlayed": 12
       },
       "17": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 9,
-        "GA": 11,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 3,
+        "losses": 4,
+        "GF": 8,
+        "GA": 10,
+        "points": 18,
+        "gamesPlayed": 12
       },
       "18": {
-        "wins": 2,
-        "draws": 0,
-        "losses": 4,
-        "GF": 4,
-        "GA": 7,
-        "points": 6,
-        "gamesPlayed": 6
+        "wins": 7,
+        "draws": 2,
+        "losses": 3,
+        "GF": 16,
+        "GA": 11,
+        "points": 23,
+        "gamesPlayed": 12
       },
       "19": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 8,
-        "GA": 8,
-        "points": 8,
-        "gamesPlayed": 6
+        "wins": 6,
+        "draws": 3,
+        "losses": 3,
+        "GF": 19,
+        "GA": 14,
+        "points": 21,
+        "gamesPlayed": 12
       },
       "20": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 11,
-        "GA": 7,
-        "points": 11,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 1,
+        "losses": 7,
+        "GF": 16,
+        "GA": 14,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "21": {
         "wins": 3,
         "draws": 1,
-        "losses": 2,
-        "GF": 8,
-        "GA": 6,
+        "losses": 8,
+        "GF": 10,
+        "GA": 17,
         "points": 10,
-        "gamesPlayed": 6
+        "gamesPlayed": 12
       },
       "22": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 5,
-        "GA": 7,
-        "points": 8,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 3,
+        "losses": 6,
+        "GF": 13,
+        "GA": 17,
+        "points": 12,
+        "gamesPlayed": 12
       },
       "23": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 8,
-        "GA": 8,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 4,
+        "losses": 5,
+        "GF": 15,
+        "GA": 18,
+        "points": 13,
+        "gamesPlayed": 12
       }
     },
     "groupStage": null,
@@ -900,313 +1031,457 @@
       [
         [
           23,
-          12
+          12,
+          2,
+          2
         ],
         [
           22,
-          13
+          13,
+          1,
+          1
         ],
         [
           21,
-          14
+          14,
+          0,
+          1
         ],
         [
           20,
-          15
+          15,
+          1,
+          2
         ],
         [
           19,
-          16
+          16,
+          2,
+          2
         ],
         [
           18,
-          17
+          17,
+          0,
+          0
         ]
       ],
       [
         [
           12,
-          22
+          22,
+          1,
+          0
         ],
         [
           23,
-          21
+          21,
+          3,
+          3
         ],
         [
           13,
-          20
+          20,
+          2,
+          1
         ],
         [
           14,
-          19
+          19,
+          2,
+          1
         ],
         [
           15,
-          18
+          18,
+          1,
+          1
         ],
         [
           16,
-          17
+          17,
+          0,
+          1
         ]
       ],
       [
         [
           21,
-          12
+          12,
+          3,
+          2
         ],
         [
           20,
-          22
+          22,
+          2,
+          0
         ],
         [
           19,
-          23
+          23,
+          0,
+          0
         ],
         [
           18,
-          13
+          13,
+          0,
+          2
         ],
         [
           17,
-          14
+          14,
+          1,
+          1
         ],
         [
           16,
-          15
+          15,
+          2,
+          3
         ]
       ],
       [
         [
           12,
-          20
+          20,
+          0,
+          4
         ],
         [
           21,
-          19
+          19,
+          1,
+          3
         ],
         [
           22,
-          18
+          18,
+          2,
+          3
         ],
         [
           23,
-          17
+          17,
+          0,
+          2
         ],
         [
           13,
-          16
+          16,
+          1,
+          0
         ],
         [
           14,
-          15
+          15,
+          1,
+          4
         ]
       ],
       [
         [
           19,
-          12
+          12,
+          3,
+          1
         ],
         [
           18,
-          20
+          20,
+          2,
+          1
         ],
         [
           17,
-          21
+          21,
+          1,
+          0
         ],
         [
           16,
-          22
+          22,
+          2,
+          0
         ],
         [
           15,
-          23
+          23,
+          0,
+          1
         ],
         [
           14,
-          13
+          13,
+          1,
+          1
         ]
       ],
       [
         [
           12,
-          18
+          18,
+          0,
+          1
         ],
         [
           19,
-          17
+          17,
+          2,
+          0
         ],
         [
           20,
-          16
+          16,
+          1,
+          1
         ],
         [
           21,
-          15
+          15,
+          2,
+          0
         ],
         [
           22,
-          14
+          14,
+          1,
+          1
         ],
         [
           23,
-          13
+          13,
+          2,
+          1
         ]
       ],
       [
         [
           17,
-          12
+          12,
+          0,
+          1
         ],
         [
           16,
-          18
+          18,
+          1,
+          0
         ],
         [
           15,
-          19
+          19,
+          2,
+          2
         ],
         [
           14,
-          20
+          20,
+          2,
+          1
         ],
         [
           13,
-          21
+          21,
+          2,
+          0
         ],
         [
           23,
-          22
+          22,
+          1,
+          2
         ]
       ],
       [
         [
           12,
-          16
+          16,
+          3,
+          1
         ],
         [
           17,
-          15
+          15,
+          0,
+          2
         ],
         [
           18,
-          14
+          14,
+          2,
+          1
         ],
         [
           19,
-          13
+          13,
+          1,
+          0
         ],
         [
           20,
-          23
+          23,
+          2,
+          1
         ],
         [
           21,
-          22
+          22,
+          0,
+          2
         ]
       ],
       [
         [
           15,
-          12
+          12,
+          2,
+          2
         ],
         [
           14,
-          16
+          16,
+          0,
+          0
         ],
         [
           13,
-          17
+          17,
+          0,
+          0
         ],
         [
           23,
-          18
+          18,
+          1,
+          2
         ],
         [
           22,
-          19
+          19,
+          3,
+          2
         ],
         [
           21,
-          20
+          20,
+          1,
+          0
         ]
       ],
       [
         [
           12,
-          14
+          14,
+          2,
+          2
         ],
         [
           15,
-          13
+          13,
+          1,
+          0
         ],
         [
           16,
-          23
+          23,
+          0,
+          3
         ],
         [
           17,
-          22
+          22,
+          2,
+          1
         ],
         [
           18,
-          21
+          21,
+          1,
+          0
         ],
         [
           19,
-          20
+          20,
+          1,
+          0
         ]
       ],
       [
         [
           13,
-          12
+          12,
+          0,
+          1
         ],
         [
           23,
-          14
+          14,
+          1,
+          4
         ],
         [
           22,
-          15
+          15,
+          0,
+          1
         ],
         [
           21,
-          16
+          16,
+          0,
+          1
         ],
         [
           20,
-          17
+          17,
+          0,
+          1
         ],
         [
           19,
-          18
+          18,
+          2,
+          1
         ]
       ],
       [
         [
           12,
-          23
+          23,
+          0,
+          0
         ],
         [
           13,
-          22
+          22,
+          1,
+          1
         ],
         [
           14,
-          21
+          21,
+          1,
+          0
         ],
         [
           15,
-          20
+          20,
+          1,
+          3
         ],
         [
           16,
-          19
+          19,
+          2,
+          0
         ],
         [
           17,
-          18
+          18,
+          0,
+          3
         ]
       ],
       [
@@ -1469,32 +1744,7 @@
           19
         ]
       ],
-      [
-        [
-          23,
-          12
-        ],
-        [
-          22,
-          13
-        ],
-        [
-          21,
-          14
-        ],
-        [
-          20,
-          15
-        ],
-        [
-          19,
-          16
-        ],
-        [
-          18,
-          17
-        ]
-      ],
+      [],
       [],
       [],
       [],
@@ -1545,156 +1795,158 @@
       14,
       15
     ],
-    "remainingTeams": [],
+    "remainingTeams": [
+      11
+    ],
     "type": "cup",
     "identifier": "GenericCup",
-    "matchday": 7,
-    "hasPlayedWeek": 6,
+    "matchday": 13,
+    "hasPlayedWeek": 12,
     "lastLegWeek": 0,
     "stats": {
       "0": {
-        "wins": 1,
-        "draws": 1,
-        "losses": 0,
-        "GF": 3,
-        "GA": 0,
-        "points": 4,
-        "gamesPlayed": 2
+        "wins": 3,
+        "draws": 0,
+        "losses": 2,
+        "GF": 4,
+        "GA": 4,
+        "points": 9,
+        "gamesPlayed": 5
       },
       "1": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "GF": 0,
-        "GA": 1,
+        "GA": 2,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 2
       },
       "2": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
+        "draws": 0,
+        "losses": 2,
         "GF": 0,
-        "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "GA": 4,
+        "points": 0,
+        "gamesPlayed": 2
       },
       "3": {
         "wins": 0,
-        "draws": 3,
-        "losses": 0,
+        "draws": 0,
+        "losses": 2,
         "GF": 0,
-        "GA": 0,
-        "points": 3,
-        "gamesPlayed": 3
+        "GA": 2,
+        "points": 0,
+        "gamesPlayed": 2
       },
       "4": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "GF": 1,
-        "GA": 2,
+        "GA": 4,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 2
       },
       "5": {
-        "wins": 1,
+        "wins": 2,
         "draws": 0,
-        "losses": 1,
-        "GF": 3,
-        "GA": 3,
-        "points": 3,
-        "gamesPlayed": 2
-      },
-      "6": {
-        "wins": 4,
-        "draws": 0,
-        "losses": 0,
-        "GF": 8,
-        "GA": 3,
-        "points": 12,
+        "losses": 2,
+        "GF": 6,
+        "GA": 4,
+        "points": 6,
         "gamesPlayed": 4
       },
-      "7": {
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "8": {
+      "6": {
         "wins": 1,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "GF": 3,
-        "GA": 3,
+        "GA": 4,
         "points": 3,
-        "gamesPlayed": 2
+        "gamesPlayed": 3
+      },
+      "7": {
+        "wins": 5,
+        "draws": 0,
+        "losses": 2,
+        "GF": 11,
+        "GA": 5,
+        "points": 15,
+        "gamesPlayed": 7
+      },
+      "8": {
+        "wins": 3,
+        "draws": 0,
+        "losses": 2,
+        "GF": 6,
+        "GA": 3,
+        "points": 9,
+        "gamesPlayed": 5
       },
       "9": {
         "wins": 2,
-        "draws": 1,
-        "losses": 1,
-        "GF": 5,
-        "GA": 4,
-        "points": 7,
+        "draws": 0,
+        "losses": 2,
+        "GF": 3,
+        "GA": 3,
+        "points": 6,
         "gamesPlayed": 4
       },
       "10": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 2,
+        "GF": 0,
+        "GA": 4,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 2
       },
       "11": {
-        "wins": 0,
+        "wins": 5,
         "draws": 0,
         "losses": 1,
-        "GF": 0,
-        "GA": 3,
-        "points": 0,
-        "gamesPlayed": 1
+        "GF": 11,
+        "GA": 5,
+        "points": 15,
+        "gamesPlayed": 6
       },
       "12": {
-        "wins": 0,
+        "wins": 2,
         "draws": 0,
-        "losses": 1,
-        "GF": 2,
-        "GA": 3,
-        "points": 0,
-        "gamesPlayed": 1
+        "losses": 2,
+        "GF": 3,
+        "GA": 5,
+        "points": 6,
+        "gamesPlayed": 4
       },
       "13": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 4,
-        "GA": 4,
-        "points": 3,
+        "losses": 2,
+        "GF": 0,
+        "GA": 2,
+        "points": 0,
         "gamesPlayed": 2
       },
       "14": {
-        "wins": 0,
+        "wins": 5,
         "draws": 0,
-        "losses": 1,
-        "GF": 0,
-        "GA": 1,
-        "points": 0,
-        "gamesPlayed": 1
+        "losses": 2,
+        "GF": 8,
+        "GA": 6,
+        "points": 15,
+        "gamesPlayed": 7
       },
       "15": {
-        "wins": 2,
+        "wins": 3,
         "draws": 0,
-        "losses": 1,
-        "GF": 5,
-        "GA": 4,
-        "points": 6,
-        "gamesPlayed": 3
+        "losses": 2,
+        "GF": 4,
+        "GA": 3,
+        "points": 9,
+        "gamesPlayed": 5
       }
     },
     "groupStage": null,
@@ -1702,43 +1954,202 @@
       [],
       [
         [
-          6,
-          11
-        ],
-        [
-          7,
-          13
-        ],
-        [
-          8,
-          12
-        ],
-        [
-          10,
-          9
-        ],
-        [
           5,
-          4
-        ],
-        [
+          3,
           1,
           0
         ],
         [
+          8,
+          2,
+          2,
+          0
+        ],
+        [
+          14,
+          12,
+          2,
+          1
+        ],
+        [
+          0,
+          6,
+          2,
+          1
+        ],
+        [
           15,
+          1,
+          1,
+          0
+        ],
+        [
+          13,
+          9,
+          0,
+          1
+        ],
+        [
+          11,
+          4,
+          2,
+          0
+        ],
+        [
+          7,
+          10,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          15,
+          4,
+          2,
+          1
+        ],
+        [
+          14,
+          8,
+          0,
+          2
+        ],
+        [
+          9,
+          5,
+          1,
+          0
+        ],
+        [
+          9,
+          6,
+          1,
+          2
+        ],
+        [
+          10,
+          5,
+          0,
+          3
+        ],
+        [
+          2,
+          7,
+          0,
           2
         ],
         [
           14,
-          3
+          3,
+          1,
+          0
+        ],
+        [
+          12,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          13,
+          1,
+          0
+        ],
+        [
+          11,
+          11,
+          2,
+          1
+        ],
+        [
+          15,
+          0,
+          1,
+          0
+        ],
+        [
+          7,
+          8,
+          1,
+          0
         ]
       ],
-      [],
-      [],
-      [],
-      [],
-      [],
+      [
+        [
+          5,
+          11,
+          2,
+          3
+        ],
+        [
+          12,
+          15,
+          1,
+          0
+        ],
+        [
+          8,
+          9,
+          1,
+          0
+        ],
+        [
+          7,
+          7,
+          2,
+          1
+        ],
+        [
+          0,
+          6,
+          1,
+          0
+        ],
+        [
+          14,
+          15,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          11,
+          0,
+          2,
+          0
+        ],
+        [
+          12,
+          7,
+          0,
+          3
+        ],
+        [
+          14,
+          8,
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          14,
+          7,
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          11,
+          14,
+          1,
+          0
+        ]
+      ],
       [],
       [],
       [],
@@ -1813,189 +2224,189 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 7,
-    "hasPlayedWeek": 6,
+    "matchday": 13,
+    "hasPlayedWeek": 12,
     "lastLegWeek": 0,
     "stats": {
       "24": {
         "wins": 5,
-        "draws": 0,
-        "losses": 1,
-        "GF": 14,
-        "GA": 6,
-        "points": 15,
-        "gamesPlayed": 6
+        "draws": 3,
+        "losses": 4,
+        "GF": 12,
+        "GA": 14,
+        "points": 18,
+        "gamesPlayed": 12
       },
       "25": {
-        "wins": 4,
-        "draws": 1,
-        "losses": 1,
-        "GF": 7,
-        "GA": 5,
-        "points": 13,
-        "gamesPlayed": 6
+        "wins": 1,
+        "draws": 6,
+        "losses": 5,
+        "GF": 9,
+        "GA": 14,
+        "points": 9,
+        "gamesPlayed": 12
       },
       "26": {
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "GF": 7,
-        "GA": 8,
-        "points": 6,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 5,
+        "losses": 3,
+        "GF": 13,
+        "GA": 13,
+        "points": 17,
+        "gamesPlayed": 12
       },
       "27": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 6,
-        "GA": 4,
-        "points": 8,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 3,
+        "losses": 6,
+        "GF": 11,
+        "GA": 17,
+        "points": 12,
+        "gamesPlayed": 12
       },
       "28": {
-        "wins": 3,
+        "wins": 5,
         "draws": 2,
-        "losses": 1,
-        "GF": 9,
-        "GA": 5,
-        "points": 11,
-        "gamesPlayed": 6
+        "losses": 5,
+        "GF": 14,
+        "GA": 12,
+        "points": 17,
+        "gamesPlayed": 12
       },
       "29": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 7,
-        "GA": 8,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 3,
+        "losses": 5,
+        "GF": 16,
+        "GA": 18,
+        "points": 15,
+        "gamesPlayed": 12
       },
       "30": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 5,
-        "GA": 6,
-        "points": 8,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 6,
+        "losses": 3,
+        "GF": 12,
+        "GA": 12,
+        "points": 15,
+        "gamesPlayed": 12
       },
       "31": {
-        "wins": 1,
-        "draws": 1,
-        "losses": 4,
-        "GF": 5,
-        "GA": 11,
-        "points": 4,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 3,
+        "losses": 5,
+        "GF": 15,
+        "GA": 15,
+        "points": 15,
+        "gamesPlayed": 12
       },
       "32": {
         "wins": 3,
-        "draws": 1,
-        "losses": 2,
-        "GF": 8,
-        "GA": 6,
-        "points": 10,
-        "gamesPlayed": 6
+        "draws": 5,
+        "losses": 4,
+        "GF": 16,
+        "GA": 16,
+        "points": 14,
+        "gamesPlayed": 12
       },
       "33": {
         "wins": 2,
-        "draws": 3,
-        "losses": 1,
-        "GF": 6,
-        "GA": 5,
-        "points": 9,
-        "gamesPlayed": 6
+        "draws": 5,
+        "losses": 5,
+        "GF": 7,
+        "GA": 11,
+        "points": 11,
+        "gamesPlayed": 12
       },
       "34": {
-        "wins": 1,
+        "wins": 6,
         "draws": 4,
-        "losses": 1,
-        "GF": 8,
-        "GA": 7,
-        "points": 7,
-        "gamesPlayed": 6
+        "losses": 2,
+        "GF": 13,
+        "GA": 8,
+        "points": 22,
+        "gamesPlayed": 12
       },
       "35": {
-        "wins": 3,
-        "draws": 1,
-        "losses": 2,
-        "GF": 7,
-        "GA": 5,
-        "points": 10,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 5,
+        "losses": 3,
+        "GF": 12,
+        "GA": 11,
+        "points": 17,
+        "gamesPlayed": 12
       },
       "36": {
-        "wins": 4,
-        "draws": 0,
-        "losses": 2,
-        "GF": 9,
-        "GA": 6,
-        "points": 12,
-        "gamesPlayed": 6
-      },
-      "37": {
-        "wins": 1,
-        "draws": 4,
-        "losses": 1,
-        "GF": 5,
-        "GA": 6,
-        "points": 7,
-        "gamesPlayed": 6
-      },
-      "38": {
-        "wins": 2,
-        "draws": 0,
-        "losses": 4,
-        "GF": 7,
-        "GA": 8,
-        "points": 6,
-        "gamesPlayed": 6
-      },
-      "39": {
-        "wins": 0,
+        "wins": 6,
         "draws": 3,
         "losses": 3,
-        "GF": 6,
+        "GF": 17,
         "GA": 11,
-        "points": 3,
-        "gamesPlayed": 6
+        "points": 21,
+        "gamesPlayed": 12
       },
-      "40": {
-        "wins": 1,
-        "draws": 2,
-        "losses": 3,
-        "GF": 6,
-        "GA": 11,
-        "points": 5,
-        "gamesPlayed": 6
+      "37": {
+        "wins": 2,
+        "draws": 6,
+        "losses": 4,
+        "GF": 16,
+        "GA": 21,
+        "points": 12,
+        "gamesPlayed": 12
       },
-      "41": {
-        "wins": 3,
-        "draws": 0,
-        "losses": 3,
-        "GF": 9,
-        "GA": 8,
-        "points": 9,
-        "gamesPlayed": 6
+      "38": {
+        "wins": 4,
+        "draws": 4,
+        "losses": 4,
+        "GF": 13,
+        "GA": 14,
+        "points": 16,
+        "gamesPlayed": 12
       },
-      "42": {
-        "wins": 0,
+      "39": {
+        "wins": 6,
         "draws": 2,
         "losses": 4,
-        "GF": 5,
-        "GA": 12,
-        "points": 2,
-        "gamesPlayed": 6
+        "GF": 12,
+        "GA": 9,
+        "points": 20,
+        "gamesPlayed": 12
+      },
+      "40": {
+        "wins": 3,
+        "draws": 5,
+        "losses": 4,
+        "GF": 12,
+        "GA": 15,
+        "points": 14,
+        "gamesPlayed": 12
+      },
+      "41": {
+        "wins": 4,
+        "draws": 4,
+        "losses": 4,
+        "GF": 17,
+        "GA": 14,
+        "points": 16,
+        "gamesPlayed": 12
+      },
+      "42": {
+        "wins": 8,
+        "draws": 1,
+        "losses": 3,
+        "GF": 17,
+        "GA": 11,
+        "points": 25,
+        "gamesPlayed": 12
       },
       "43": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 7,
-        "GA": 5,
-        "points": 11,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 1,
+        "losses": 6,
+        "GF": 19,
+        "GA": 17,
+        "points": 16,
+        "gamesPlayed": 12
       }
     },
     "groupStage": null,
@@ -2004,505 +2415,745 @@
       [
         [
           43,
-          24
+          24,
+          1,
+          2
         ],
         [
           42,
-          25
+          25,
+          3,
+          1
         ],
         [
           41,
-          26
+          26,
+          1,
+          1
         ],
         [
           40,
-          27
+          27,
+          0,
+          1
         ],
         [
           39,
-          28
+          28,
+          0,
+          2
         ],
         [
           38,
-          29
+          29,
+          1,
+          2
         ],
         [
           37,
-          30
+          30,
+          1,
+          2
         ],
         [
           36,
-          31
+          31,
+          3,
+          2
         ],
         [
           35,
-          32
+          32,
+          1,
+          0
         ],
         [
           34,
-          33
+          33,
+          1,
+          0
         ]
       ],
       [
         [
           24,
-          42
+          42,
+          1,
+          3
         ],
         [
           43,
-          41
+          41,
+          1,
+          3
         ],
         [
           25,
-          40
+          40,
+          1,
+          1
         ],
         [
           26,
-          39
+          39,
+          0,
+          2
         ],
         [
           27,
-          38
+          38,
+          2,
+          2
         ],
         [
           28,
-          37
+          37,
+          2,
+          3
         ],
         [
           29,
-          36
+          36,
+          1,
+          0
         ],
         [
           30,
-          35
+          35,
+          1,
+          2
         ],
         [
           31,
-          34
+          34,
+          0,
+          1
         ],
         [
           32,
-          33
+          33,
+          2,
+          3
         ]
       ],
       [
         [
           41,
-          24
+          24,
+          1,
+          2
         ],
         [
           40,
-          42
+          42,
+          2,
+          1
         ],
         [
           39,
-          43
+          43,
+          1,
+          0
         ],
         [
           38,
-          25
+          25,
+          2,
+          2
         ],
         [
           37,
-          26
+          26,
+          1,
+          1
         ],
         [
           36,
-          27
+          27,
+          0,
+          2
         ],
         [
           35,
-          28
+          28,
+          0,
+          0
         ],
         [
           34,
-          29
+          29,
+          2,
+          1
         ],
         [
           33,
-          30
+          30,
+          1,
+          2
         ],
         [
           32,
-          31
+          31,
+          3,
+          1
         ]
       ],
       [
         [
           24,
-          40
+          40,
+          0,
+          2
         ],
         [
           41,
-          39
+          39,
+          1,
+          1
         ],
         [
           42,
-          38
+          38,
+          1,
+          0
         ],
         [
           43,
-          37
+          37,
+          4,
+          1
         ],
         [
           25,
-          36
+          36,
+          1,
+          1
         ],
         [
           26,
-          35
+          35,
+          2,
+          2
         ],
         [
           27,
-          34
+          34,
+          1,
+          3
         ],
         [
           28,
-          33
+          33,
+          0,
+          0
         ],
         [
           29,
-          32
+          32,
+          1,
+          2
         ],
         [
           30,
-          31
+          31,
+          0,
+          0
         ]
       ],
       [
         [
           39,
-          24
+          24,
+          0,
+          1
         ],
         [
           38,
-          40
+          40,
+          1,
+          1
         ],
         [
           37,
-          41
+          41,
+          1,
+          1
         ],
         [
           36,
-          42
+          42,
+          0,
+          1
         ],
         [
           35,
-          43
+          43,
+          2,
+          1
         ],
         [
           34,
-          25
+          25,
+          0,
+          0
         ],
         [
           33,
-          26
+          26,
+          0,
+          2
         ],
         [
           32,
-          27
+          27,
+          2,
+          0
         ],
         [
           31,
-          28
+          28,
+          0,
+          1
         ],
         [
           30,
-          29
+          29,
+          1,
+          1
         ]
       ],
       [
         [
           24,
-          38
+          38,
+          0,
+          1
         ],
         [
           39,
-          37
+          37,
+          2,
+          0
         ],
         [
           40,
-          36
+          36,
+          1,
+          1
         ],
         [
           41,
-          35
+          35,
+          1,
+          0
         ],
         [
           42,
-          34
+          34,
+          1,
+          2
         ],
         [
           43,
-          33
+          33,
+          1,
+          1
         ],
         [
           25,
-          32
+          32,
+          1,
+          1
         ],
         [
           26,
-          31
+          31,
+          0,
+          3
         ],
         [
           27,
-          30
+          30,
+          1,
+          1
         ],
         [
           28,
-          29
+          29,
+          1,
+          2
         ]
       ],
       [
         [
           37,
-          24
+          24,
+          2,
+          2
         ],
         [
           36,
-          38
+          38,
+          2,
+          0
         ],
         [
           35,
-          39
+          39,
+          1,
+          0
         ],
         [
           34,
-          40
+          40,
+          2,
+          1
         ],
         [
           33,
-          41
+          41,
+          1,
+          0
         ],
         [
           32,
-          42
+          42,
+          1,
+          1
         ],
         [
           31,
-          43
+          43,
+          2,
+          4
         ],
         [
           30,
-          25
+          25,
+          2,
+          1
         ],
         [
           29,
-          26
+          26,
+          2,
+          0
         ],
         [
           28,
-          27
+          27,
+          2,
+          0
         ]
       ],
       [
         [
           24,
-          36
+          36,
+          0,
+          2
         ],
         [
           37,
-          35
+          35,
+          2,
+          2
         ],
         [
           38,
-          34
+          34,
+          1,
+          0
         ],
         [
           39,
-          33
+          33,
+          1,
+          1
         ],
         [
           40,
-          32
+          32,
+          2,
+          1
         ],
         [
           41,
-          31
+          31,
+          2,
+          2
         ],
         [
           42,
-          30
+          30,
+          2,
+          1
         ],
         [
           43,
-          29
+          29,
+          3,
+          2
         ],
         [
           25,
-          28
+          28,
+          0,
+          1
         ],
         [
           26,
-          27
+          27,
+          1,
+          0
         ]
       ],
       [
         [
           35,
-          24
+          24,
+          1,
+          2
         ],
         [
           34,
-          36
+          36,
+          0,
+          1
         ],
         [
           33,
-          37
+          37,
+          0,
+          1
         ],
         [
           32,
-          38
+          38,
+          1,
+          1
         ],
         [
           31,
-          39
+          39,
+          2,
+          0
         ],
         [
           30,
-          40
+          40,
+          0,
+          0
         ],
         [
           29,
-          41
+          41,
+          0,
+          2
         ],
         [
           28,
-          42
+          42,
+          0,
+          1
         ],
         [
           27,
-          43
+          43,
+          1,
+          0
         ],
         [
           26,
-          25
+          25,
+          0,
+          0
         ]
       ],
       [
         [
           24,
-          34
+          34,
+          0,
+          0
         ],
         [
           35,
-          33
+          33,
+          0,
+          0
         ],
         [
           36,
-          32
+          32,
+          3,
+          1
         ],
         [
           37,
-          31
+          31,
+          1,
+          2
         ],
         [
           38,
-          30
+          30,
+          1,
+          0
         ],
         [
           39,
-          29
+          29,
+          3,
+          1
         ],
         [
           40,
-          28
+          28,
+          1,
+          3
         ],
         [
           41,
-          27
+          27,
+          4,
+          2
         ],
         [
           42,
-          26
+          26,
+          0,
+          3
         ],
         [
           43,
-          25
+          25,
+          1,
+          0
         ]
       ],
       [
         [
           33,
-          24
+          24,
+          0,
+          1
         ],
         [
           32,
-          34
+          34,
+          1,
+          1
         ],
         [
           31,
-          35
+          35,
+          1,
+          0
         ],
         [
           30,
-          36
+          36,
+          1,
+          1
         ],
         [
           29,
-          37
+          37,
+          2,
+          2
         ],
         [
           28,
-          38
+          38,
+          1,
+          2
         ],
         [
           27,
-          39
+          39,
+          0,
+          1
         ],
         [
           26,
-          40
+          40,
+          1,
+          1
         ],
         [
           25,
-          41
+          41,
+          2,
+          1
         ],
         [
           43,
-          42
+          42,
+          0,
+          2
         ]
       ],
       [
         [
           24,
-          32
+          32,
+          1,
+          1
         ],
         [
           33,
-          31
+          31,
+          0,
+          0
         ],
         [
           34,
-          30
+          30,
+          1,
+          1
         ],
         [
           35,
-          29
+          29,
+          1,
+          1
         ],
         [
           36,
-          28
+          28,
+          3,
+          1
         ],
         [
           37,
-          27
+          27,
+          1,
+          1
         ],
         [
           38,
-          26
+          26,
+          1,
+          2
         ],
         [
           39,
-          25
+          25,
+          1,
+          0
         ],
         [
           40,
-          43
+          43,
+          0,
+          3
         ],
         [
           41,
-          42
+          42,
+          0,
+          1
         ]
       ],
       [
@@ -3597,48 +4248,7 @@
           35
         ]
       ],
-      [
-        [
-          43,
-          24
-        ],
-        [
-          42,
-          25
-        ],
-        [
-          41,
-          26
-        ],
-        [
-          40,
-          27
-        ],
-        [
-          39,
-          28
-        ],
-        [
-          38,
-          29
-        ],
-        [
-          37,
-          30
-        ],
-        [
-          36,
-          31
-        ],
-        [
-          35,
-          32
-        ],
-        [
-          34,
-          33
-        ]
-      ],
+      [],
       [],
       [],
       [],
@@ -3684,225 +4294,225 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 7,
-    "hasPlayedWeek": 6,
+    "matchday": 13,
+    "hasPlayedWeek": 12,
     "lastLegWeek": 0,
     "stats": {
       "44": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 7,
-        "GA": 9,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 4,
+        "losses": 5,
+        "GF": 11,
+        "GA": 18,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "45": {
-        "wins": 2,
+        "wins": 5,
         "draws": 3,
-        "losses": 1,
-        "GF": 7,
-        "GA": 5,
-        "points": 9,
-        "gamesPlayed": 6
+        "losses": 4,
+        "GF": 11,
+        "GA": 8,
+        "points": 18,
+        "gamesPlayed": 12
       },
       "46": {
-        "wins": 3,
-        "draws": 1,
-        "losses": 2,
-        "GF": 6,
-        "GA": 7,
+        "wins": 2,
+        "draws": 4,
+        "losses": 6,
+        "GF": 13,
+        "GA": 19,
         "points": 10,
-        "gamesPlayed": 6
+        "gamesPlayed": 12
       },
       "47": {
-        "wins": 0,
-        "draws": 2,
+        "wins": 3,
+        "draws": 5,
         "losses": 4,
-        "GF": 4,
-        "GA": 9,
-        "points": 2,
-        "gamesPlayed": 6
+        "GF": 16,
+        "GA": 18,
+        "points": 14,
+        "gamesPlayed": 12
       },
       "48": {
-        "wins": 1,
-        "draws": 4,
-        "losses": 1,
-        "GF": 6,
-        "GA": 6,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 2,
+        "draws": 7,
+        "losses": 3,
+        "GF": 15,
+        "GA": 16,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "49": {
-        "wins": 4,
-        "draws": 1,
-        "losses": 1,
-        "GF": 9,
-        "GA": 4,
-        "points": 13,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 2,
+        "losses": 5,
+        "GF": 16,
+        "GA": 13,
+        "points": 17,
+        "gamesPlayed": 12
       },
       "50": {
         "wins": 3,
-        "draws": 3,
-        "losses": 0,
-        "GF": 10,
-        "GA": 2,
-        "points": 12,
-        "gamesPlayed": 6
+        "draws": 4,
+        "losses": 5,
+        "GF": 16,
+        "GA": 17,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "51": {
-        "wins": 2,
+        "wins": 6,
         "draws": 3,
-        "losses": 1,
-        "GF": 10,
-        "GA": 8,
-        "points": 9,
-        "gamesPlayed": 6
+        "losses": 3,
+        "GF": 18,
+        "GA": 13,
+        "points": 21,
+        "gamesPlayed": 12
       },
       "52": {
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "GF": 5,
-        "GA": 6,
-        "points": 6,
-        "gamesPlayed": 6
+        "wins": 2,
+        "draws": 5,
+        "losses": 5,
+        "GF": 8,
+        "GA": 15,
+        "points": 11,
+        "gamesPlayed": 12
       },
       "53": {
-        "wins": 0,
+        "wins": 3,
         "draws": 5,
-        "losses": 1,
-        "GF": 2,
-        "GA": 4,
-        "points": 5,
-        "gamesPlayed": 6
+        "losses": 4,
+        "GF": 16,
+        "GA": 19,
+        "points": 14,
+        "gamesPlayed": 12
       },
       "54": {
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "GF": 6,
-        "GA": 7,
-        "points": 6,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 5,
+        "losses": 4,
+        "GF": 9,
+        "GA": 10,
+        "points": 14,
+        "gamesPlayed": 12
       },
       "55": {
-        "wins": 1,
-        "draws": 3,
+        "wins": 8,
+        "draws": 2,
         "losses": 2,
-        "GF": 7,
-        "GA": 9,
-        "points": 6,
-        "gamesPlayed": 6
+        "GF": 25,
+        "GA": 13,
+        "points": 26,
+        "gamesPlayed": 12
       },
       "56": {
-        "wins": 2,
+        "wins": 4,
         "draws": 4,
-        "losses": 0,
-        "GF": 9,
-        "GA": 6,
-        "points": 10,
-        "gamesPlayed": 6
+        "losses": 4,
+        "GF": 13,
+        "GA": 15,
+        "points": 16,
+        "gamesPlayed": 12
       },
       "57": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 10,
-        "GA": 6,
-        "points": 11,
-        "gamesPlayed": 6
+        "wins": 1,
+        "draws": 7,
+        "losses": 4,
+        "GF": 8,
+        "GA": 13,
+        "points": 10,
+        "gamesPlayed": 12
       },
       "58": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 6,
-        "GA": 5,
-        "points": 11,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 4,
+        "losses": 4,
+        "GF": 17,
+        "GA": 19,
+        "points": 16,
+        "gamesPlayed": 12
       },
       "59": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 6,
-        "GA": 8,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 6,
+        "losses": 1,
+        "GF": 18,
+        "GA": 14,
+        "points": 21,
+        "gamesPlayed": 12
       },
       "60": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 6,
-        "GA": 10,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 2,
+        "losses": 5,
+        "GF": 15,
+        "GA": 14,
+        "points": 17,
+        "gamesPlayed": 12
       },
       "61": {
-        "wins": 4,
-        "draws": 2,
-        "losses": 0,
-        "GF": 10,
-        "GA": 3,
-        "points": 14,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 3,
+        "losses": 6,
+        "GF": 18,
+        "GA": 20,
+        "points": 12,
+        "gamesPlayed": 12
       },
       "62": {
-        "wins": 1,
-        "draws": 1,
-        "losses": 4,
-        "GF": 3,
-        "GA": 7,
-        "points": 4,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 4,
+        "losses": 5,
+        "GF": 11,
+        "GA": 13,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "63": {
-        "wins": 1,
-        "draws": 2,
+        "wins": 5,
+        "draws": 4,
         "losses": 3,
-        "GF": 5,
-        "GA": 8,
-        "points": 5,
-        "gamesPlayed": 6
+        "GF": 19,
+        "GA": 16,
+        "points": 19,
+        "gamesPlayed": 12
       },
       "64": {
-        "wins": 3,
-        "draws": 0,
-        "losses": 3,
-        "GF": 7,
-        "GA": 7,
-        "points": 9,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 6,
+        "losses": 1,
+        "GF": 19,
+        "GA": 14,
+        "points": 21,
+        "gamesPlayed": 12
       },
       "65": {
-        "wins": 1,
-        "draws": 1,
-        "losses": 4,
-        "GF": 6,
-        "GA": 10,
-        "points": 4,
-        "gamesPlayed": 6
+        "wins": 2,
+        "draws": 7,
+        "losses": 3,
+        "GF": 15,
+        "GA": 19,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "66": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 9,
-        "GA": 4,
-        "points": 11,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 5,
+        "losses": 3,
+        "GF": 16,
+        "GA": 12,
+        "points": 17,
+        "gamesPlayed": 12
       },
       "67": {
-        "wins": 1,
-        "draws": 2,
+        "wins": 6,
+        "draws": 3,
         "losses": 3,
-        "GF": 4,
-        "GA": 10,
-        "points": 5,
-        "gamesPlayed": 6
+        "GF": 18,
+        "GA": 13,
+        "points": 21,
+        "gamesPlayed": 12
       }
     },
     "groupStage": null,
@@ -3911,601 +4521,889 @@
       [
         [
           67,
-          44
+          44,
+          1,
+          1
         ],
         [
           66,
-          45
+          45,
+          0,
+          0
         ],
         [
           65,
-          46
+          46,
+          1,
+          1
         ],
         [
           64,
-          47
+          47,
+          1,
+          3
         ],
         [
           63,
-          48
+          48,
+          0,
+          1
         ],
         [
           62,
-          49
+          49,
+          0,
+          3
         ],
         [
           61,
-          50
+          50,
+          2,
+          1
         ],
         [
           60,
-          51
+          51,
+          1,
+          2
         ],
         [
           59,
-          52
+          52,
+          0,
+          0
         ],
         [
           58,
-          53
+          53,
+          2,
+          2
         ],
         [
           57,
-          54
+          54,
+          1,
+          2
         ],
         [
           56,
-          55
+          55,
+          2,
+          1
         ]
       ],
       [
         [
           44,
-          66
+          66,
+          1,
+          1
         ],
         [
           67,
-          65
+          65,
+          3,
+          0
         ],
         [
           45,
-          64
+          64,
+          0,
+          1
         ],
         [
           46,
-          63
+          63,
+          1,
+          2
         ],
         [
           47,
-          62
+          62,
+          2,
+          2
         ],
         [
           48,
-          61
+          61,
+          2,
+          2
         ],
         [
           49,
-          60
+          60,
+          0,
+          1
         ],
         [
           50,
-          59
+          59,
+          2,
+          1
         ],
         [
           51,
-          58
+          58,
+          3,
+          1
         ],
         [
           52,
-          57
+          57,
+          0,
+          0
         ],
         [
           53,
-          56
+          56,
+          2,
+          1
         ],
         [
           54,
-          55
+          55,
+          0,
+          1
         ]
       ],
       [
         [
           65,
-          44
+          44,
+          1,
+          0
         ],
         [
           64,
-          66
+          66,
+          2,
+          1
         ],
         [
           63,
-          67
+          67,
+          2,
+          1
         ],
         [
           62,
-          45
+          45,
+          0,
+          2
         ],
         [
           61,
-          46
+          46,
+          2,
+          2
         ],
         [
           60,
-          47
+          47,
+          1,
+          1
         ],
         [
           59,
-          48
+          48,
+          2,
+          2
         ],
         [
           58,
-          49
+          49,
+          0,
+          2
         ],
         [
           57,
-          50
+          50,
+          1,
+          1
         ],
         [
           56,
-          51
+          51,
+          0,
+          0
         ],
         [
           55,
-          52
+          52,
+          2,
+          1
         ],
         [
           54,
-          53
+          53,
+          1,
+          0
         ]
       ],
       [
         [
           44,
-          64
+          64,
+          1,
+          1
         ],
         [
           65,
-          63
+          63,
+          2,
+          2
         ],
         [
           66,
-          62
+          62,
+          1,
+          0
         ],
         [
           67,
-          61
+          61,
+          2,
+          1
         ],
         [
           45,
-          60
+          60,
+          1,
+          3
         ],
         [
           46,
-          59
+          59,
+          1,
+          2
         ],
         [
           47,
-          58
+          58,
+          2,
+          2
         ],
         [
           48,
-          57
+          57,
+          1,
+          1
         ],
         [
           49,
-          56
+          56,
+          2,
+          1
         ],
         [
           50,
-          55
+          55,
+          0,
+          4
         ],
         [
           51,
-          54
+          54,
+          1,
+          0
         ],
         [
           52,
-          53
+          53,
+          1,
+          1
         ]
       ],
       [
         [
           63,
-          44
+          44,
+          4,
+          1
         ],
         [
           62,
-          64
+          64,
+          1,
+          1
         ],
         [
           61,
-          65
+          65,
+          1,
+          1
         ],
         [
           60,
-          66
+          66,
+          1,
+          0
         ],
         [
           59,
-          67
+          67,
+          2,
+          2
         ],
         [
           58,
-          45
+          45,
+          1,
+          2
         ],
         [
           57,
-          46
+          46,
+          1,
+          0
         ],
         [
           56,
-          47
+          47,
+          1,
+          0
         ],
         [
           55,
-          48
+          48,
+          1,
+          1
         ],
         [
           54,
-          49
+          49,
+          0,
+          1
         ],
         [
           53,
-          50
+          50,
+          0,
+          4
         ],
         [
           52,
-          51
+          51,
+          1,
+          2
         ]
       ],
       [
         [
           44,
-          62
+          62,
+          0,
+          3
         ],
         [
           63,
-          61
+          61,
+          3,
+          0
         ],
         [
           64,
-          60
+          60,
+          2,
+          1
         ],
         [
           65,
-          59
+          59,
+          1,
+          2
         ],
         [
           66,
-          58
+          58,
+          3,
+          1
         ],
         [
           67,
-          57
+          57,
+          0,
+          0
         ],
         [
           45,
-          56
+          56,
+          1,
+          1
         ],
         [
           46,
-          55
+          55,
+          1,
+          3
         ],
         [
           47,
-          54
+          54,
+          1,
+          1
         ],
         [
           48,
-          53
+          53,
+          2,
+          2
         ],
         [
           49,
-          52
+          52,
+          0,
+          1
         ],
         [
           50,
-          51
+          51,
+          1,
+          1
         ]
       ],
       [
         [
           61,
-          44
+          44,
+          1,
+          2
         ],
         [
           60,
-          62
+          62,
+          2,
+          1
         ],
         [
           59,
-          63
+          63,
+          1,
+          1
         ],
         [
           58,
-          64
+          64,
+          1,
+          1
         ],
         [
           57,
-          65
+          65,
+          1,
+          1
         ],
         [
           56,
-          66
+          66,
+          2,
+          1
         ],
         [
           55,
-          67
+          67,
+          2,
+          1
         ],
         [
           54,
-          45
+          45,
+          1,
+          0
         ],
         [
           53,
-          46
+          46,
+          1,
+          1
         ],
         [
           52,
-          47
+          47,
+          1,
+          3
         ],
         [
           51,
-          48
+          48,
+          1,
+          1
         ],
         [
           50,
-          49
+          49,
+          2,
+          2
         ]
       ],
       [
         [
           44,
-          60
+          60,
+          1,
+          0
         ],
         [
           61,
-          59
+          59,
+          0,
+          1
         ],
         [
           62,
-          58
+          58,
+          0,
+          1
         ],
         [
           63,
-          57
+          57,
+          1,
+          1
         ],
         [
           64,
-          56
+          56,
+          3,
+          0
         ],
         [
           65,
-          55
+          55,
+          2,
+          2
         ],
         [
           66,
-          54
+          54,
+          1,
+          1
         ],
         [
           67,
-          53
+          53,
+          2,
+          1
         ],
         [
           45,
-          52
+          52,
+          0,
+          0
         ],
         [
           46,
-          51
+          51,
+          0,
+          2
         ],
         [
           47,
-          50
+          50,
+          0,
+          3
         ],
         [
           48,
-          49
+          49,
+          2,
+          1
         ]
       ],
       [
         [
           59,
-          44
+          44,
+          2,
+          2
         ],
         [
           58,
-          60
+          60,
+          3,
+          2
         ],
         [
           57,
-          61
+          61,
+          0,
+          3
         ],
         [
           56,
-          62
+          62,
+          1,
+          1
         ],
         [
           55,
-          63
+          63,
+          4,
+          1
         ],
         [
           54,
-          64
+          64,
+          2,
+          2
         ],
         [
           53,
-          65
+          65,
+          3,
+          1
         ],
         [
           52,
-          66
+          66,
+          0,
+          3
         ],
         [
           51,
-          67
+          67,
+          0,
+          2
         ],
         [
           50,
-          45
+          45,
+          0,
+          2
         ],
         [
           49,
-          46
+          46,
+          1,
+          2
         ],
         [
           48,
-          47
+          47,
+          0,
+          1
         ]
       ],
       [
         [
           44,
-          58
+          58,
+          0,
+          2
         ],
         [
           59,
-          57
+          57,
+          1,
+          1
         ],
         [
           60,
-          56
+          56,
+          2,
+          2
         ],
         [
           61,
-          55
+          55,
+          2,
+          3
         ],
         [
           62,
-          54
+          54,
+          0,
+          0
         ],
         [
           63,
-          53
+          53,
+          0,
+          0
         ],
         [
           64,
-          52
+          52,
+          2,
+          2
         ],
         [
           65,
-          51
+          51,
+          4,
+          3
         ],
         [
           66,
-          50
+          50,
+          1,
+          1
         ],
         [
           67,
-          49
+          49,
+          1,
+          3
         ],
         [
           45,
-          48
+          48,
+          1,
+          0
         ],
         [
           46,
-          47
+          47,
+          3,
+          1
         ]
       ],
       [
         [
           57,
-          44
+          44,
+          1,
+          2
         ],
         [
           56,
-          58
+          58,
+          1,
+          2
         ],
         [
           55,
-          59
+          59,
+          1,
+          2
         ],
         [
           54,
-          60
+          60,
+          0,
+          1
         ],
         [
           53,
-          61
+          61,
+          3,
+          2
         ],
         [
           52,
-          62
+          62,
+          0,
+          2
         ],
         [
           51,
-          63
+          63,
+          3,
+          0
         ],
         [
           50,
-          64
+          64,
+          1,
+          2
         ],
         [
           49,
-          65
+          65,
+          0,
+          0
         ],
         [
           48,
-          66
+          66,
+          2,
+          3
         ],
         [
           47,
-          67
+          67,
+          1,
+          2
         ],
         [
           46,
-          45
+          45,
+          0,
+          2
         ]
       ],
       [
         [
           44,
-          56
+          56,
+          0,
+          1
         ],
         [
           57,
-          55
+          55,
+          0,
+          1
         ],
         [
           58,
-          54
+          54,
+          1,
+          1
         ],
         [
           59,
-          53
+          53,
+          2,
+          1
         ],
         [
           60,
-          52
+          52,
+          0,
+          1
         ],
         [
           61,
-          51
+          51,
+          2,
+          0
         ],
         [
           62,
-          50
+          50,
+          1,
+          0
         ],
         [
           63,
-          49
+          49,
+          3,
+          1
         ],
         [
           64,
-          48
+          48,
+          1,
+          1
         ],
         [
           65,
-          47
+          47,
+          1,
+          1
         ],
         [
           66,
-          46
+          46,
+          1,
+          1
         ],
         [
           67,
-          45
+          45,
+          1,
+          0
         ]
       ],
       [
@@ -6208,56 +7106,7 @@
           57
         ]
       ],
-      [
-        [
-          67,
-          44
-        ],
-        [
-          66,
-          45
-        ],
-        [
-          65,
-          46
-        ],
-        [
-          64,
-          47
-        ],
-        [
-          63,
-          48
-        ],
-        [
-          62,
-          49
-        ],
-        [
-          61,
-          50
-        ],
-        [
-          60,
-          51
-        ],
-        [
-          59,
-          52
-        ],
-        [
-          58,
-          53
-        ],
-        [
-          57,
-          54
-        ],
-        [
-          56,
-          55
-        ]
-      ],
+      [],
       [],
       [],
       [],
@@ -6290,180 +7139,180 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 7,
-    "hasPlayedWeek": 6,
+    "matchday": 13,
+    "hasPlayedWeek": 12,
     "lastLegWeek": 0,
     "stats": {
       "68": {
-        "wins": 3,
-        "draws": 2,
+        "wins": 5,
+        "draws": 6,
         "losses": 1,
-        "GF": 12,
-        "GA": 8,
-        "points": 11,
-        "gamesPlayed": 6
+        "GF": 17,
+        "GA": 13,
+        "points": 21,
+        "gamesPlayed": 12
       },
       "69": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 7,
-        "GA": 9,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 4,
+        "losses": 5,
+        "GF": 13,
+        "GA": 16,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "70": {
-        "wins": 2,
-        "draws": 3,
-        "losses": 1,
-        "GF": 10,
-        "GA": 7,
-        "points": 9,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 4,
+        "losses": 4,
+        "GF": 18,
+        "GA": 17,
+        "points": 16,
+        "gamesPlayed": 12
       },
       "71": {
-        "wins": 2,
-        "draws": 3,
-        "losses": 1,
-        "GF": 7,
-        "GA": 7,
-        "points": 9,
-        "gamesPlayed": 6
+        "wins": 6,
+        "draws": 2,
+        "losses": 4,
+        "GF": 14,
+        "GA": 12,
+        "points": 20,
+        "gamesPlayed": 12
       },
       "72": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 5,
-        "GA": 6,
-        "points": 8,
-        "gamesPlayed": 6
+        "wins": 3,
+        "draws": 5,
+        "losses": 4,
+        "GF": 9,
+        "GA": 12,
+        "points": 14,
+        "gamesPlayed": 12
       },
       "73": {
-        "wins": 2,
+        "wins": 8,
         "draws": 2,
         "losses": 2,
-        "GF": 6,
-        "GA": 6,
-        "points": 8,
-        "gamesPlayed": 6
+        "GF": 19,
+        "GA": 9,
+        "points": 26,
+        "gamesPlayed": 12
       },
       "74": {
         "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 8,
-        "GA": 6,
-        "points": 11,
-        "gamesPlayed": 6
+        "draws": 4,
+        "losses": 5,
+        "GF": 10,
+        "GA": 14,
+        "points": 13,
+        "gamesPlayed": 12
       },
       "75": {
-        "wins": 3,
-        "draws": 1,
+        "wins": 4,
+        "draws": 5,
         "losses": 2,
-        "GF": 8,
-        "GA": 9,
-        "points": 10,
-        "gamesPlayed": 6
+        "GF": 13,
+        "GA": 11,
+        "points": 17,
+        "gamesPlayed": 11
       },
       "76": {
         "wins": 2,
-        "draws": 0,
-        "losses": 4,
-        "GF": 7,
-        "GA": 8,
-        "points": 6,
-        "gamesPlayed": 6
+        "draws": 8,
+        "losses": 1,
+        "GF": 12,
+        "GA": 12,
+        "points": 14,
+        "gamesPlayed": 11
       },
       "77": {
-        "wins": 1,
-        "draws": 2,
+        "wins": 2,
+        "draws": 6,
         "losses": 3,
-        "GF": 4,
-        "GA": 7,
-        "points": 5,
-        "gamesPlayed": 6
+        "GF": 8,
+        "GA": 9,
+        "points": 12,
+        "gamesPlayed": 11
       },
       "78": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 6,
-        "GA": 7,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 4,
+        "draws": 2,
+        "losses": 5,
+        "GF": 9,
+        "GA": 10,
+        "points": 14,
+        "gamesPlayed": 11
       },
       "79": {
-        "wins": 2,
-        "draws": 3,
-        "losses": 1,
-        "GF": 6,
-        "GA": 4,
-        "points": 9,
-        "gamesPlayed": 6
+        "wins": 1,
+        "draws": 5,
+        "losses": 5,
+        "GF": 12,
+        "GA": 16,
+        "points": 8,
+        "gamesPlayed": 11
       },
       "80": {
-        "wins": 2,
-        "draws": 1,
+        "wins": 4,
+        "draws": 4,
         "losses": 3,
-        "GF": 9,
-        "GA": 9,
-        "points": 7,
-        "gamesPlayed": 6
+        "GF": 15,
+        "GA": 12,
+        "points": 16,
+        "gamesPlayed": 11
       },
       "81": {
-        "wins": 0,
-        "draws": 0,
+        "wins": 4,
+        "draws": 2,
         "losses": 5,
-        "GF": 2,
-        "GA": 10,
-        "points": 0,
-        "gamesPlayed": 5
+        "GF": 15,
+        "GA": 16,
+        "points": 14,
+        "gamesPlayed": 11
       },
       "82": {
-        "wins": 1,
+        "wins": 3,
         "draws": 1,
-        "losses": 3,
-        "GF": 5,
-        "GA": 7,
-        "points": 4,
-        "gamesPlayed": 5
+        "losses": 7,
+        "GF": 7,
+        "GA": 15,
+        "points": 10,
+        "gamesPlayed": 11
       },
       "83": {
-        "wins": 4,
-        "draws": 0,
-        "losses": 1,
-        "GF": 8,
-        "GA": 6,
-        "points": 12,
-        "gamesPlayed": 5
+        "wins": 3,
+        "draws": 4,
+        "losses": 4,
+        "GF": 13,
+        "GA": 12,
+        "points": 13,
+        "gamesPlayed": 11
       },
       "84": {
-        "wins": 1,
-        "draws": 2,
-        "losses": 2,
-        "GF": 6,
-        "GA": 6,
-        "points": 5,
-        "gamesPlayed": 5
+        "wins": 4,
+        "draws": 3,
+        "losses": 4,
+        "GF": 14,
+        "GA": 15,
+        "points": 15,
+        "gamesPlayed": 11
       },
       "85": {
-        "wins": 2,
+        "wins": 5,
         "draws": 2,
-        "losses": 1,
-        "GF": 6,
-        "GA": 6,
-        "points": 8,
-        "gamesPlayed": 5
+        "losses": 4,
+        "GF": 16,
+        "GA": 14,
+        "points": 17,
+        "gamesPlayed": 11
       },
       "86": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 0,
-        "GF": 8,
-        "GA": 2,
-        "points": 11,
-        "gamesPlayed": 5
+        "wins": 5,
+        "draws": 1,
+        "losses": 5,
+        "GF": 13,
+        "GA": 12,
+        "points": 16,
+        "gamesPlayed": 11
       }
     },
     "groupStage": null,
@@ -6472,6 +7321,906 @@
       [
         [
           85,
+          68,
+          2,
+          3
+        ],
+        [
+          84,
+          69,
+          1,
+          1
+        ],
+        [
+          83,
+          70,
+          2,
+          2
+        ],
+        [
+          82,
+          71,
+          1,
+          0
+        ],
+        [
+          81,
+          72,
+          1,
+          3
+        ],
+        [
+          80,
+          73,
+          0,
+          1
+        ],
+        [
+          79,
+          74,
+          0,
+          1
+        ],
+        [
+          78,
+          75,
+          2,
+          1
+        ],
+        [
+          77,
+          76,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          68,
+          84,
+          0,
+          1
+        ],
+        [
+          86,
+          83,
+          0,
+          2
+        ],
+        [
+          69,
+          82,
+          1,
+          2
+        ],
+        [
+          70,
+          81,
+          3,
+          1
+        ],
+        [
+          71,
+          80,
+          0,
+          2
+        ],
+        [
+          72,
+          79,
+          0,
+          0
+        ],
+        [
+          73,
+          78,
+          2,
+          0
+        ],
+        [
+          74,
+          77,
+          2,
+          2
+        ],
+        [
+          75,
+          76,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          83,
+          68,
+          1,
+          2
+        ],
+        [
+          82,
+          85,
+          1,
+          2
+        ],
+        [
+          81,
+          86,
+          2,
+          1
+        ],
+        [
+          80,
+          69,
+          0,
+          0
+        ],
+        [
+          79,
+          70,
+          2,
+          2
+        ],
+        [
+          78,
+          71,
+          0,
+          1
+        ],
+        [
+          77,
+          72,
+          0,
+          0
+        ],
+        [
+          76,
+          73,
+          1,
+          1
+        ],
+        [
+          75,
+          74,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          68,
+          82,
+          2,
+          1
+        ],
+        [
+          84,
+          81,
+          1,
+          4
+        ],
+        [
+          85,
+          80,
+          3,
+          3
+        ],
+        [
+          86,
+          79,
+          2,
+          1
+        ],
+        [
+          69,
+          78,
+          1,
+          2
+        ],
+        [
+          70,
+          77,
+          1,
+          0
+        ],
+        [
+          71,
+          76,
+          1,
+          2
+        ],
+        [
+          72,
+          75,
+          1,
+          1
+        ],
+        [
+          73,
+          74,
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          81,
+          68,
+          1,
+          2
+        ],
+        [
+          80,
+          83,
+          1,
+          0
+        ],
+        [
+          79,
+          84,
+          2,
+          3
+        ],
+        [
+          78,
+          85,
+          2,
+          0
+        ],
+        [
+          77,
+          86,
+          1,
+          0
+        ],
+        [
+          76,
+          69,
+          2,
+          2
+        ],
+        [
+          75,
+          70,
+          2,
+          1
+        ],
+        [
+          74,
+          71,
+          1,
+          2
+        ],
+        [
+          73,
+          72,
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          68,
+          80,
+          2,
+          2
+        ],
+        [
+          82,
+          79,
+          1,
+          0
+        ],
+        [
+          83,
+          78,
+          0,
+          0
+        ],
+        [
+          84,
+          77,
+          1,
+          2
+        ],
+        [
+          85,
+          76,
+          3,
+          1
+        ],
+        [
+          86,
+          75,
+          3,
+          1
+        ],
+        [
+          69,
+          74,
+          1,
+          1
+        ],
+        [
+          70,
+          73,
+          1,
+          2
+        ],
+        [
+          71,
+          72,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          79,
+          68,
+          2,
+          2
+        ],
+        [
+          78,
+          81,
+          2,
+          1
+        ],
+        [
+          77,
+          82,
+          0,
+          0
+        ],
+        [
+          76,
+          83,
+          1,
+          1
+        ],
+        [
+          75,
+          84,
+          0,
+          0
+        ],
+        [
+          74,
+          85,
+          1,
+          0
+        ],
+        [
+          73,
+          86,
+          0,
+          2
+        ],
+        [
+          72,
+          69,
+          1,
+          4
+        ],
+        [
+          71,
+          70,
+          3,
+          1
+        ]
+      ],
+      [
+        [
+          68,
+          78,
+          1,
+          0
+        ],
+        [
+          80,
+          77,
+          1,
+          0
+        ],
+        [
+          81,
+          76,
+          0,
+          0
+        ],
+        [
+          82,
+          75,
+          0,
+          2
+        ],
+        [
+          83,
+          74,
+          3,
+          1
+        ],
+        [
+          84,
+          73,
+          2,
+          2
+        ],
+        [
+          85,
+          72,
+          1,
+          0
+        ],
+        [
+          86,
+          71,
+          1,
+          0
+        ],
+        [
+          69,
+          70,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          77,
+          68,
+          2,
+          2
+        ],
+        [
+          76,
+          79,
+          1,
+          1
+        ],
+        [
+          75,
+          80,
+          2,
+          1
+        ],
+        [
+          74,
+          81,
+          1,
+          1
+        ],
+        [
+          73,
+          82,
+          3,
+          0
+        ],
+        [
+          72,
+          83,
+          1,
+          0
+        ],
+        [
+          71,
+          84,
+          2,
+          1
+        ],
+        [
+          70,
+          85,
+          1,
+          2
+        ],
+        [
+          69,
+          86,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          68,
+          76,
+          0,
+          0
+        ],
+        [
+          78,
+          75,
+          1,
+          1
+        ],
+        [
+          79,
+          74,
+          2,
+          1
+        ],
+        [
+          80,
+          73,
+          1,
+          2
+        ],
+        [
+          81,
+          72,
+          1,
+          0
+        ],
+        [
+          82,
+          71,
+          1,
+          2
+        ],
+        [
+          83,
+          70,
+          1,
+          1
+        ],
+        [
+          84,
+          69,
+          0,
+          1
+        ],
+        [
+          85,
+          86,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          75,
+          68,
+          1,
+          1
+        ],
+        [
+          74,
+          77,
+          1,
+          0
+        ],
+        [
+          73,
+          78,
+          1,
+          0
+        ],
+        [
+          72,
+          79,
+          2,
+          1
+        ],
+        [
+          71,
+          80,
+          1,
+          1
+        ],
+        [
+          70,
+          81,
+          2,
+          1
+        ],
+        [
+          69,
+          82,
+          1,
+          0
+        ],
+        [
+          86,
+          83,
+          0,
+          2
+        ],
+        [
+          85,
+          84,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          68,
+          74,
+          0,
+          0
+        ],
+        [
+          76,
+          73,
+          2,
+          1
+        ],
+        [
+          77,
+          72,
+          0,
+          0
+        ],
+        [
+          78,
+          71,
+          0,
+          1
+        ],
+        [
+          79,
+          70,
+          1,
+          1
+        ],
+        [
+          80,
+          69,
+          3,
+          1
+        ],
+        [
+          81,
+          86,
+          2,
+          1
+        ],
+        [
+          82,
+          85,
+          0,
+          2
+        ],
+        [
+          83,
+          84,
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          73,
+          68
+        ],
+        [
+          72,
+          75
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          70,
+          77
+        ],
+        [
+          69,
+          78
+        ],
+        [
+          86,
+          79
+        ],
+        [
+          85,
+          80
+        ],
+        [
+          84,
+          81
+        ],
+        [
+          83,
+          82
+        ]
+      ],
+      [
+        [
+          68,
+          72
+        ],
+        [
+          74,
+          71
+        ],
+        [
+          75,
+          70
+        ],
+        [
+          76,
+          69
+        ],
+        [
+          77,
+          86
+        ],
+        [
+          78,
+          85
+        ],
+        [
+          79,
+          84
+        ],
+        [
+          80,
+          83
+        ],
+        [
+          81,
+          82
+        ]
+      ],
+      [
+        [
+          71,
+          68
+        ],
+        [
+          70,
+          73
+        ],
+        [
+          69,
+          74
+        ],
+        [
+          86,
+          75
+        ],
+        [
+          85,
+          76
+        ],
+        [
+          84,
+          77
+        ],
+        [
+          83,
+          78
+        ],
+        [
+          82,
+          79
+        ],
+        [
+          81,
+          80
+        ]
+      ],
+      [
+        [
+          68,
+          70
+        ],
+        [
+          72,
+          69
+        ],
+        [
+          73,
+          86
+        ],
+        [
+          74,
+          85
+        ],
+        [
+          75,
+          84
+        ],
+        [
+          76,
+          83
+        ],
+        [
+          77,
+          82
+        ],
+        [
+          78,
+          81
+        ],
+        [
+          79,
+          80
+        ]
+      ],
+      [
+        [
+          69,
+          68
+        ],
+        [
+          86,
+          71
+        ],
+        [
+          85,
+          72
+        ],
+        [
+          84,
+          73
+        ],
+        [
+          83,
+          74
+        ],
+        [
+          82,
+          75
+        ],
+        [
+          81,
+          76
+        ],
+        [
+          80,
+          77
+        ],
+        [
+          79,
+          78
+        ]
+      ],
+      [
+        [
+          68,
+          86
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          71,
+          84
+        ],
+        [
+          72,
+          83
+        ],
+        [
+          73,
+          82
+        ],
+        [
+          74,
+          81
+        ],
+        [
+          75,
+          80
+        ],
+        [
+          76,
+          79
+        ],
+        [
+          77,
+          78
+        ]
+      ],
+      [
+        [
+          85,
           68
         ],
         [
@@ -7153,728 +8902,7 @@
           78
         ]
       ],
-      [
-        [
-          85,
-          68
-        ],
-        [
-          84,
-          69
-        ],
-        [
-          83,
-          70
-        ],
-        [
-          82,
-          71
-        ],
-        [
-          81,
-          72
-        ],
-        [
-          80,
-          73
-        ],
-        [
-          79,
-          74
-        ],
-        [
-          78,
-          75
-        ],
-        [
-          77,
-          76
-        ]
-      ],
-      [
-        [
-          68,
-          84
-        ],
-        [
-          86,
-          83
-        ],
-        [
-          69,
-          82
-        ],
-        [
-          70,
-          81
-        ],
-        [
-          71,
-          80
-        ],
-        [
-          72,
-          79
-        ],
-        [
-          73,
-          78
-        ],
-        [
-          74,
-          77
-        ],
-        [
-          75,
-          76
-        ]
-      ],
-      [
-        [
-          83,
-          68
-        ],
-        [
-          82,
-          85
-        ],
-        [
-          81,
-          86
-        ],
-        [
-          80,
-          69
-        ],
-        [
-          79,
-          70
-        ],
-        [
-          78,
-          71
-        ],
-        [
-          77,
-          72
-        ],
-        [
-          76,
-          73
-        ],
-        [
-          75,
-          74
-        ]
-      ],
-      [
-        [
-          68,
-          82
-        ],
-        [
-          84,
-          81
-        ],
-        [
-          85,
-          80
-        ],
-        [
-          86,
-          79
-        ],
-        [
-          69,
-          78
-        ],
-        [
-          70,
-          77
-        ],
-        [
-          71,
-          76
-        ],
-        [
-          72,
-          75
-        ],
-        [
-          73,
-          74
-        ]
-      ],
-      [
-        [
-          81,
-          68
-        ],
-        [
-          80,
-          83
-        ],
-        [
-          79,
-          84
-        ],
-        [
-          78,
-          85
-        ],
-        [
-          77,
-          86
-        ],
-        [
-          76,
-          69
-        ],
-        [
-          75,
-          70
-        ],
-        [
-          74,
-          71
-        ],
-        [
-          73,
-          72
-        ]
-      ],
-      [
-        [
-          68,
-          80
-        ],
-        [
-          82,
-          79
-        ],
-        [
-          83,
-          78
-        ],
-        [
-          84,
-          77
-        ],
-        [
-          85,
-          76
-        ],
-        [
-          86,
-          75
-        ],
-        [
-          69,
-          74
-        ],
-        [
-          70,
-          73
-        ],
-        [
-          71,
-          72
-        ]
-      ],
-      [
-        [
-          79,
-          68
-        ],
-        [
-          78,
-          81
-        ],
-        [
-          77,
-          82
-        ],
-        [
-          76,
-          83
-        ],
-        [
-          75,
-          84
-        ],
-        [
-          74,
-          85
-        ],
-        [
-          73,
-          86
-        ],
-        [
-          72,
-          69
-        ],
-        [
-          71,
-          70
-        ]
-      ],
-      [
-        [
-          68,
-          78
-        ],
-        [
-          80,
-          77
-        ],
-        [
-          81,
-          76
-        ],
-        [
-          82,
-          75
-        ],
-        [
-          83,
-          74
-        ],
-        [
-          84,
-          73
-        ],
-        [
-          85,
-          72
-        ],
-        [
-          86,
-          71
-        ],
-        [
-          69,
-          70
-        ]
-      ],
-      [
-        [
-          77,
-          68
-        ],
-        [
-          76,
-          79
-        ],
-        [
-          75,
-          80
-        ],
-        [
-          74,
-          81
-        ],
-        [
-          73,
-          82
-        ],
-        [
-          72,
-          83
-        ],
-        [
-          71,
-          84
-        ],
-        [
-          70,
-          85
-        ],
-        [
-          69,
-          86
-        ]
-      ],
-      [
-        [
-          68,
-          76
-        ],
-        [
-          78,
-          75
-        ],
-        [
-          79,
-          74
-        ],
-        [
-          80,
-          73
-        ],
-        [
-          81,
-          72
-        ],
-        [
-          82,
-          71
-        ],
-        [
-          83,
-          70
-        ],
-        [
-          84,
-          69
-        ],
-        [
-          85,
-          86
-        ]
-      ],
-      [
-        [
-          75,
-          68
-        ],
-        [
-          74,
-          77
-        ],
-        [
-          73,
-          78
-        ],
-        [
-          72,
-          79
-        ],
-        [
-          71,
-          80
-        ],
-        [
-          70,
-          81
-        ],
-        [
-          69,
-          82
-        ],
-        [
-          86,
-          83
-        ],
-        [
-          85,
-          84
-        ]
-      ],
-      [
-        [
-          68,
-          74
-        ],
-        [
-          76,
-          73
-        ],
-        [
-          77,
-          72
-        ],
-        [
-          78,
-          71
-        ],
-        [
-          79,
-          70
-        ],
-        [
-          80,
-          69
-        ],
-        [
-          81,
-          86
-        ],
-        [
-          82,
-          85
-        ],
-        [
-          83,
-          84
-        ]
-      ],
-      [
-        [
-          73,
-          68
-        ],
-        [
-          72,
-          75
-        ],
-        [
-          71,
-          76
-        ],
-        [
-          70,
-          77
-        ],
-        [
-          69,
-          78
-        ],
-        [
-          86,
-          79
-        ],
-        [
-          85,
-          80
-        ],
-        [
-          84,
-          81
-        ],
-        [
-          83,
-          82
-        ]
-      ],
-      [
-        [
-          68,
-          72
-        ],
-        [
-          74,
-          71
-        ],
-        [
-          75,
-          70
-        ],
-        [
-          76,
-          69
-        ],
-        [
-          77,
-          86
-        ],
-        [
-          78,
-          85
-        ],
-        [
-          79,
-          84
-        ],
-        [
-          80,
-          83
-        ],
-        [
-          81,
-          82
-        ]
-      ],
-      [
-        [
-          71,
-          68
-        ],
-        [
-          70,
-          73
-        ],
-        [
-          69,
-          74
-        ],
-        [
-          86,
-          75
-        ],
-        [
-          85,
-          76
-        ],
-        [
-          84,
-          77
-        ],
-        [
-          83,
-          78
-        ],
-        [
-          82,
-          79
-        ],
-        [
-          81,
-          80
-        ]
-      ],
-      [
-        [
-          68,
-          70
-        ],
-        [
-          72,
-          69
-        ],
-        [
-          73,
-          86
-        ],
-        [
-          74,
-          85
-        ],
-        [
-          75,
-          84
-        ],
-        [
-          76,
-          83
-        ],
-        [
-          77,
-          82
-        ],
-        [
-          78,
-          81
-        ],
-        [
-          79,
-          80
-        ]
-      ],
-      [
-        [
-          69,
-          68
-        ],
-        [
-          86,
-          71
-        ],
-        [
-          85,
-          72
-        ],
-        [
-          84,
-          73
-        ],
-        [
-          83,
-          74
-        ],
-        [
-          82,
-          75
-        ],
-        [
-          81,
-          76
-        ],
-        [
-          80,
-          77
-        ],
-        [
-          79,
-          78
-        ]
-      ],
-      [
-        [
-          68,
-          86
-        ],
-        [
-          70,
-          85
-        ],
-        [
-          71,
-          84
-        ],
-        [
-          72,
-          83
-        ],
-        [
-          73,
-          82
-        ],
-        [
-          74,
-          81
-        ],
-        [
-          75,
-          80
-        ],
-        [
-          76,
-          79
-        ],
-        [
-          77,
-          78
-        ]
-      ],
-      [
-        [
-          85,
-          68
-        ],
-        [
-          84,
-          69
-        ],
-        [
-          83,
-          70
-        ],
-        [
-          82,
-          71
-        ],
-        [
-          81,
-          72
-        ],
-        [
-          80,
-          73
-        ],
-        [
-          79,
-          74
-        ],
-        [
-          78,
-          75
-        ],
-        [
-          77,
-          76
-        ]
-      ],
+      [],
       [],
       [],
       [],
@@ -7930,11 +8958,137 @@
     "remainingTeams": [],
     "type": "euro",
     "identifier": "EuroCup",
-    "matchday": 7,
-    "hasPlayedWeek": 6,
+    "matchday": 13,
+    "hasPlayedWeek": 12,
     "lastLegWeek": 11,
     "stats": {
       "24": {
+        "wins": 3,
+        "draws": 3,
+        "losses": 2,
+        "GF": 11,
+        "GA": 9,
+        "points": 12,
+        "gamesPlayed": 8
+      },
+      "25": {
+        "wins": 1,
+        "draws": 2,
+        "losses": 3,
+        "GF": 4,
+        "GA": 7,
+        "points": 5,
+        "gamesPlayed": 6
+      },
+      "26": {
+        "wins": 1,
+        "draws": 3,
+        "losses": 2,
+        "GF": 8,
+        "GA": 10,
+        "points": 6,
+        "gamesPlayed": 6
+      },
+      "27": {
+        "wins": 3,
+        "draws": 2,
+        "losses": 3,
+        "GF": 7,
+        "GA": 8,
+        "points": 11,
+        "gamesPlayed": 8
+      },
+      "28": {
+        "wins": 1,
+        "draws": 2,
+        "losses": 3,
+        "GF": 3,
+        "GA": 8,
+        "points": 5,
+        "gamesPlayed": 6
+      },
+      "29": {
+        "wins": 1,
+        "draws": 2,
+        "losses": 3,
+        "GF": 8,
+        "GA": 10,
+        "points": 5,
+        "gamesPlayed": 6
+      },
+      "30": {
+        "wins": 5,
+        "draws": 1,
+        "losses": 2,
+        "GF": 12,
+        "GA": 7,
+        "points": 16,
+        "gamesPlayed": 8
+      },
+      "31": {
+        "wins": 2,
+        "draws": 4,
+        "losses": 4,
+        "GF": 11,
+        "GA": 14,
+        "points": 10,
+        "gamesPlayed": 10
+      },
+      "32": {
+        "wins": 4,
+        "draws": 3,
+        "losses": 1,
+        "GF": 13,
+        "GA": 7,
+        "points": 15,
+        "gamesPlayed": 8
+      },
+      "33": {
+        "wins": 1,
+        "draws": 2,
+        "losses": 3,
+        "GF": 6,
+        "GA": 10,
+        "points": 5,
+        "gamesPlayed": 6
+      },
+      "34": {
+        "wins": 1,
+        "draws": 2,
+        "losses": 3,
+        "GF": 3,
+        "GA": 6,
+        "points": 5,
+        "gamesPlayed": 6
+      },
+      "35": {
+        "wins": 5,
+        "draws": 4,
+        "losses": 3,
+        "GF": 12,
+        "GA": 10,
+        "points": 19,
+        "gamesPlayed": 12
+      },
+      "36": {
+        "wins": 7,
+        "draws": 3,
+        "losses": 2,
+        "GF": 18,
+        "GA": 10,
+        "points": 24,
+        "gamesPlayed": 12
+      },
+      "37": {
+        "wins": 2,
+        "draws": 4,
+        "losses": 2,
+        "GF": 10,
+        "GA": 10,
+        "points": 10,
+        "gamesPlayed": 8
+      },
+      "38": {
         "wins": 1,
         "draws": 2,
         "losses": 3,
@@ -7943,284 +9097,158 @@
         "points": 5,
         "gamesPlayed": 6
       },
-      "25": {
-        "wins": 4,
-        "draws": 1,
-        "losses": 1,
-        "GF": 10,
-        "GA": 7,
-        "points": 13,
-        "gamesPlayed": 6
-      },
-      "26": {
-        "wins": 4,
-        "draws": 0,
-        "losses": 2,
-        "GF": 11,
-        "GA": 7,
-        "points": 12,
-        "gamesPlayed": 6
-      },
-      "27": {
-        "wins": 1,
-        "draws": 1,
-        "losses": 4,
-        "GF": 5,
-        "GA": 10,
-        "points": 4,
-        "gamesPlayed": 6
-      },
-      "28": {
-        "wins": 3,
-        "draws": 1,
-        "losses": 2,
-        "GF": 9,
-        "GA": 7,
-        "points": 10,
-        "gamesPlayed": 6
-      },
-      "29": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 5,
-        "GA": 5,
-        "points": 8,
-        "gamesPlayed": 6
-      },
-      "30": {
-        "wins": 4,
-        "draws": 0,
-        "losses": 2,
-        "GF": 7,
-        "GA": 4,
-        "points": 12,
-        "gamesPlayed": 6
-      },
-      "31": {
-        "wins": 1,
-        "draws": 1,
-        "losses": 4,
-        "GF": 4,
-        "GA": 9,
-        "points": 4,
-        "gamesPlayed": 6
-      },
-      "32": {
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "GF": 6,
-        "GA": 6,
-        "points": 8,
-        "gamesPlayed": 6
-      },
-      "33": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 5,
-        "GA": 4,
-        "points": 7,
-        "gamesPlayed": 6
-      },
-      "34": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 8,
-        "GA": 7,
-        "points": 11,
-        "gamesPlayed": 6
-      },
-      "35": {
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "GF": 4,
-        "GA": 6,
-        "points": 6,
-        "gamesPlayed": 6
-      },
-      "36": {
-        "wins": 4,
-        "draws": 1,
-        "losses": 1,
-        "GF": 6,
-        "GA": 2,
-        "points": 13,
-        "gamesPlayed": 6
-      },
-      "37": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 8,
-        "GA": 6,
-        "points": 11,
-        "gamesPlayed": 6
-      },
-      "38": {
-        "wins": 0,
-        "draws": 1,
-        "losses": 5,
-        "GF": 3,
-        "GA": 11,
-        "points": 1,
-        "gamesPlayed": 6
-      },
       "39": {
-        "wins": 3,
-        "draws": 0,
-        "losses": 3,
-        "GF": 8,
+        "wins": 1,
+        "draws": 4,
+        "losses": 1,
+        "GF": 6,
         "GA": 6,
-        "points": 9,
+        "points": 7,
         "gamesPlayed": 6
       },
       "40": {
-        "wins": 0,
-        "draws": 4,
+        "wins": 2,
+        "draws": 2,
         "losses": 2,
-        "GF": 5,
+        "GF": 7,
         "GA": 8,
-        "points": 4,
+        "points": 8,
         "gamesPlayed": 6
       },
       "41": {
-        "wins": 1,
-        "draws": 4,
-        "losses": 1,
+        "wins": 4,
+        "draws": 3,
+        "losses": 3,
         "GF": 9,
         "GA": 9,
-        "points": 7,
-        "gamesPlayed": 6
+        "points": 15,
+        "gamesPlayed": 10
       },
       "42": {
         "wins": 2,
         "draws": 3,
-        "losses": 1,
-        "GF": 6,
-        "GA": 4,
+        "losses": 3,
+        "GF": 8,
+        "GA": 9,
         "points": 9,
-        "gamesPlayed": 6
+        "gamesPlayed": 8
       },
       "43": {
-        "wins": 1,
-        "draws": 5,
-        "losses": 0,
-        "GF": 5,
-        "GA": 4,
-        "points": 8,
-        "gamesPlayed": 6
-      },
-      "0": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 6,
-        "GA": 4,
-        "points": 11,
-        "gamesPlayed": 6
-      },
-      "1": {
-        "wins": 0,
-        "draws": 3,
-        "losses": 3,
-        "GF": 2,
-        "GA": 5,
-        "points": 3,
-        "gamesPlayed": 6
-      },
-      "2": {
         "wins": 2,
         "draws": 1,
         "losses": 3,
-        "GF": 5,
-        "GA": 6,
-        "points": 7,
-        "gamesPlayed": 6
-      },
-      "3": {
-        "wins": 2,
-        "draws": 4,
-        "losses": 0,
-        "GF": 2,
-        "GA": 0,
-        "points": 10,
-        "gamesPlayed": 6
-      },
-      "4": {
-        "wins": 3,
-        "draws": 1,
-        "losses": 2,
-        "GF": 8,
-        "GA": 6,
-        "points": 10,
-        "gamesPlayed": 6
-      },
-      "5": {
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "GF": 5,
-        "GA": 5,
-        "points": 6,
-        "gamesPlayed": 6
-      },
-      "6": {
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "GF": 5,
+        "GF": 7,
         "GA": 7,
         "points": 7,
         "gamesPlayed": 6
       },
-      "7": {
-        "wins": 3,
-        "draws": 1,
-        "losses": 2,
-        "GF": 8,
-        "GA": 8,
-        "points": 10,
+      "0": {
+        "wins": 0,
+        "draws": 3,
+        "losses": 3,
+        "GF": 5,
+        "GA": 9,
+        "points": 3,
         "gamesPlayed": 6
       },
-      "8": {
+      "1": {
+        "wins": 1,
+        "draws": 3,
+        "losses": 2,
+        "GF": 5,
+        "GA": 8,
+        "points": 6,
+        "gamesPlayed": 6
+      },
+      "2": {
+        "wins": 3,
+        "draws": 2,
+        "losses": 3,
+        "GF": 8,
+        "GA": 5,
+        "points": 11,
+        "gamesPlayed": 8
+      },
+      "3": {
+        "wins": 6,
+        "draws": 6,
+        "losses": 0,
+        "GF": 8,
+        "GA": 0,
+        "points": 24,
+        "gamesPlayed": 12
+      },
+      "4": {
+        "wins": 4,
+        "draws": 3,
+        "losses": 3,
+        "GF": 12,
+        "GA": 12,
+        "points": 15,
+        "gamesPlayed": 10
+      },
+      "5": {
+        "wins": 1,
+        "draws": 1,
+        "losses": 4,
+        "GF": 8,
+        "GA": 11,
+        "points": 4,
+        "gamesPlayed": 6
+      },
+      "6": {
         "wins": 1,
         "draws": 2,
         "losses": 3,
-        "GF": 7,
-        "GA": 11,
+        "GF": 4,
+        "GA": 7,
         "points": 5,
         "gamesPlayed": 6
       },
-      "9": {
-        "wins": 2,
+      "7": {
+        "wins": 7,
         "draws": 2,
-        "losses": 2,
+        "losses": 3,
+        "GF": 18,
+        "GA": 12,
+        "points": 23,
+        "gamesPlayed": 12
+      },
+      "8": {
+        "wins": 1,
+        "draws": 1,
+        "losses": 4,
+        "GF": 4,
+        "GA": 7,
+        "points": 4,
+        "gamesPlayed": 6
+      },
+      "9": {
+        "wins": 3,
+        "draws": 0,
+        "losses": 3,
         "GF": 7,
-        "GA": 8,
-        "points": 8,
+        "GA": 7,
+        "points": 9,
         "gamesPlayed": 6
       },
       "10": {
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "GF": 10,
-        "GA": 6,
-        "points": 11,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 1,
+        "losses": 4,
+        "GF": 13,
+        "GA": 11,
+        "points": 16,
+        "gamesPlayed": 10
       },
       "11": {
-        "wins": 1,
-        "draws": 4,
-        "losses": 1,
-        "GF": 6,
-        "GA": 5,
-        "points": 7,
-        "gamesPlayed": 6
+        "wins": 5,
+        "draws": 0,
+        "losses": 3,
+        "GF": 10,
+        "GA": 9,
+        "points": 15,
+        "gamesPlayed": 8
       }
     },
     "groupStage": {
@@ -8280,472 +9308,793 @@
       [
         [
           27,
-          24
+          24,
+          1,
+          1
         ],
         [
           26,
-          25
+          25,
+          2,
+          3
         ],
         [
           31,
-          28
+          28,
+          1,
+          0
         ],
         [
           30,
-          29
+          29,
+          2,
+          0
         ],
         [
           35,
-          32
+          32,
+          0,
+          3
         ],
         [
           34,
-          33
+          33,
+          0,
+          2
         ],
         [
           39,
-          36
+          36,
+          1,
+          1
         ],
         [
           38,
-          37
+          37,
+          2,
+          2
         ],
         [
           43,
-          40
+          40,
+          0,
+          0
         ],
         [
           42,
-          41
+          41,
+          1,
+          2
         ],
         [
           3,
+          0,
+          1,
           0
         ],
         [
           2,
-          1
+          1,
+          3,
+          0
         ],
         [
           7,
-          4
+          4,
+          2,
+          0
         ],
         [
           6,
-          5
+          5,
+          1,
+          1
         ],
         [
           11,
-          8
+          8,
+          2,
+          0
         ],
         [
           10,
-          9
+          9,
+          2,
+          0
         ]
       ],
       [
         [
           24,
-          26
+          26,
+          2,
+          0
         ],
         [
           27,
-          25
+          25,
+          1,
+          0
         ],
         [
           28,
-          30
+          30,
+          0,
+          0
         ],
         [
           31,
-          29
-        ],
-        [
-          32,
-          34
-        ],
-        [
-          35,
-          33
-        ],
-        [
-          36,
-          38
-        ],
-        [
-          39,
-          37
-        ],
-        [
-          40,
-          42
-        ],
-        [
-          43,
-          41
-        ],
-        [
-          0,
+          29,
+          2,
           2
         ],
         [
+          32,
+          34,
+          2,
+          0
+        ],
+        [
+          35,
+          33,
           3,
           1
         ],
         [
+          36,
+          38,
+          2,
+          1
+        ],
+        [
+          39,
+          37,
+          2,
+          2
+        ],
+        [
+          40,
+          42,
+          1,
+          2
+        ],
+        [
+          43,
+          41,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          0
+        ],
+        [
           4,
-          6
+          6,
+          0,
+          0
         ],
         [
           7,
-          5
+          5,
+          2,
+          1
         ],
         [
           8,
-          10
+          10,
+          2,
+          0
         ],
         [
           11,
-          9
+          9,
+          2,
+          1
         ]
       ],
       [
         [
           25,
-          24
+          24,
+          1,
+          1
         ],
         [
           27,
-          26
+          26,
+          1,
+          1
         ],
         [
           29,
-          28
+          28,
+          4,
+          1
         ],
         [
           31,
-          30
-        ],
-        [
-          33,
-          32
-        ],
-        [
-          35,
-          34
-        ],
-        [
-          37,
-          36
-        ],
-        [
-          39,
-          38
-        ],
-        [
-          41,
-          40
-        ],
-        [
-          43,
-          42
-        ],
-        [
+          30,
           1,
-          0
-        ],
-        [
-          3,
           2
         ],
         [
+          33,
+          32,
+          2,
+          2
+        ],
+        [
+          35,
+          34,
+          1,
+          1
+        ],
+        [
+          37,
+          36,
+          1,
+          1
+        ],
+        [
+          39,
+          38,
+          1,
+          2
+        ],
+        [
+          41,
+          40,
+          2,
+          0
+        ],
+        [
+          43,
+          42,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          0
+        ],
+        [
           5,
+          4,
+          3,
           4
         ],
         [
           7,
-          6
+          6,
+          1,
+          2
         ],
         [
           9,
-          8
+          8,
+          1,
+          0
         ],
         [
           11,
-          10
+          10,
+          0,
+          2
         ]
       ],
       [
         [
           24,
-          27
+          27,
+          1,
+          0
         ],
         [
           25,
-          26
+          26,
+          0,
+          0
         ],
         [
           28,
-          31
+          31,
+          1,
+          1
         ],
         [
           29,
-          30
-        ],
-        [
-          32,
-          35
-        ],
-        [
-          33,
-          34
-        ],
-        [
-          36,
-          39
-        ],
-        [
-          37,
-          38
-        ],
-        [
-          40,
-          43
-        ],
-        [
-          41,
-          42
-        ],
-        [
-          0,
+          30,
+          1,
           3
         ],
         [
+          32,
+          35,
+          2,
+          1
+        ],
+        [
+          33,
+          34,
+          0,
+          2
+        ],
+        [
+          36,
+          39,
+          0,
+          1
+        ],
+        [
+          37,
+          38,
+          2,
+          1
+        ],
+        [
+          40,
+          43,
+          2,
+          1
+        ],
+        [
+          41,
+          42,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          4,
+          7,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          0
+        ],
+        [
+          8,
+          11,
           1,
           2
         ],
         [
-          4,
-          7
-        ],
-        [
-          5,
-          6
-        ],
-        [
-          8,
-          11
-        ],
-        [
           9,
-          10
+          10,
+          3,
+          1
         ]
       ],
       [
         [
           26,
-          24
+          24,
+          3,
+          3
         ],
         [
           25,
-          27
+          27,
+          0,
+          1
         ],
         [
           30,
-          28
+          28,
+          2,
+          0
         ],
         [
           29,
-          31
+          31,
+          1,
+          1
         ],
         [
           34,
-          32
+          32,
+          0,
+          1
         ],
         [
           33,
-          35
+          35,
+          0,
+          2
         ],
         [
           38,
-          36
+          36,
+          0,
+          1
         ],
         [
           37,
-          39
+          39,
+          1,
+          1
         ],
         [
           42,
-          40
+          40,
+          2,
+          2
         ],
         [
           41,
-          43
+          43,
+          0,
+          2
         ],
         [
+          2,
+          0,
           2,
           0
         ],
         [
           1,
-          3
+          3,
+          0,
+          0
         ],
         [
           6,
-          4
+          4,
+          1,
+          2
         ],
         [
           5,
-          7
+          7,
+          0,
+          2
         ],
         [
           10,
-          8
+          8,
+          1,
+          1
         ],
         [
           9,
-          11
+          11,
+          1,
+          2
         ]
       ],
       [
         [
           24,
-          25
+          25,
+          2,
+          0
         ],
         [
           26,
-          27
+          27,
+          2,
+          1
         ],
         [
           28,
-          29
+          29,
+          1,
+          0
         ],
         [
           30,
-          31
+          31,
+          2,
+          1
         ],
         [
           32,
-          33
+          33,
+          1,
+          1
         ],
         [
           34,
-          35
+          35,
+          0,
+          0
         ],
         [
           36,
-          37
+          37,
+          0,
+          2
         ],
         [
           38,
-          39
+          39,
+          0,
+          0
         ],
         [
           40,
-          41
+          41,
+          2,
+          1
         ],
         [
           42,
-          43
+          43,
+          2,
+          1
         ],
         [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          3,
           0,
           1
         ],
         [
-          2,
-          3
-        ],
-        [
           4,
-          5
-        ],
-        [
-          6,
-          7
-        ],
-        [
-          8,
-          9
-        ],
-        [
-          10,
-          11
-        ]
-      ],
-      [
-        [
-          27,
-          24
-        ],
-        [
-          26,
-          25
-        ],
-        [
-          31,
-          28
-        ],
-        [
-          30,
-          29
-        ],
-        [
-          35,
-          32
-        ],
-        [
-          34,
-          33
-        ],
-        [
-          39,
-          36
-        ],
-        [
-          38,
-          37
-        ],
-        [
-          43,
-          40
-        ],
-        [
-          42,
-          41
-        ],
-        [
-          3,
-          0
-        ],
-        [
+          5,
           2,
           1
         ],
         [
-          7,
-          4
-        ],
-        [
           6,
-          5
+          7,
+          0,
+          1
         ],
         [
-          11,
-          8
+          8,
+          9,
+          0,
+          1
         ],
         [
           10,
-          9
+          11,
+          2,
+          0
         ]
       ],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [],
+      [
+        [
+          11,
+          4,
+          2,
+          1
+        ],
+        [
+          3,
+          42,
+          1,
+          0
+        ],
+        [
+          24,
+          36,
+          0,
+          1
+        ],
+        [
+          30,
+          10,
+          1,
+          3
+        ],
+        [
+          32,
+          31,
+          1,
+          2
+        ],
+        [
+          41,
+          2,
+          1,
+          1
+        ],
+        [
+          37,
+          35,
+          0,
+          1
+        ],
+        [
+          7,
+          27,
+          3,
+          1
+        ]
+      ],
+      [
+        [
+          4,
+          11,
+          1,
+          0,
+          1
+        ],
+        [
+          42,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          36,
+          24,
+          3,
+          1,
+          1
+        ],
+        [
+          10,
+          30,
+          1,
+          0,
+          1
+        ],
+        [
+          31,
+          32,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          41,
+          0,
+          1,
+          1
+        ],
+        [
+          35,
+          37,
+          2,
+          0,
+          1
+        ],
+        [
+          27,
+          7,
+          1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          10,
+          36,
+          1,
+          2
+        ],
+        [
+          35,
+          4,
+          1,
+          1
+        ],
+        [
+          31,
+          7,
+          0,
+          1
+        ],
+        [
+          41,
+          3,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          36,
+          10,
+          2,
+          0
+        ],
+        [
+          4,
+          35,
+          0,
+          1
+        ],
+        [
+          7,
+          31,
+          3,
+          1
+        ],
+        [
+          3,
+          41,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          36,
+          7,
+          3,
+          0
+        ],
+        [
+          35,
+          3,
+          0,
+          2
+        ]
+      ],
+      [
+        [
+          7,
+          36,
+          2,
+          2
+        ],
+        [
+          3,
+          35,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          3,
+          36
+        ]
+      ],
+      [
+        [
+          36,
+          3
+        ]
+      ],
       [],
       [],
       [],

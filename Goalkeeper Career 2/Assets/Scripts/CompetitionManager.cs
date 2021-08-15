@@ -263,7 +263,7 @@ public class Competition
 
         //Debug.Log("Bottomlist: " + message);
 
-        for (int matchday = 1; matchday < teamIds.Count * 2; matchday++)
+        for (int matchday = 1; matchday < teamIds.Count * 2 - 1; matchday++)
         {
             for (int i = 0; i < topList.Count; i++)
             {
@@ -300,7 +300,7 @@ public class Competition
         var bottomList = numberList.GetRange(teams.Count / 2, teams.Count / 2).ToList();
         bottomList.Reverse();
 
-        for (int matchday = 1; matchday < teams.Count * 2; matchday++)
+        for (int matchday = 1; matchday < teams.Count * 2 - 1; matchday++)
         {
             for (int i = 0; i < topList.Count; i++)
             {
@@ -331,7 +331,7 @@ public class Competition
     {
         remainingTeams = remainingTeams.OrderBy(x => Random.value).ToList(); //Shuffle
         if (remainingTeams.Count % 2 == 1)
-            Debug.LogError("Number of remaining teams is uneven!");
+            Debug.LogError("Number of remaining teams is uneven!  " + remainingTeams.Count);
 
         int remaining = remainingTeams.Count;
 
@@ -349,7 +349,7 @@ public class Competition
                 match.Add(remainingTeams[1]);
                 match.Add(remainingTeams[0]);
 
-                matches[week].Add(match);
+                matches[week+1].Add(match);
             }
 
             remainingTeams.RemoveAt(0);

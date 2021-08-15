@@ -9,12 +9,8 @@ public class FixturesMenuScript : MonoBehaviour
     public Transform scrollView;
     public GameObject fixtureRow;
 
-
-
     void Start()
     {
-
-
         Competition currentCompetition = CompetitionManager.Instance.currentCompetition;
 
         for (int i = 1; i < 52; i++)
@@ -31,10 +27,5 @@ public class FixturesMenuScript : MonoBehaviour
             }
         }
 
-    }
-
-    void Update()
-    {
-        
     }
 }
