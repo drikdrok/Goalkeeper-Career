@@ -52,8 +52,6 @@ public class ButtonScript : MonoBehaviour
         {
             competition.reset();
         }
-        
-        SceneManager.LoadScene("MainMenu");
 
         PlayerPrefs.SetInt("GamesPlayed", 0);
         PlayerPrefs.SetInt("TotalWins", 0);
@@ -63,6 +61,8 @@ public class ButtonScript : MonoBehaviour
         PlayerPrefs.SetInt("TotalCatches", 0);
         PlayerPrefs.SetInt("TotalConceeded", 0);
 
+        
+        SceneManager.LoadScene("MainMenu");
 
     }
 

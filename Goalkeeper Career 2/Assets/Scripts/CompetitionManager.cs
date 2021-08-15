@@ -43,7 +43,8 @@ public class CompetitionManager : MonoBehaviour
         foreach (var competition in competitions)
         {
             Debug.Log(competition.name);
-            competition.initialize();
+            if (!competition.isInitialized)
+                competition.initialize();
         }
     }
 
@@ -110,6 +111,8 @@ public class Competition
     public int hasPlayedWeek = 0;
     public int lastLegWeek = 0;
 
+    public bool isInitialized = false;
+
     public Dictionary<int, TeamStats> stats;
 
     public GroupStage groupStage = null;
@@ -119,6 +122,8 @@ public class Competition
 
     public void initialize()
     {
+        isInitialized = true;
+
         matches = new List<List<List<int>>>();
         for (int i = 0; i < 52; i++) //52 weeks in a year
             matches.Add(new List<List<int>>());
@@ -335,11 +340,14 @@ public class Competition
 
         int remaining = remainingTeams.Count;
 
+
         for (int i = 0; i < remaining / 2; i++)
         {
             List<int> match = new List<int>();
             match.Add(remainingTeams[0]);
             match.Add(remainingTeams[1]);
+
+            //Debug.Log("New Match: " + match[0] + ", " + match[1]);
 
             matches[week].Add(match);
 

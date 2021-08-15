@@ -23,7 +23,13 @@ public class FixturesMenuScript : MonoBehaviour
             {
                 GameObject row = Instantiate(fixtureRow);
                 row.transform.SetParent(scrollView);
-                row.transform.Find("Text").GetComponent<Text>().text = TeamsManager.Instance.getName(match[0]) + " - " + TeamsManager.Instance.getName(match[1]);
+
+                string text = TeamsManager.Instance.getName(match[0]) + " - " + TeamsManager.Instance.getName(match[1]);
+
+                if (match.Count > 2)
+                    text = match[2] + " " + text + " " + match[3];
+
+                row.transform.Find("Text").GetComponent<Text>().text = text;
             }
         }
 
