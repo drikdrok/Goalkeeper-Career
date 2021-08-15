@@ -15,10 +15,6 @@ public class ButtonScript : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
-    public void GoToLeagueScreen()
-    {
-        SceneManager.LoadScene("LeagueScreen");
-    }
     public void GoToFixturesScreen()
     {
         SceneManager.LoadScene("Fixtures");

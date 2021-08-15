@@ -108,6 +108,7 @@ public class Competition
     public string identifier;
     public int matchday = 1;
     public int hasPlayedWeek = 0;
+    public int lastLegWeek = 0;
 
     public Dictionary<int, TeamStats> stats;
 
@@ -158,12 +159,40 @@ public class Competition
                     Team homeTeam = TeamsManager.Instance.teams[match[0]];
                     Team awayTeam = TeamsManager.Instance.teams[match[1]];
 
-                    Tuple<int, int> scoreline = Match.simulateMatch(homeTeam, awayTeam, (type == "cup") ? true : false); // Simulate match
+                    int aggregateHome = 0, aggregateAway = 0;
+                    bool mustFindWinner = (type == "cup") ? true : false;
+
+                    if (match.Count >= 5 && match[4] == 1) // 2-Legged match
+                    {
+                        mustFindWinner = true;
+                        foreach (var prevLeg in matches[lastLegWeek])
+                        {
+                            if (prevLeg[0] == awayTeam.id) // Previous leg found
+                            {
+                                aggregateHome = prevLeg[2];
+                                aggregateAway = prevLeg[3];
+                                break;
+                            } else if (prevLeg[1] == homeTeam.id)
+                            {
+                                aggregateHome = prevLeg[3];
+                                aggregateAway = prevLeg[2];
+                                break;
+                            }
+                        }
+                    }
+
+                    if (match.Count <= 2)
+                    {
+                        match.Add(0);
+                        match.Add(0);
+                    }
+
+                    Tuple<int, int> scoreline = Match.simulateMatch(homeTeam, awayTeam, mustFindWinner, aggregateHome, aggregateAway); // Simulate match
                     int homeScore = scoreline.Item1;
                     int awayScore = scoreline.Item2;
 
-                    match.Add(homeScore);
-                    match.Add(awayScore);
+                    match[2] = homeScore;
+                    match[3] = awayScore;
 
                     CompetitionManager.recordStats(this, homeTeam.id, awayTeam.id, homeScore, awayScore); // Record stats
 
@@ -298,7 +327,7 @@ public class Competition
         }
     }
 
-    public void generateGenericCup(int week)
+    public void generateGenericCup(int week, bool twoLegs)
     {
         remainingTeams = remainingTeams.OrderBy(x => Random.value).ToList(); //Shuffle
         if (remainingTeams.Count % 2 == 1)
@@ -314,10 +343,18 @@ public class Competition
 
             matches[week].Add(match);
 
+            if (twoLegs)
+            {
+                match = new List<int>();
+                match.Add(remainingTeams[1]);
+                match.Add(remainingTeams[0]);
+
+                matches[week].Add(match);
+            }
+
             remainingTeams.RemoveAt(0);
             remainingTeams.RemoveAt(0);
         }
-
-
     }
+
 }

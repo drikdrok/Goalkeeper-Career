@@ -29,7 +29,6 @@ public class CompetitionScreen : MonoBehaviour
     void initLeague()
     {
         Competition currentCompetition = CompetitionManager.Instance.currentCompetition;
-        Debug.Log(currentCompetition.name);
 
         GameObject league = Instantiate(leaguePrefab);
         league.transform.SetParent(tablePanel.transform);
@@ -71,7 +70,6 @@ public class CompetitionScreen : MonoBehaviour
 
     void initEuroCompetition()
     {
-        Debug.Log("yes2");
         Competition currentCompetition = CompetitionManager.Instance.currentCompetition;
         if (currentCompetition.matchday <= 6)
         {

@@ -6,7 +6,7 @@ public class GenericCup : MonoBehaviour
 {
     public static void init(Competition competition)
     {
-        competition.generateGenericCup(1);
+        competition.generateGenericCup(1, false);
     }
 
     public static void handleAfterMatchday(Competition competition)
@@ -22,7 +22,7 @@ public class GenericCup : MonoBehaviour
         }
 
         if (competition.remainingTeams.Count > 1)
-            competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1);
+            competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1, false);
 
     }
 

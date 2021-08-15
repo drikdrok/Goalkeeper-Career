@@ -15,7 +15,6 @@ public class SelectCompetition : MonoBehaviour
        foreach (var competition in CompetitionManager.Instance.competitions)
         {
 
-            Debug.Log("Jeff "+ competition.name);
             GameObject button = Instantiate(buttonPrefab);
             if (competition.type == "euro")
                 button.transform.SetParent(continentalContent);
