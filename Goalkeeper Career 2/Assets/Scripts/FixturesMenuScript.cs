@@ -9,35 +9,28 @@ public class FixturesMenuScript : MonoBehaviour
     public Transform scrollView;
     public GameObject fixtureRow;
 
-    LeagueList leagueList;
 
 
     void Start()
     {
-        leagueList = SaveLoad.loadLeaguesData();
-  
 
-        League currentLeague = leagueList.leagues[0];
 
-        Debug.Log(currentLeague.matches.Count);
+        Competition currentCompetition = CompetitionManager.Instance.currentCompetition;
 
-        int matchday = 1;
-
-        foreach (List<int> match in currentLeague.matches)
+        for (int i = 1; i < 52; i++)
         {
-
-            if (match[0] + 1 != matchday)
+            GameObject mRow = Instantiate(fixtureRow);
+            mRow.transform.SetParent(scrollView);
+            mRow.transform.Find("Text").GetComponent<Text>().text = "Week" + i;
+       
+            foreach (List<int> match in currentCompetition.matches[i])
             {
-                matchday++;
-                GameObject mRow = Instantiate(fixtureRow);
-                mRow.transform.SetParent(scrollView);
-                mRow.transform.Find("Text").GetComponent<Text>().text = "Matchday " + (matchday-1).ToString();
+                GameObject row = Instantiate(fixtureRow);
+                row.transform.SetParent(scrollView);
+                row.transform.Find("Text").GetComponent<Text>().text = TeamsManager.Instance.getName(match[0]) + " - " + TeamsManager.Instance.getName(match[1]);
             }
-           
-            GameObject row = Instantiate(fixtureRow);
-            row.transform.SetParent(scrollView);
-            row.transform.Find("Text").GetComponent<Text>().text = TeamsManager.Instance.getName(match[1]) + " - " + TeamsManager.Instance.getName(match[2]);
         }
+
     }
 
     void Update()
