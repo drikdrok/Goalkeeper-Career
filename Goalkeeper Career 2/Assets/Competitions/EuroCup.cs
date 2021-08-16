@@ -77,7 +77,7 @@ public class EuroCup : MonoBehaviour
                     }
                 }
 
-                competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1, (competition.remainingTeams.Count == 2) ? false : true);
+                competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1, (competition.remainingTeams.Count == 2) ? "" : "2legs");
 
             }
             else

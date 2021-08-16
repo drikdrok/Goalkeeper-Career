@@ -165,26 +165,39 @@ public class Competition
                     Team awayTeam = TeamsManager.Instance.teams[match[1]];
 
                     int aggregateHome = 0, aggregateAway = 0;
-                    bool mustFindWinner = (type == "cup") ? true : false;
+                    bool mustFindWinner = false;
+                    bool replayIfDraw = false;
 
-                    if (match.Count >= 5 && match[4] == 1) // 2-Legged match
+                    if (match.Count >= 5)
                     {
-                        mustFindWinner = true;
-                        foreach (var prevLeg in matches[lastLegWeek])
+                        if (match[4] == 1) // Must be decided
                         {
-                            if (prevLeg[0] == awayTeam.id) // Previous leg found
+                            mustFindWinner = true;
+                        }
+                        else if (match[4] == 2) // 2-Legged match
+                        {
+                            mustFindWinner = true;
+                            foreach (var prevLeg in matches[lastLegWeek])
                             {
-                                aggregateHome = prevLeg[2];
-                                aggregateAway = prevLeg[3];
-                                break;
-                            } else if (prevLeg[1] == homeTeam.id)
-                            {
-                                aggregateHome = prevLeg[3];
-                                aggregateAway = prevLeg[2];
-                                break;
+                                if (prevLeg[0] == awayTeam.id) // Previous leg found
+                                {
+                                    aggregateHome = prevLeg[2];
+                                    aggregateAway = prevLeg[3];
+                                    break;
+                                } else if (prevLeg[1] == homeTeam.id)
+                                {
+                                    aggregateHome = prevLeg[3];
+                                    aggregateAway = prevLeg[2];
+                                    break;
+                                }
                             }
                         }
+                        else if (match[4] == 3) // Replay if draw
+                        {
+                            replayIfDraw = true;
+                        }
                     }
+
 
                     if (match.Count <= 2)
                     {
@@ -200,6 +213,18 @@ public class Competition
                     match[3] = awayScore;
 
                     CompetitionManager.recordStats(this, homeTeam.id, awayTeam.id, homeScore, awayScore); // Record stats
+
+                    if (replayIfDraw && homeScore == awayScore)
+                    {
+                        matches[PlayerPrefs.GetInt("Week") + 1].Add(new List<int>()
+                        {
+                            awayTeam.id,
+                            homeTeam.id,
+                            0,
+                            0,
+                            1
+                        });
+                    }
 
 
                     // Debug.Log(TeamsManager.Instance.getName(match[0]) + " " + homeScore + " - " + awayScore + " " + TeamsManager.Instance.getName(match[1]));
@@ -332,7 +357,7 @@ public class Competition
         }
     }
 
-    public void generateGenericCup(int week, bool twoLegs)
+    public void generateGenericCup(int week, string matchSpecifics)
     {
         remainingTeams = remainingTeams.OrderBy(x => Random.value).ToList(); //Shuffle
         if (remainingTeams.Count % 2 == 1)
@@ -343,20 +368,33 @@ public class Competition
 
         for (int i = 0; i < remaining / 2; i++)
         {
-            List<int> match = new List<int>();
-            match.Add(remainingTeams[0]);
-            match.Add(remainingTeams[1]);
+            List<int> match = new List<int>() {
+                remainingTeams[0],
+                remainingTeams[1],
+                0,
+                0
+            };
+
+            if (matchSpecifics == "replays")
+                match.Add(3);
+            else
+                match.Add(1);
+
 
             //Debug.Log("New Match: " + match[0] + ", " + match[1]);
 
             matches[week].Add(match);
 
-            if (twoLegs)
+            if (matchSpecifics == "2legs")
             {
-                match = new List<int>();
-                match.Add(remainingTeams[1]);
-                match.Add(remainingTeams[0]);
-
+                match = new List<int>()
+                {
+                    remainingTeams[1],
+                    remainingTeams[0],
+                    0,
+                    0,
+                    2
+                };
                 matches[week+1].Add(match);
             }
 

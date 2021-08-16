@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,7 +13,10 @@ public class SelectCompetition : MonoBehaviour
 
     void Start()
     {
-       foreach (var competition in CompetitionManager.Instance.competitions)
+
+        List<Competition> competitions = CompetitionManager.Instance.competitions.OrderBy(x => x.name).ToList();
+
+        foreach (var competition in competitions)
         {
 
             GameObject button = Instantiate(buttonPrefab);
@@ -27,7 +31,6 @@ public class SelectCompetition : MonoBehaviour
                     CompetitionManager.Instance.currentCompetition = competition;
                     SceneManager.LoadScene("CompetitionScreen");
                 });
-            
         } 
     }
 

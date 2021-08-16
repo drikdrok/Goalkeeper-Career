@@ -41,7 +41,7 @@ public class CompetitionScreen : MonoBehaviour
         }
 
         // Sort by points
-        teams = teams.OrderBy(o => currentCompetition.stats[o.id].points).ThenBy(o => (currentCompetition.stats[o.id].GF - currentCompetition.stats[o.id].GA)).ThenBy(o => currentCompetition.stats[o.id].GF).ToList();
+        teams = teams.OrderBy(o => currentCompetition.stats[o.id].points).ThenBy(o => (currentCompetition.stats[o.id].GF - currentCompetition.stats[o.id].GA)).ThenBy(o => currentCompetition.stats[o.id].GF).ThenBy(o => o.tag).ToList();
         teams.Reverse();
 
         for (int i = 0; i < teams.Count; i++)
