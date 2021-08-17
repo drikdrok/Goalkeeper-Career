@@ -27,27 +27,27 @@
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 0,
+        "GF": 3,
+        "GA": 1,
         "points": 3,
         "gamesPlayed": 1
       },
       "1": {
-        "wins": 0,
+        "wins": 1,
         "draws": 0,
-        "losses": 1,
-        "GF": 0,
+        "losses": 0,
+        "GF": 2,
         "GA": 1,
-        "points": 0,
+        "points": 3,
         "gamesPlayed": 1
       },
       "2": {
         "wins": 0,
-        "draws": 0,
-        "losses": 1,
+        "draws": 1,
+        "losses": 0,
         "GF": 1,
-        "GA": 2,
-        "points": 0,
+        "GA": 1,
+        "points": 1,
         "gamesPlayed": 1
       },
       "3": {
@@ -61,15 +61,6 @@
       },
       "4": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "5": {
-        "wins": 0,
         "draws": 0,
         "losses": 1,
         "GF": 1,
@@ -77,22 +68,31 @@
         "points": 0,
         "gamesPlayed": 1
       },
+      "5": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 1,
+        "GA": 0,
+        "points": 3,
+        "gamesPlayed": 1
+      },
       "6": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "GF": 0,
+        "GA": 1,
+        "points": 0,
+        "gamesPlayed": 1
+      },
+      "7": {
         "wins": 1,
         "draws": 0,
         "losses": 0,
         "GF": 2,
         "GA": 1,
         "points": 3,
-        "gamesPlayed": 1
-      },
-      "7": {
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
         "gamesPlayed": 1
       },
       "8": {
@@ -105,29 +105,29 @@
         "gamesPlayed": 1
       },
       "9": {
-        "wins": 1,
-        "draws": 0,
+        "wins": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 2,
+        "GF": 1,
         "GA": 1,
-        "points": 3,
+        "points": 1,
         "gamesPlayed": 1
       },
       "10": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "GF": 1,
-        "GA": 0,
-        "points": 3,
+        "GA": 2,
+        "points": 0,
         "gamesPlayed": 1
       },
       "11": {
         "wins": 0,
         "draws": 0,
         "losses": 1,
-        "GF": 0,
-        "GA": 1,
+        "GF": 1,
+        "GA": 3,
         "points": 0,
         "gamesPlayed": 1
       }
@@ -139,8 +139,8 @@
         {
           "homeTeamId": 11,
           "awayTeamId": 0,
-          "homeScore": 0,
-          "awayScore": 1,
+          "homeScore": 1,
+          "awayScore": 3,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -154,12 +154,12 @@
           "homeTeamId": 10,
           "awayTeamId": 1,
           "homeScore": 1,
-          "awayScore": 0,
+          "awayScore": 2,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 10,
+          "winnerId": 1,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -167,13 +167,13 @@
         {
           "homeTeamId": 9,
           "awayTeamId": 2,
-          "homeScore": 2,
+          "homeScore": 1,
           "awayScore": 1,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 9,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -195,13 +195,13 @@
         {
           "homeTeamId": 7,
           "awayTeamId": 4,
-          "homeScore": 1,
+          "homeScore": 2,
           "awayScore": 1,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 0,
+          "winnerId": 7,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -209,13 +209,13 @@
         {
           "homeTeamId": 6,
           "awayTeamId": 5,
-          "homeScore": 2,
+          "homeScore": 0,
           "awayScore": 1,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 6,
+          "winnerId": 5,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -2077,118 +2077,118 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 0,
     "isInitialized": true,
     "stats": {
       "12": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "13": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "14": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "15": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "16": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "17": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "18": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "19": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "20": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "21": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "22": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "23": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       }
     },
     "groupStage": null,
@@ -2198,8 +2198,8 @@
         {
           "homeTeamId": 23,
           "awayTeamId": 12,
-          "homeScore": 2,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -2212,13 +2212,13 @@
         {
           "homeTeamId": 22,
           "awayTeamId": 13,
-          "homeScore": 1,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 13,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -2227,12 +2227,12 @@
           "homeTeamId": 21,
           "awayTeamId": 14,
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 14,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -2240,13 +2240,13 @@
         {
           "homeTeamId": 20,
           "awayTeamId": 15,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 20,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -2254,13 +2254,13 @@
         {
           "homeTeamId": 19,
           "awayTeamId": 16,
-          "homeScore": 2,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 19,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -2269,12 +2269,12 @@
           "homeTeamId": 18,
           "awayTeamId": 17,
           "homeScore": 0,
-          "awayScore": 2,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 17,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -4147,29 +4147,29 @@
     "stats": {
       "0": {
         "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 2,
         "GA": 2,
-        "points": 0,
+        "points": 1,
         "gamesPlayed": 1
       },
       "1": {
         "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
-        "points": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 1,
         "gamesPlayed": 1
       },
       "2": {
-        "wins": 1,
-        "draws": 0,
+        "wins": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 1,
-        "GA": 0,
-        "points": 3,
+        "GF": 2,
+        "GA": 2,
+        "points": 1,
         "gamesPlayed": 1
       },
       "3": {
@@ -4182,51 +4182,60 @@
         "gamesPlayed": 1
       },
       "4": {
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "5": {
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 0,
-        "GA": 1,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "6": {
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 2,
         "GA": 0,
         "points": 3,
         "gamesPlayed": 1
       },
-      "7": {
+      "5": {
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
+      },
+      "6": {
         "wins": 0,
         "draws": 0,
         "losses": 1,
-        "GF": 1,
+        "GF": 0,
         "GA": 2,
         "points": 0,
         "gamesPlayed": 1
       },
-      "8": {
-        "wins": 0,
-        "draws": 1,
+      "7": {
+        "wins": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 0,
-        "GA": 0,
-        "points": 1,
+        "GF": 3,
+        "GA": 2,
+        "points": 3,
+        "gamesPlayed": 1
+      },
+      "8": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "GF": 2,
+        "GA": 1,
+        "points": 3,
         "gamesPlayed": 1
       },
       "9": {
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 1,
+        "GA": 1,
+        "points": 1,
+        "gamesPlayed": 1
+      },
+      "10": {
         "wins": 0,
         "draws": 0,
         "losses": 1,
@@ -4235,58 +4244,49 @@
         "points": 0,
         "gamesPlayed": 1
       },
-      "10": {
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "GF": 2,
-        "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
-      },
       "11": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
+        "losses": 1,
+        "GF": 1,
+        "GA": 2,
+        "points": 0,
         "gamesPlayed": 1
       },
       "12": {
-        "wins": 1,
-        "draws": 0,
+        "wins": 0,
+        "draws": 1,
         "losses": 0,
-        "GF": 2,
+        "GF": 1,
         "GA": 1,
-        "points": 3,
+        "points": 1,
         "gamesPlayed": 1
       },
       "13": {
         "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
+        "GF": 2,
         "GA": 1,
         "points": 3,
         "gamesPlayed": 1
       },
       "14": {
         "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "GF": 0,
+        "draws": 1,
+        "losses": 0,
+        "GF": 1,
         "GA": 1,
-        "points": 0,
+        "points": 1,
         "gamesPlayed": 1
       },
       "15": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "GF": 3,
+        "losses": 1,
+        "GF": 1,
         "GA": 2,
-        "points": 3,
+        "points": 0,
         "gamesPlayed": 1
       }
     },
@@ -4295,66 +4295,66 @@
       [],
       [
         {
-          "homeTeamId": 15,
-          "awayTeamId": 9,
-          "homeScore": 3,
-          "awayScore": 2,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 15,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 2,
-          "awayTeamId": 14,
+          "homeTeamId": 9,
+          "awayTeamId": 5,
           "homeScore": 1,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
+          "awayScore": 1,
+          "homePens": 3,
+          "awayPens": 2,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 2,
+          "winnerId": 9,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 11,
+          "homeTeamId": 14,
+          "awayTeamId": 12,
+          "homeScore": 1,
+          "awayScore": 1,
+          "homePens": 4,
+          "awayPens": 2,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 14,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 8,
+          "awayTeamId": 11,
+          "homeScore": 2,
+          "awayScore": 1,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 8,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 10,
           "awayTeamId": 7,
           "homeScore": 2,
-          "awayScore": 1,
+          "awayScore": 3,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 11,
+          "winnerId": 7,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 12,
-          "awayTeamId": 4,
-          "homeScore": 2,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 12,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 1,
+          "homeTeamId": 15,
           "awayTeamId": 13,
           "homeScore": 1,
-          "awayScore": 3,
+          "awayScore": 2,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -4366,35 +4366,35 @@
         },
         {
           "homeTeamId": 6,
-          "awayTeamId": 5,
-          "homeScore": 1,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 6,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 0,
-          "awayTeamId": 10,
+          "awayTeamId": 4,
           "homeScore": 0,
           "awayScore": 2,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 10,
+          "winnerId": 4,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 3,
-          "awayTeamId": 8,
+          "homeTeamId": 0,
+          "awayTeamId": 2,
+          "homeScore": 2,
+          "awayScore": 2,
+          "homePens": 5,
+          "awayPens": 4,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 1,
+          "awayTeamId": 3,
           "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
@@ -4409,8 +4409,8 @@
       ],
       [
         {
-          "homeTeamId": 12,
-          "awayTeamId": 2,
+          "homeTeamId": 9,
+          "awayTeamId": 13,
           "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
@@ -4423,7 +4423,7 @@
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 13,
+          "homeTeamId": 7,
           "awayTeamId": 0,
           "homeScore": 0,
           "awayScore": 0,
@@ -4437,8 +4437,8 @@
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 11,
-          "awayTeamId": 10,
+          "homeTeamId": 4,
+          "awayTeamId": 14,
           "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
@@ -4451,8 +4451,8 @@
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 15,
-          "awayTeamId": 6,
+          "homeTeamId": 0,
+          "awayTeamId": 8,
           "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
@@ -4543,190 +4543,190 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 0,
     "isInitialized": true,
     "stats": {
       "24": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "25": {
-        "wins": 1,
         "draws": 0,
-        "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
-      },
-      "26": {
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "GF": 2,
-        "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
-      },
-      "27": {
-        "wins": 0,
-        "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "25": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "26": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "27": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "28": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "29": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 2,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "30": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "31": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 5,
-        "GA": 3,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "31": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "32": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "33": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "34": {
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "35": {
-        "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "34": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "35": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "36": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 3,
-        "GA": 5,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "37": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "38": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 2,
-        "GA": 3,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "39": {
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
-      },
-      "40": {
-        "wins": 0,
-        "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "39": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "40": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "41": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "42": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "43": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       }
     },
     "groupStage": null,
@@ -4736,8 +4736,8 @@
         {
           "homeTeamId": 43,
           "awayTeamId": 24,
-          "homeScore": 2,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -4750,13 +4750,13 @@
         {
           "homeTeamId": 42,
           "awayTeamId": 25,
-          "homeScore": 1,
-          "awayScore": 3,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 25,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -4765,12 +4765,12 @@
           "homeTeamId": 41,
           "awayTeamId": 26,
           "homeScore": 0,
-          "awayScore": 2,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 26,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -4792,13 +4792,13 @@
         {
           "homeTeamId": 39,
           "awayTeamId": 28,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 39,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -4806,13 +4806,13 @@
         {
           "homeTeamId": 38,
           "awayTeamId": 29,
-          "homeScore": 2,
-          "awayScore": 3,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 29,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -4820,8 +4820,8 @@
         {
           "homeTeamId": 37,
           "awayTeamId": 30,
-          "homeScore": 2,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -4834,13 +4834,13 @@
         {
           "homeTeamId": 36,
           "awayTeamId": 31,
-          "homeScore": 3,
-          "awayScore": 5,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 31,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -4862,8 +4862,8 @@
         {
           "homeTeamId": 34,
           "awayTeamId": 33,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -10174,226 +10174,226 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 0,
     "isInitialized": true,
     "stats": {
       "44": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 2,
-        "GA": 4,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "45": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "46": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "46": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "47": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "48": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "49": {
-        "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "49": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "50": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 0,
-        "GA": 1,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "51": {
-        "wins": 0,
-        "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "51": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "52": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "53": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 2,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "54": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "55": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "56": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "57": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "58": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 2,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "59": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "60": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "61": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "62": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "63": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "64": {
-        "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "64": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "65": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 3,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "66": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "67": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 4,
-        "GA": 2,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "67": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       }
     },
     "groupStage": null,
@@ -10403,13 +10403,13 @@
         {
           "homeTeamId": 67,
           "awayTeamId": 44,
-          "homeScore": 4,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 67,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -10417,8 +10417,8 @@
         {
           "homeTeamId": 66,
           "awayTeamId": 45,
-          "homeScore": 2,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -10432,12 +10432,12 @@
           "homeTeamId": 65,
           "awayTeamId": 46,
           "homeScore": 0,
-          "awayScore": 3,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 46,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -10459,8 +10459,8 @@
         {
           "homeTeamId": 63,
           "awayTeamId": 48,
-          "homeScore": 2,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -10487,13 +10487,13 @@
         {
           "homeTeamId": 61,
           "awayTeamId": 50,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 61,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -10515,13 +10515,13 @@
         {
           "homeTeamId": 59,
           "awayTeamId": 52,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 59,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -10529,13 +10529,13 @@
         {
           "homeTeamId": 58,
           "awayTeamId": 53,
-          "homeScore": 2,
-          "awayScore": 3,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 53,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -10543,13 +10543,13 @@
         {
           "homeTeamId": 57,
           "awayTeamId": 54,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 57,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -10557,13 +10557,13 @@
         {
           "homeTeamId": 56,
           "awayTeamId": 55,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 56,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18252,172 +18252,172 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 0,
     "isInitialized": true,
     "stats": {
       "68": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "69": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "70": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "71": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "72": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "73": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 2,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "74": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 4,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "75": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "76": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "77": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "78": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "79": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 4,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "80": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 2,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "81": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "82": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "83": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "84": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "85": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "86": {
         "wins": 0,
@@ -18436,8 +18436,8 @@
         {
           "homeTeamId": 85,
           "awayTeamId": 68,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -18450,13 +18450,13 @@
         {
           "homeTeamId": 84,
           "awayTeamId": 69,
-          "homeScore": 3,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 84,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18465,12 +18465,12 @@
           "homeTeamId": 83,
           "awayTeamId": 70,
           "homeScore": 0,
-          "awayScore": 2,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 70,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18479,12 +18479,12 @@
           "homeTeamId": 82,
           "awayTeamId": 71,
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 71,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18492,13 +18492,13 @@
         {
           "homeTeamId": 81,
           "awayTeamId": 72,
-          "homeScore": 2,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 81,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18506,13 +18506,13 @@
         {
           "homeTeamId": 80,
           "awayTeamId": 73,
-          "homeScore": 3,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 80,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18520,13 +18520,13 @@
         {
           "homeTeamId": 79,
           "awayTeamId": 74,
-          "homeScore": 1,
-          "awayScore": 4,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 74,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18534,13 +18534,13 @@
         {
           "homeTeamId": 78,
           "awayTeamId": 75,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 78,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -18548,13 +18548,13 @@
         {
           "homeTeamId": 77,
           "awayTeamId": 76,
-          "homeScore": 1,
-          "awayScore": 3,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 76,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23096,298 +23096,298 @@
     "remainingTeams": [],
     "type": "euro",
     "identifier": "EuroCup",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 17,
     "isInitialized": true,
     "stats": {
       "24": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "25": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "26": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "27": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "28": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "29": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "30": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "31": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "32": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "33": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "34": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "35": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "36": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "37": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "38": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "39": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "40": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "41": {
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "42": {
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "43": {
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
-      },
-      "0": {
-        "wins": 0,
-        "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
-      "1": {
-        "wins": 1,
+      "41": {
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 2,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "42": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "43": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "0": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "1": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "2": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 2,
-        "GA": 3,
-        "points": 0,
-        "gamesPlayed": 1
-      },
-      "3": {
-        "wins": 0,
-        "draws": 1,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "3": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "4": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "5": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "6": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "7": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "8": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "9": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "10": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "11": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       }
     },
     "groupStage": {
@@ -23448,13 +23448,13 @@
         {
           "homeTeamId": 27,
           "awayTeamId": 24,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 27,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23462,13 +23462,13 @@
         {
           "homeTeamId": 26,
           "awayTeamId": 25,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 26,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23477,12 +23477,12 @@
           "homeTeamId": 31,
           "awayTeamId": 28,
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 28,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23490,13 +23490,13 @@
         {
           "homeTeamId": 30,
           "awayTeamId": 29,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 30,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23504,13 +23504,13 @@
         {
           "homeTeamId": 35,
           "awayTeamId": 32,
-          "homeScore": 2,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 35,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23518,13 +23518,13 @@
         {
           "homeTeamId": 34,
           "awayTeamId": 33,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 34,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23532,13 +23532,13 @@
         {
           "homeTeamId": 39,
           "awayTeamId": 36,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 39,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23546,13 +23546,13 @@
         {
           "homeTeamId": 38,
           "awayTeamId": 37,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 38,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23560,13 +23560,13 @@
         {
           "homeTeamId": 43,
           "awayTeamId": 40,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 43,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23574,8 +23574,8 @@
         {
           "homeTeamId": 42,
           "awayTeamId": 41,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -23602,13 +23602,13 @@
         {
           "homeTeamId": 2,
           "awayTeamId": 1,
-          "homeScore": 2,
-          "awayScore": 3,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 1,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23616,13 +23616,13 @@
         {
           "homeTeamId": 7,
           "awayTeamId": 4,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 7,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23630,13 +23630,13 @@
         {
           "homeTeamId": 6,
           "awayTeamId": 5,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 6,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23644,13 +23644,13 @@
         {
           "homeTeamId": 11,
           "awayTeamId": 8,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 11,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -23658,13 +23658,13 @@
         {
           "homeTeamId": 10,
           "awayTeamId": 9,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 10,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -24878,226 +24878,226 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 0,
     "isInitialized": true,
     "stats": {
       "87": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "88": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "89": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "90": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "91": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "91": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "92": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "93": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "94": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "95": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "95": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "96": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "97": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "98": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "98": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "99": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "100": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 2,
-        "GA": 2,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "101": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "101": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "102": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "103": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "104": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "105": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "106": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "107": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "108": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "109": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "109": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "110": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       }
     },
     "groupStage": null,
@@ -25107,8 +25107,8 @@
         {
           "homeTeamId": 110,
           "awayTeamId": 87,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -25121,13 +25121,13 @@
         {
           "homeTeamId": 109,
           "awayTeamId": 88,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 109,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -25135,8 +25135,8 @@
         {
           "homeTeamId": 108,
           "awayTeamId": 89,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -25149,8 +25149,8 @@
         {
           "homeTeamId": 107,
           "awayTeamId": 90,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -25164,12 +25164,12 @@
           "homeTeamId": 106,
           "awayTeamId": 91,
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 91,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -25177,13 +25177,13 @@
         {
           "homeTeamId": 105,
           "awayTeamId": 92,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 105,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -25191,13 +25191,13 @@
         {
           "homeTeamId": 104,
           "awayTeamId": 93,
-          "homeScore": 1,
-          "awayScore": 3,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 93,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -25205,8 +25205,8 @@
         {
           "homeTeamId": 103,
           "awayTeamId": 94,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -25220,12 +25220,12 @@
           "homeTeamId": 102,
           "awayTeamId": 95,
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 95,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -25233,13 +25233,13 @@
         {
           "homeTeamId": 101,
           "awayTeamId": 96,
-          "homeScore": 3,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 101,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -25247,8 +25247,8 @@
         {
           "homeTeamId": 100,
           "awayTeamId": 97,
-          "homeScore": 2,
-          "awayScore": 2,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -25262,12 +25262,12 @@
           "homeTeamId": 99,
           "awayTeamId": 98,
           "homeScore": 0,
-          "awayScore": 2,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 98,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -32960,208 +32960,208 @@
     "remainingTeams": [],
     "type": "league",
     "identifier": "GenericLeague",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 0,
     "isInitialized": true,
     "stats": {
       "111": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "112": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "113": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "114": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "115": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "116": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "117": {
-        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "117": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "118": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "119": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "120": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "121": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "122": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "123": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "124": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "125": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "126": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "127": {
         "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
-      },
-      "128": {
-        "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
         "GF": 0,
         "GA": 0,
-        "points": 1,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
-      "129": {
-        "wins": 1,
+      "128": {
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
+      },
+      "129": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "130": {
         "wins": 0,
-        "draws": 1,
+        "draws": 0,
         "losses": 0,
-        "GF": 1,
-        "GA": 1,
-        "points": 1,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "131": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "132": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "133": {
         "wins": 0,
@@ -33180,13 +33180,13 @@
         {
           "homeTeamId": 132,
           "awayTeamId": 111,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 132,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -33194,13 +33194,13 @@
         {
           "homeTeamId": 131,
           "awayTeamId": 112,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 131,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -33208,8 +33208,8 @@
         {
           "homeTeamId": 130,
           "awayTeamId": 113,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -33222,13 +33222,13 @@
         {
           "homeTeamId": 129,
           "awayTeamId": 114,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 129,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -33250,8 +33250,8 @@
         {
           "homeTeamId": 127,
           "awayTeamId": 116,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -33265,12 +33265,12 @@
           "homeTeamId": 126,
           "awayTeamId": 117,
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 117,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -33278,8 +33278,8 @@
         {
           "homeTeamId": 125,
           "awayTeamId": 118,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -33292,8 +33292,8 @@
         {
           "homeTeamId": 124,
           "awayTeamId": 119,
-          "homeScore": 1,
-          "awayScore": 1,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
@@ -33306,13 +33306,13 @@
         {
           "homeTeamId": 123,
           "awayTeamId": 120,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 123,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -33320,13 +33320,13 @@
         {
           "homeTeamId": 122,
           "awayTeamId": 121,
-          "homeScore": 1,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 122,
+          "winnerId": 0,
           "mustFindWinner": false,
           "twoLegged": false,
           "replayIfDraw": false
@@ -40153,442 +40153,442 @@
     ],
     "type": "cup",
     "identifier": "EngCup1",
-    "matchday": 2,
-    "hasPlayedWeek": 1,
+    "matchday": 1,
+    "hasPlayedWeek": 0,
     "lastLegWeek": 0,
     "isInitialized": true,
     "stats": {
       "87": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "88": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "89": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "90": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "91": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "92": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "93": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "94": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "95": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "96": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "97": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "98": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "99": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 3,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "100": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "101": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "102": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "103": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "104": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "105": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "106": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "107": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "108": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "109": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "110": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "111": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "112": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "113": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "114": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "115": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "116": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "117": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "118": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 2,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "119": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "120": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "121": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 3,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "122": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "123": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "124": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 3,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "125": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "126": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "127": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "GF": 0,
-        "GA": 1,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "128": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "129": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "130": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "131": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 1,
+        "GF": 0,
         "GA": 0,
-        "points": 3,
-        "gamesPlayed": 1
+        "points": 0,
+        "gamesPlayed": 0
       },
       "132": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 3,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       },
       "133": {
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "GF": 1,
-        "GA": 2,
+        "losses": 0,
+        "GF": 0,
+        "GA": 0,
         "points": 0,
-        "gamesPlayed": 1
+        "gamesPlayed": 0
       },
       "134": {
-        "wins": 1,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "GF": 2,
-        "GA": 1,
-        "points": 3,
-        "gamesPlayed": 1
+        "GF": 0,
+        "GA": 0,
+        "points": 0,
+        "gamesPlayed": 0
       }
     },
     "groupStage": null,
@@ -40596,337 +40596,337 @@
       [],
       [
         {
-          "homeTeamId": 105,
-          "awayTeamId": 97,
-          "homeScore": 1,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 105,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 89,
-          "awayTeamId": 133,
-          "homeScore": 2,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 89,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 100,
-          "awayTeamId": 103,
-          "homeScore": 2,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 100,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 90,
-          "awayTeamId": 94,
-          "homeScore": 3,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 90,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 112,
-          "awayTeamId": 101,
-          "homeScore": 1,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 112,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 113,
-          "awayTeamId": 126,
-          "homeScore": 1,
-          "awayScore": 3,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 126,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 121,
-          "awayTeamId": 111,
-          "homeScore": 0,
-          "awayScore": 3,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 111,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 96,
-          "awayTeamId": 116,
-          "homeScore": 2,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 96,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 117,
-          "awayTeamId": 104,
-          "homeScore": 1,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 117,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 128,
-          "awayTeamId": 125,
-          "homeScore": 2,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 128,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 102,
-          "awayTeamId": 114,
-          "homeScore": 1,
-          "awayScore": 2,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 114,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 118,
-          "awayTeamId": 108,
-          "homeScore": 0,
-          "awayScore": 2,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 108,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 91,
-          "awayTeamId": 92,
-          "homeScore": 1,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 91,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 130,
-          "awayTeamId": 115,
-          "homeScore": 1,
-          "awayScore": 2,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 115,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 110,
-          "awayTeamId": 99,
-          "homeScore": 3,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 110,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 98,
-          "awayTeamId": 87,
-          "homeScore": 2,
-          "awayScore": 0,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 98,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 134,
-          "awayTeamId": 119,
-          "homeScore": 2,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 134,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
           "homeTeamId": 132,
-          "awayTeamId": 124,
-          "homeScore": 3,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 132,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 95,
-          "awayTeamId": 122,
-          "homeScore": 2,
-          "awayScore": 1,
-          "homePens": 0,
-          "awayPens": 0,
-          "homeAggregate": 0,
-          "awayAggregate": 0,
-          "winnerId": 95,
-          "mustFindWinner": true,
-          "twoLegged": false,
-          "replayIfDraw": false
-        },
-        {
-          "homeTeamId": 106,
-          "awayTeamId": 131,
+          "awayTeamId": 123,
           "homeScore": 0,
-          "awayScore": 1,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 131,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 131,
+          "awayTeamId": 125,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false
         },
         {
           "homeTeamId": 93,
-          "awayTeamId": 127,
-          "homeScore": 1,
+          "awayTeamId": 128,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 93,
+          "winnerId": 0,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 88,
-          "awayTeamId": 123,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeTeamId": 114,
+          "awayTeamId": 127,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 88,
+          "winnerId": 0,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false
         },
         {
-          "homeTeamId": 120,
-          "awayTeamId": 129,
-          "homeScore": 2,
-          "awayScore": 1,
+          "homeTeamId": 91,
+          "awayTeamId": 113,
+          "homeScore": 0,
+          "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 120,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 99,
+          "awayTeamId": 94,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 104,
+          "awayTeamId": 100,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 92,
+          "awayTeamId": 108,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 116,
+          "awayTeamId": 117,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false
         },
         {
           "homeTeamId": 107,
-          "awayTeamId": 109,
-          "homeScore": 1,
+          "awayTeamId": 103,
+          "homeScore": 0,
           "awayScore": 0,
           "homePens": 0,
           "awayPens": 0,
           "homeAggregate": 0,
           "awayAggregate": 0,
-          "winnerId": 107,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 101,
+          "awayTeamId": 130,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 111,
+          "awayTeamId": 89,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 120,
+          "awayTeamId": 124,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 105,
+          "awayTeamId": 110,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 97,
+          "awayTeamId": 95,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 87,
+          "awayTeamId": 121,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 119,
+          "awayTeamId": 106,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 109,
+          "awayTeamId": 134,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 102,
+          "awayTeamId": 129,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 122,
+          "awayTeamId": 133,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 118,
+          "awayTeamId": 88,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 98,
+          "awayTeamId": 126,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 96,
+          "awayTeamId": 90,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
+          "mustFindWinner": true,
+          "twoLegged": false,
+          "replayIfDraw": false
+        },
+        {
+          "homeTeamId": 112,
+          "awayTeamId": 115,
+          "homeScore": 0,
+          "awayScore": 0,
+          "homePens": 0,
+          "awayPens": 0,
+          "homeAggregate": 0,
+          "awayAggregate": 0,
+          "winnerId": 0,
           "mustFindWinner": true,
           "twoLegged": false,
           "replayIfDraw": false

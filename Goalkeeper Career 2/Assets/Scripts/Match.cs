@@ -66,12 +66,29 @@ public class Match
             }
         }
 
-        if ((mustFindWinner || twoLegged) && homeScore + homeAggregate == awayScore + awayAggregate)
-            homeScore++;
+        if ((mustFindWinner || twoLegged) && homeScore + homeAggregate == awayScore + awayAggregate) // Penalty shoot out
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                if (Random.value < 0.8f)
+                    homePens++;
+                if (Random.value < 0.8f)
+                    awayPens++;
+            }
 
-        if (homeScore > awayScore)
+            while (homePens == awayPens)
+            {
+                if (Random.value < 0.8f)
+                    homePens++;
+                if (Random.value < 0.8f)
+                    awayPens++;
+            }
+        }
+           // homeScore++;
+
+        if (homeScore > awayScore || homePens > awayPens)
             winnerId = homeTeamId;
-        else if (homeScore < awayScore)
+        else if (homeScore < awayScore || homePens < awayPens)
             winnerId = awayTeamId;
 
     }

@@ -29,6 +29,9 @@ public class FixturesMenuScript : MonoBehaviour
                 text = match.homeScore + " " + text + " " + match.awayScore;
 
                 row.transform.Find("Text").GetComponent<Text>().text = text;
+
+                if (match.homePens != 0 || match.awayPens != 0)
+                    row.transform.Find("Pens").GetComponent<Text>().text = "Penalties: " + match.homePens + " - " + match.awayPens;
             }
         }
 

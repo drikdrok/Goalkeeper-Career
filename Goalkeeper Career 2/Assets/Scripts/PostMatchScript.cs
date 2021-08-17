@@ -24,6 +24,8 @@ public class PostMatchScript : MonoBehaviour
             row.transform.SetParent(scrollView);
             row.transform.Find("Text").GetComponent<Text>().text = TeamsManager.Instance.getName(match.homeTeamId) + " " + match.homeScore + " - " + match.awayScore + " " + TeamsManager.Instance.getName(match.awayTeamId);
 
+            if (match.homePens != 0 || match.awayPens != 0)
+                row.transform.Find("Pens").GetComponent<Text>().text = "Penalties: " + match.homePens + " - " + match.awayPens;
         }
     }
 
