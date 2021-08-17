@@ -7,7 +7,9 @@ using Random = UnityEngine.Random;
 [System.Serializable]
 public class Match
 {
-    public int homeTeamId, awayTeamId, homeScore, awayScore, homePens, awayPens, homeAggregate, awayAggregate, winnerId;
+    public int homeTeamId, awayTeamId;
+    public int homeScore = 0, awayScore = 0, homePens = 0, awayPens = 0, homeAggregate = 0, awayAggregate = 0; 
+    public int winnerId = -1;
     public bool mustFindWinner, twoLegged, replayIfDraw;
 
     public Match()
@@ -84,7 +86,6 @@ public class Match
                     awayPens++;
             }
         }
-           // homeScore++;
 
         if (homeScore > awayScore || homePens > awayPens)
             winnerId = homeTeamId;

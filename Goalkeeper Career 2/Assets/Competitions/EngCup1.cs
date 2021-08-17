@@ -7,7 +7,7 @@ public class EngCup1 : MonoBehaviour
 {
     public static void init(Competition competition)
     {
-        competition.generateGenericCup(1, "");
+        competition.generateGenericCup(1, "replays");
     }
 
     public static void handleAfterMatchday(Competition competition)
@@ -18,7 +18,8 @@ public class EngCup1 : MonoBehaviour
             competition.remainingTeams = new List<int>();
             foreach (var match in competition.matches[PlayerPrefs.GetInt("Week")].Concat(competition.matches[PlayerPrefs.GetInt("Week")-1]).ToList())
             {
-                competition.remainingTeams.Add(match.winnerId);
+                if (match.winnerId != -1) // Winner of match (Todo: allow the game to go to penalties)
+                    competition.remainingTeams.Add(match.winnerId);
             }
             
             

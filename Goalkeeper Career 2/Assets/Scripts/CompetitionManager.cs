@@ -170,13 +170,13 @@ public class Competition
                         {
                             if (prevLeg.homeTeamId == awayTeam.id) // Previous leg found
                             {
-                                match.homeAggregate = prevLeg.homeScore;
-                                match.awayAggregate = prevLeg.awayScore;
+                                match.homeAggregate = prevLeg.awayScore;
+                                match.awayAggregate = prevLeg.homeScore;
                                 break;
                             } else if (prevLeg.awayTeamId == homeTeam.id)
                             {
-                                match.homeAggregate = prevLeg.awayScore;
-                                match.awayAggregate = prevLeg.homeScore;
+                                match.homeAggregate = prevLeg.homeScore;
+                                match.awayAggregate = prevLeg.awayScore;
                                 break;
                             }
                         }
@@ -200,6 +200,8 @@ public class Competition
                 {
                     match.homeScore = PlayerPrefs.GetInt("HomeScore");
                     match.awayScore = PlayerPrefs.GetInt("AwayScore");
+                    match.winnerId = match.homeTeamId;
+                    
                 }
             }
 
@@ -343,6 +345,10 @@ public class Competition
             else
                 match.mustFindWinner = true;
 
+            if (matchSpecifics == "2legs")
+            {
+                match.mustFindWinner = false;
+            }
 
             //Debug.Log("New Match: " + match[0] + ", " + match[1]);
 
