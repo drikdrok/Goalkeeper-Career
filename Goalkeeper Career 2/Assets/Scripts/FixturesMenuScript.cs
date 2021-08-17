@@ -24,7 +24,6 @@ public class FixturesMenuScript : MonoBehaviour
                 GameObject row = Instantiate(fixtureRow);
                 row.transform.SetParent(scrollView);
 
-                Debug.Log(match.homeTeamId + ", " + match.awayTeamId);
                 string text = TeamsManager.Instance.getName(match.homeTeamId) + " - " + TeamsManager.Instance.getName(match.awayTeamId);
 
                 text = match.homeScore + " " + text + " " + match.awayScore;
