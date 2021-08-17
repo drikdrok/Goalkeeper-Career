@@ -14,11 +14,8 @@ public class Attacker : MonoBehaviour
     Transform transform;
 
 
-    bool shooting = false;
-
-    float startTimer = 0;
-    bool waiting = false;
-
+    bool running = false;
+    float runningTimer = 0;
 
     void Start()
     {
@@ -30,38 +27,34 @@ public class Attacker : MonoBehaviour
     {
         animator.SetTrigger("Reset");
         Vector3 b = ball.transform.position;
-        transform.position = new Vector3(b.x, 0, b.z + 2);
+        transform.position = new Vector3(b.x, 0, b.z + 6.5f);
 
-        waiting = true;
+        running = true;
+        runningTimer = 0;
+
     }
 
-    void shoot()
+    public void shoot()
     {
-        animator.SetTrigger("Shoot");
-        shooting = true;
+        ball.shoot();
     }
 
+    public void idle()
+    {
+        running = false;
+    }
 
     void Update()
     {
-        if (shooting)
+        if (running)
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.3f)
+            runningTimer += Time.deltaTime;
+            if (runningTimer >= 1f)
             {
-                ball.shoot();
-                shooting = false;
-            } 
-        }
-
-        if (waiting)
-        {
-            startTimer += Time.deltaTime;
-            if (startTimer > 2)
-            {
-                waiting = false;
-                startTimer = 0;
-                shoot();
+                animator.SetTrigger("Shoot");
+                runningTimer = -10000;
             }
+            transform.position = new Vector3(transform.position.x, 0, + transform.position.z - 4 * Time.deltaTime);
         }
     }
 }

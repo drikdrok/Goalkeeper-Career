@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
 
 public class BallScript : MonoBehaviour
 {
@@ -92,8 +94,21 @@ public class BallScript : MonoBehaviour
     void newPosition()
     {
         
-        transform.position = new Vector3(Random.Range(-4, 4), 0.16f, Random.Range(50, 55));
+        transform.position = new Vector3(Random.Range(-4, 4), 0.16f, Random.Range(50, 61));
         rigidbody.velocity = new Vector3(0, 0, 0);
+        attacker1.newPosition();
+
+        if (Random.value < 0.5f)
+        {
+            transform.position = new Vector3(transform.position.x + 3, transform.position.y, transform.position.z);
+            rigidbody.velocity = new Vector3(-4.8f, 0, 0);
+        }
+        else
+        {
+            transform.position = new Vector3(transform.position.x - 3, transform.position.y, transform.position.z);
+            rigidbody.velocity = new Vector3(4.8f, 0, 0);
+        }
+
         rigidbody.angularVelocity = new Vector3(0, 0, 0);
         hands.caughtBall = false;
         rigidbody.isKinematic = false;
@@ -101,7 +116,6 @@ public class BallScript : MonoBehaviour
         age = 0;
         beenShot = false;
 
-        attacker1.newPosition();
 
         gameScript.newPosition();
 
