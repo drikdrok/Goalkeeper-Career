@@ -14,10 +14,7 @@ public class GenericCup : MonoBehaviour
         competition.remainingTeams = new List<int>();
         foreach (var match in competition.matches[PlayerPrefs.GetInt("Week")])
         {
-            if (match[2] > match[3]) // Winner of match (Todo: allow the game to go to penalties)
-                competition.remainingTeams.Add(match[0]);
-            else
-                competition.remainingTeams.Add(match[1]);
+            competition.remainingTeams.Add(match.winnerId);
         }
 
 

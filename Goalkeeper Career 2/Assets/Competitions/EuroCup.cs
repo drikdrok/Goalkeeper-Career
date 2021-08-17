@@ -29,23 +29,15 @@ public class EuroCup : MonoBehaviour
             int count = winners.Count;
             for (int i = 0; i < count; i++) // Generate matches
             {
-                List<int> match1 = new List<int>()
-                {
-                    winners[0],
-                    seconds[0]
-                };
-                List<int> match2 = new List<int>()
-                {
-                    seconds[0],
-                    winners[0],
-                    0,
-                    0,
-                    1
-                };
+                Match match1 = new Match(winners[0], seconds[0]);
+
+                Match match2 = new Match(seconds[0], winners[0]);
+                match2.twoLegged = true;
+
                 competition.matches[PlayerPrefs.GetInt("Week") + 1].Add(match1);
                 competition.matches[PlayerPrefs.GetInt("Week") + 2].Add(match2);
 
-                Debug.Log("CL Match: " + match1[0] + ", " + match1[1]);
+               // Debug.Log("CL Match: " + match1[0] + ", " + match1[1]);
 
                 winners.RemoveAt(0);
                 seconds.RemoveAt(0);
@@ -60,17 +52,17 @@ public class EuroCup : MonoBehaviour
                 {
                     foreach(var leg1 in competition.matches[competition.lastLegWeek])
                     {
-                        if (leg1[0] == leg2[1] || leg1[1] == leg2[0]) // Found first leg
+                        if (leg1.homeTeamId == leg2.awayTeamId || leg1.awayTeamId == leg2.homeTeamId) // Found first leg
                         {
-                            if (leg1[2] + leg2[3] > leg1[3] + leg2[2]) // Winner over 2 legs
+                            if (leg1.homeScore + leg2.awayScore > leg1.awayScore + leg2.homeScore) // Winner over 2 legs
                             { 
-                                competition.remainingTeams.Add(leg1[0]);
-                                Debug.Log("Leg Winner: " + leg1[0]);
+                                competition.remainingTeams.Add(leg1.homeTeamId);
+                                Debug.Log("Leg Winner: " + leg1.homeTeamId);
                             }
                             else
                             {
-                                competition.remainingTeams.Add(leg1[1]);
-                                Debug.Log("Leg Winner: " + leg1[1]);
+                                competition.remainingTeams.Add(leg1.awayTeamId);
+                                Debug.Log("Leg Winner: " + leg1.awayTeamId);
                             }
                             break;
                         }

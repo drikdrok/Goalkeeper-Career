@@ -19,15 +19,14 @@ public class FixturesMenuScript : MonoBehaviour
             mRow.transform.SetParent(scrollView);
             mRow.transform.Find("Text").GetComponent<Text>().text = "Week" + i;
        
-            foreach (List<int> match in currentCompetition.matches[i])
+            foreach (var match in currentCompetition.matches[i])
             {
                 GameObject row = Instantiate(fixtureRow);
                 row.transform.SetParent(scrollView);
 
-                string text = TeamsManager.Instance.getName(match[0]) + " - " + TeamsManager.Instance.getName(match[1]);
+                string text = TeamsManager.Instance.getName(match.homeTeamId) + " - " + TeamsManager.Instance.getName(match.awayTeamId);
 
-                if (match.Count > 2)
-                    text = match[2] + " " + text + " " + match[3];
+                text = match.homeScore + " " + text + " " + match.awayScore;
 
                 row.transform.Find("Text").GetComponent<Text>().text = text;
             }

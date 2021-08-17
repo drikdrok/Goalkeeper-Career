@@ -4,17 +4,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Match : MonoBehaviour
+[System.Serializable]
+public class Match
 {
-    public static Tuple<int, int> simulateMatch(Team homeTeam, Team awayTeam, bool mustFindWinner, int aggregateHome, int aggregateAway)
-    {
-        //Simulate match
-        int homeScore = 0;
-        int awayScore = 0;
+    public int homeTeamId, awayTeamId, homeScore, awayScore, homePens, awayPens, homeAggregate, awayAggregate, winnerId;
+    public bool mustFindWinner, twoLegged, replayIfDraw;
 
+    public Match()
+    {
+
+    }
+
+    public Match(int homeTeam, int awayTeam)
+    {
+        homeTeamId = homeTeam;
+        awayTeamId = awayTeam;
+
+    }
+
+
+
+
+    public void simulate()
+    {
         //Home goals
         int scoringChances = 5 + Random.Range(-1, 1);
         int scoringProbability = 25;
+
+        Team homeTeam = TeamsManager.Instance.teams[homeTeamId];
+        Team awayTeam = TeamsManager.Instance.teams[awayTeamId];
+
         if (homeTeam.attackRating > awayTeam.defenseRating)
         {
             scoringChances += Mathf.FloorToInt((homeTeam.attackRating - awayTeam.defenseRating) / 2);
@@ -47,19 +66,13 @@ public class Match : MonoBehaviour
             }
         }
 
-        if (mustFindWinner && homeScore + aggregateHome == awayScore + aggregateAway)
+        if ((mustFindWinner || twoLegged) && homeScore + homeAggregate == awayScore + awayAggregate)
             homeScore++;
 
-        return Tuple.Create(homeScore, awayScore);
-    }
+        if (homeScore > awayScore)
+            winnerId = homeTeamId;
+        else if (homeScore < awayScore)
+            winnerId = awayTeamId;
 
-    public static int getWinner(List<int> match)
-    {
-        //Todo account for penalties
-        if (match[2] > match[3])
-            return match[0];
-        else
-            return match[1];
     }
-    
 }

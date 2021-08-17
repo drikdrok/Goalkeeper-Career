@@ -18,10 +18,7 @@ public class EngCup1 : MonoBehaviour
             competition.remainingTeams = new List<int>();
             foreach (var match in competition.matches[PlayerPrefs.GetInt("Week")].Concat(competition.matches[PlayerPrefs.GetInt("Week")-1]).ToList())
             {
-                if (match[2] > match[3]) // Winner of match (Todo: allow the game to go to penalties)
-                    competition.remainingTeams.Add(match[0]);
-                else if (match[2] < match[3])
-                    competition.remainingTeams.Add(match[1]);
+                competition.remainingTeams.Add(match.winnerId);
             }
             
             
