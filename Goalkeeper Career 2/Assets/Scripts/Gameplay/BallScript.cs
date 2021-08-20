@@ -19,6 +19,7 @@ public class BallScript : MonoBehaviour
     bool beenShot = false;
 
     public Attacker attacker1;
+    public Defender1 defender1;
 
 
     void Start()
@@ -97,6 +98,7 @@ public class BallScript : MonoBehaviour
         transform.position = new Vector3(Random.Range(-4, 4), 0.16f, Random.Range(50, 61));
         rigidbody.velocity = new Vector3(0, 0, 0);
         attacker1.newPosition();
+        defender1.newPosition();
 
         if (Random.value < 0.5f)
         {

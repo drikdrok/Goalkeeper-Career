@@ -9,6 +9,7 @@ public class Attacker : MonoBehaviour
 {
 
     public BallScript ball;
+    public Defender1 defender1;
 
     Animator animator;
     Transform transform;
@@ -53,8 +54,9 @@ public class Attacker : MonoBehaviour
             {
                 animator.SetTrigger("Shoot");
                 runningTimer = -10000;
+                defender1.tackle();
             }
-            transform.position = new Vector3(transform.position.x, 0, + transform.position.z - 4 * Time.deltaTime);
+            transform.position = new Vector3(transform.position.x, transform.position.y, + transform.position.z - 4 * Time.deltaTime);
         }
     }
 }
