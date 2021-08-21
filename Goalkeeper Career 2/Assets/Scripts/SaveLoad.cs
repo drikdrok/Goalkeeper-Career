@@ -71,4 +71,22 @@ public class SaveLoad : MonoBehaviour
             return JsonConvert.DeserializeObject<List<Competition>>(JSONString);
         }
     }
+
+
+    public static void saveMatchesData(List<List<Match>> matchData, string name)
+    {
+        using (StreamWriter writer = new StreamWriter("Assets/Data/Competitions/" + name + ".json", false))
+        {
+            writer.Write(JsonConvert.SerializeObject(matchData, Formatting.Indented));
+        }
+    }
+
+    public static List<List<Match>> loadMatchesData(string name)
+    {
+        using (StreamReader reader = new StreamReader("Assets/Data/Competitions/" + name + ".json"))
+        {
+            string JSONString = reader.ReadToEnd();
+            return JsonConvert.DeserializeObject<List<List<Match>>>(JSONString);
+        }
+    }
 }

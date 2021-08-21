@@ -26,7 +26,8 @@ public class FixturesMenuScript : MonoBehaviour
 
                 string text = TeamsManager.Instance.getName(match.homeTeamId) + " - " + TeamsManager.Instance.getName(match.awayTeamId);
 
-                text = match.homeScore + " " + text + " " + match.awayScore;
+                if (currentCompetition.hasPlayedWeek >= i)
+                    text = match.homeScore + " " + text + " " + match.awayScore;
 
                 row.transform.Find("Text").GetComponent<Text>().text = text;
 

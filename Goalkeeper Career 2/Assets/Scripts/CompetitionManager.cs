@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -41,6 +42,8 @@ public class CompetitionManager : MonoBehaviour
         foreach (var competition in competitions)
         {
             Debug.Log(competition.name);
+            competition.matches = SaveLoad.loadMatchesData(competition.name);
+
             if (!competition.isInitialized)
                 competition.initialize();
         }
@@ -48,6 +51,12 @@ public class CompetitionManager : MonoBehaviour
 
     void OnApplicationQuit()
     {
+        foreach (var competition in competitions)
+        {
+            SaveLoad.saveMatchesData(competition.matches, competition.name);
+            competition.matches = null;
+        }
+
         SaveLoad.saveCompitionsData(competitions);
     }
 
