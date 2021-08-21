@@ -107,4 +107,21 @@ public class SaveLoad : MonoBehaviour
             return JsonConvert.DeserializeObject<Dictionary<int, TeamStats>>(JSONString);
         }
     }
+
+    public static void saveLastSeasonData(List<int> tableData, string name)
+    {
+        using (StreamWriter writer = new StreamWriter("Assets/Data/LastSeason/" + name + ".json", false))
+        {
+            writer.Write(JsonConvert.SerializeObject(tableData, Formatting.Indented));
+        }
+    }
+
+    public static List<int> loadLastSeasonData(string name)
+    {
+        using (StreamReader reader = new StreamReader("Assets/Data/LastSeason/" + name + ".json"))
+        {
+            string JSONString = reader.ReadToEnd();
+            return JsonConvert.DeserializeObject<List<int>>(JSONString);
+        }
+    }
 }

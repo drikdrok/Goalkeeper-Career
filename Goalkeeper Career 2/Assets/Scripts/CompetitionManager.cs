@@ -46,6 +46,13 @@ public class CompetitionManager : MonoBehaviour
             competition.matches = SaveLoad.loadMatchesData(competition.name);
             competition.stats = SaveLoad.loadStatsData(competition.name);
 
+            if (!System.IO.File.Exists("Assets/Data/LastSeason/" + competition.name + ".json"))
+            {
+                competition.lastSeasonTable = new List<int>(competition.teamIds);
+                SaveLoad.saveLastSeasonData(competition.lastSeasonTable, competition.name);
+            }
+            competition.lastSeasonTable = SaveLoad.loadLastSeasonData(competition.name);
+
             if (!competition.isInitialized)
                 competition.initialize();
 
@@ -61,12 +68,14 @@ public class CompetitionManager : MonoBehaviour
 
             SaveLoad.saveStatsData(competition.stats, competition.name);
             competition.stats = null;
+
+            competition.lastSeasonTable = null;
         }
 
         SaveLoad.saveCompitionsData(competitions);
     }
 
-    public Competition GetCompetition(string competition)
+    public Competition getCompetition(string competition)
     {
         foreach (var comp in competitions)
         {
@@ -78,6 +87,11 @@ public class CompetitionManager : MonoBehaviour
 
     public static void recordStats(Competition competition, int homeTeam, int awayTeam, int homeScore, int awayScore)
     {
+        if (!competition.stats.ContainsKey(homeTeam))
+            competition.stats.Add(homeTeam, new TeamStats());
+        if (!competition.stats.ContainsKey(awayTeam))
+            competition.stats.Add(awayTeam, new TeamStats());
+
         TeamStats homeStats = competition.stats[homeTeam];
         TeamStats awayStats = competition.stats[awayTeam];
 
@@ -132,6 +146,7 @@ public class Competition
 
     public List<List<Match>> matches;
 
+    public List<int> lastSeasonTable;
 
     public void initialize()
     {
@@ -167,6 +182,13 @@ public class Competition
 
     public void simulateWeek()
     {
+
+        //Add stats for teams that may have been added 
+        foreach (var team in remainingTeams)
+            if (!stats.ContainsKey(team))
+                stats.Add(team, new TeamStats());
+
+
         if (hasPlayedWeek < PlayerPrefs.GetInt("Week"))
         {
             Debug.Log(name + ": Simulating week " + PlayerPrefs.GetInt("Week") +"...");
@@ -226,13 +248,11 @@ public class Competition
 
     public void reset()
     {
+        stats = null;
+
         initialize();
         hasPlayedWeek = 0;
         matchday = 1;
-
-        stats = new Dictionary<int, TeamStats>();
-        foreach (int teamId in teamIds)
-            stats.Add(teamId, new TeamStats());
 
         if (type == "cup")
             remainingTeams = new List<int>(teamIds);

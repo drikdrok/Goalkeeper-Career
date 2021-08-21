@@ -26,16 +26,11 @@ public class EngCup1 : MonoBehaviour
             if (competition.matchday == 4) // Teams from ENG 1 & Eng 2 enter the competition
             {
                 foreach (int team in CompetitionManager.Instance.competitions[3].teamIds)
-                {
                     competition.remainingTeams.Add(team);
-                    competition.stats.Add(team, new TeamStats());
-                } 
 
                 foreach (int team in CompetitionManager.Instance.competitions[4].teamIds)
-                {
                     competition.remainingTeams.Add(team);
-                    competition.stats.Add(team, new TeamStats());
-                }
+                
                 //Todo proper seeding. The top 8 from previous season of ENG1 should start in the next round. Currently I'm hard coding them becuase i'm lazy
                 competition.remainingTeams.Remove(29);
                 competition.remainingTeams.Remove(34);
