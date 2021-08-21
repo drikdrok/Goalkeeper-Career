@@ -2,6 +2,7 @@ using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 public class SaveLoad : MonoBehaviour
@@ -75,7 +76,7 @@ public class SaveLoad : MonoBehaviour
 
     public static void saveMatchesData(List<List<Match>> matchData, string name)
     {
-        using (StreamWriter writer = new StreamWriter("Assets/Data/Competitions/" + name + ".json", false))
+        using (StreamWriter writer = new StreamWriter("Assets/Data/Matches/" + name + ".json", false))
         {
             writer.Write(JsonConvert.SerializeObject(matchData, Formatting.Indented));
         }
@@ -83,10 +84,27 @@ public class SaveLoad : MonoBehaviour
 
     public static List<List<Match>> loadMatchesData(string name)
     {
-        using (StreamReader reader = new StreamReader("Assets/Data/Competitions/" + name + ".json"))
+        using (StreamReader reader = new StreamReader("Assets/Data/Matches/" + name + ".json"))
         {
             string JSONString = reader.ReadToEnd();
             return JsonConvert.DeserializeObject<List<List<Match>>>(JSONString);
+        }
+    }
+
+    public static void saveStatsData(Dictionary<int, TeamStats> statsData, string name)
+    {
+        using (StreamWriter writer = new StreamWriter("Assets/Data/Stats/" + name + ".json", false))
+        {
+            writer.Write(JsonConvert.SerializeObject(statsData, Formatting.Indented));
+        }
+    }
+
+    public static Dictionary<int, TeamStats> loadStatsData(string name)
+    {
+        using (StreamReader reader = new StreamReader("Assets/Data/Stats/" + name + ".json"))
+        {
+            string JSONString = reader.ReadToEnd();
+            return JsonConvert.DeserializeObject<Dictionary<int, TeamStats>>(JSONString);
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEditor;
@@ -43,9 +44,11 @@ public class CompetitionManager : MonoBehaviour
         {
             Debug.Log(competition.name);
             competition.matches = SaveLoad.loadMatchesData(competition.name);
+            competition.stats = SaveLoad.loadStatsData(competition.name);
 
             if (!competition.isInitialized)
                 competition.initialize();
+
         }
     }
 
@@ -55,6 +58,9 @@ public class CompetitionManager : MonoBehaviour
         {
             SaveLoad.saveMatchesData(competition.matches, competition.name);
             competition.matches = null;
+
+            SaveLoad.saveStatsData(competition.stats, competition.name);
+            competition.stats = null;
         }
 
         SaveLoad.saveCompitionsData(competitions);
