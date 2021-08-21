@@ -1078,5 +1078,461 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 135,
+    "tag": "J REGE",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 136,
+    "tag": "DREDZD",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 137,
+    "tag": "PADERB",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 138,
+    "tag": "KARLSR",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 139,
+    "tag": "ST PAU",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 140,
+    "tag": "NÜRNBE",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 141,
+    "tag": "HEIDEN",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 142,
+    "tag": "WERDER",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 143,
+    "tag": "HAMBUR",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 144,
+    "tag": "HANSA",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 145,
+    "tag": "DÜSSEL",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 146,
+    "tag": "SCH 04",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 147,
+    "tag": "HAN 96",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 148,
+    "tag": "DARMST",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 149,
+    "tag": "ERZGEB",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 150,
+    "tag": "SNDHAU",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 151,
+    "tag": "H KIEL",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 152,
+    "tag": "INGOLS",
+    "league": 11,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 153,
+    "tag": "MAGDEB",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 154,
+    "tag": "V BERL",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 155,
+    "tag": "DORT 2",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 156,
+    "tag": "SAARBR",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 157,
+    "tag": "HALLES",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 158,
+    "tag": "MEPPEN",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 159,
+    "tag": "VERL",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 160,
+    "tag": "BRAUNS",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 161,
+    "tag": "DUISBU",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 162,
+    "tag": "W WEIS",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 163,
+    "tag": "WALDHO",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 164,
+    "tag": "1860 M",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 165,
+    "tag": "KAISER",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 166,
+    "tag": "TÜRK M",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 167,
+    "tag": "OSNABR",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 168,
+    "tag": "ZWICKA",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 169,
+    "tag": "WURZ K",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 170,
+    "tag": "V KÖLN",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 171,
+    "tag": "HAVELS",
+    "league": 12,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 172,
+    "tag": "MALLOR",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 173,
+    "tag": "GRANAD",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 174,
+    "tag": "REAL M",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 175,
+    "tag": "VALENC",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 176,
+    "tag": "SEVILL",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 177,
+    "tag": "BARCA",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 178,
+    "tag": "ATLÉ M",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 179,
+    "tag": "CÁDIZ",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 180,
+    "tag": "BETIS",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 181,
+    "tag": "ESPANY",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 182,
+    "tag": "VILLAR",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 183,
+    "tag": "LEVANT",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 184,
+    "tag": "BILBAO",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 185,
+    "tag": "ELCHE",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 186,
+    "tag": "OSASUN",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 187,
+    "tag": "C VIGO",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 188,
+    "tag": "GETAFE",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 189,
+    "tag": "SOCIED",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 190,
+    "tag": "RAYO V",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 191,
+    "tag": "ALAVÉS",
+    "league": 13,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]

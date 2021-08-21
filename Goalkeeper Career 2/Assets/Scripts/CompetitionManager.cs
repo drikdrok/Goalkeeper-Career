@@ -43,15 +43,18 @@ public class CompetitionManager : MonoBehaviour
         foreach (var competition in competitions)
         {
             Debug.Log(competition.name);
-            competition.matches = SaveLoad.loadMatchesData(competition.name);
-            competition.stats = SaveLoad.loadStatsData(competition.name);
-
-            if (!System.IO.File.Exists("Assets/Data/LastSeason/" + competition.name + ".json"))
+            if (System.IO.File.Exists("Assets/Data/Matches/" + competition.name + ".json") && System.IO.File.Exists("Assets/Data/Stats/" + competition.name + ".json") && System.IO.File.Exists("Assets/Data/LastSeason/" + competition.name + ".json"))
+            {
+                competition.matches = SaveLoad.loadMatchesData(competition.name);
+                competition.stats = SaveLoad.loadStatsData(competition.name);
+                competition.lastSeasonTable = SaveLoad.loadLastSeasonData(competition.name);
+            }
+            else
             {
                 competition.lastSeasonTable = new List<int>(competition.teamIds);
                 SaveLoad.saveLastSeasonData(competition.lastSeasonTable, competition.name);
+                competition.initialize();
             }
-            competition.lastSeasonTable = SaveLoad.loadLastSeasonData(competition.name);
 
             if (!competition.isInitialized)
                 competition.initialize();
