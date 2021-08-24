@@ -1,173 +1,173 @@
 {
   "68": {
-    "wins": 4,
-    "draws": 1,
-    "losses": 1,
-    "GF": 10,
-    "GA": 5,
-    "points": 13,
-    "gamesPlayed": 6
+    "wins": 2,
+    "draws": 4,
+    "losses": 7,
+    "GF": 9,
+    "GA": 15,
+    "points": 10,
+    "gamesPlayed": 13
   },
   "69": {
-    "wins": 0,
-    "draws": 3,
-    "losses": 3,
-    "GF": 5,
-    "GA": 10,
-    "points": 3,
-    "gamesPlayed": 6
+    "wins": 3,
+    "draws": 5,
+    "losses": 5,
+    "GF": 16,
+    "GA": 21,
+    "points": 14,
+    "gamesPlayed": 13
   },
   "70": {
-    "wins": 4,
-    "draws": 1,
-    "losses": 1,
-    "GF": 9,
-    "GA": 6,
-    "points": 13,
-    "gamesPlayed": 6
-  },
-  "71": {
-    "wins": 3,
-    "draws": 1,
-    "losses": 2,
-    "GF": 10,
-    "GA": 8,
-    "points": 10,
-    "gamesPlayed": 6
-  },
-  "72": {
     "wins": 2,
     "draws": 3,
-    "losses": 1,
-    "GF": 8,
-    "GA": 7,
+    "losses": 8,
+    "GF": 11,
+    "GA": 20,
     "points": 9,
-    "gamesPlayed": 6
+    "gamesPlayed": 13
+  },
+  "71": {
+    "wins": 4,
+    "draws": 3,
+    "losses": 6,
+    "GF": 12,
+    "GA": 16,
+    "points": 15,
+    "gamesPlayed": 13
+  },
+  "72": {
+    "wins": 3,
+    "draws": 6,
+    "losses": 4,
+    "GF": 10,
+    "GA": 11,
+    "points": 15,
+    "gamesPlayed": 13
   },
   "73": {
-    "wins": 1,
-    "draws": 2,
+    "wins": 6,
+    "draws": 4,
     "losses": 3,
-    "GF": 5,
-    "GA": 8,
-    "points": 5,
-    "gamesPlayed": 6
+    "GF": 16,
+    "GA": 10,
+    "points": 22,
+    "gamesPlayed": 13
   },
   "74": {
-    "wins": 3,
-    "draws": 0,
-    "losses": 3,
-    "GF": 5,
-    "GA": 6,
-    "points": 9,
-    "gamesPlayed": 6
+    "wins": 2,
+    "draws": 5,
+    "losses": 5,
+    "GF": 13,
+    "GA": 15,
+    "points": 11,
+    "gamesPlayed": 12
   },
   "75": {
-    "wins": 1,
-    "draws": 2,
-    "losses": 3,
-    "GF": 5,
-    "GA": 6,
-    "points": 5,
-    "gamesPlayed": 6
+    "wins": 5,
+    "draws": 5,
+    "losses": 2,
+    "GF": 21,
+    "GA": 10,
+    "points": 20,
+    "gamesPlayed": 12
   },
   "76": {
-    "wins": 2,
+    "wins": 4,
     "draws": 1,
-    "losses": 3,
-    "GF": 7,
-    "GA": 9,
-    "points": 7,
-    "gamesPlayed": 6
+    "losses": 7,
+    "GF": 14,
+    "GA": 20,
+    "points": 13,
+    "gamesPlayed": 12
   },
   "77": {
-    "wins": 2,
-    "draws": 1,
-    "losses": 3,
-    "GF": 6,
-    "GA": 9,
-    "points": 7,
-    "gamesPlayed": 6
+    "wins": 5,
+    "draws": 6,
+    "losses": 1,
+    "GF": 15,
+    "GA": 11,
+    "points": 21,
+    "gamesPlayed": 12
   },
   "78": {
     "wins": 2,
-    "draws": 1,
-    "losses": 3,
-    "GF": 6,
-    "GA": 6,
-    "points": 7,
-    "gamesPlayed": 6
+    "draws": 6,
+    "losses": 4,
+    "GF": 9,
+    "GA": 13,
+    "points": 12,
+    "gamesPlayed": 12
   },
   "79": {
-    "wins": 3,
-    "draws": 1,
-    "losses": 2,
-    "GF": 7,
-    "GA": 5,
-    "points": 10,
-    "gamesPlayed": 6
+    "wins": 7,
+    "draws": 4,
+    "losses": 1,
+    "GF": 19,
+    "GA": 10,
+    "points": 25,
+    "gamesPlayed": 12
   },
   "80": {
     "wins": 4,
-    "draws": 1,
-    "losses": 1,
-    "GF": 14,
-    "GA": 8,
-    "points": 13,
-    "gamesPlayed": 6
+    "draws": 3,
+    "losses": 5,
+    "GF": 12,
+    "GA": 13,
+    "points": 15,
+    "gamesPlayed": 12
   },
   "81": {
-    "wins": 1,
-    "draws": 1,
-    "losses": 3,
-    "GF": 3,
-    "GA": 8,
-    "points": 4,
-    "gamesPlayed": 5
+    "wins": 7,
+    "draws": 4,
+    "losses": 1,
+    "GF": 18,
+    "GA": 10,
+    "points": 25,
+    "gamesPlayed": 12
   },
   "82": {
-    "wins": 1,
-    "draws": 3,
-    "losses": 1,
-    "GF": 4,
-    "GA": 4,
-    "points": 6,
-    "gamesPlayed": 5
+    "wins": 5,
+    "draws": 4,
+    "losses": 3,
+    "GF": 14,
+    "GA": 11,
+    "points": 19,
+    "gamesPlayed": 12
   },
   "83": {
-    "wins": 2,
-    "draws": 0,
-    "losses": 3,
-    "GF": 5,
-    "GA": 6,
-    "points": 6,
-    "gamesPlayed": 5
+    "wins": 8,
+    "draws": 3,
+    "losses": 1,
+    "GF": 15,
+    "GA": 8,
+    "points": 27,
+    "gamesPlayed": 12
   },
   "84": {
     "wins": 2,
-    "draws": 1,
-    "losses": 2,
-    "GF": 7,
-    "GA": 6,
-    "points": 7,
-    "gamesPlayed": 5
+    "draws": 5,
+    "losses": 5,
+    "GF": 12,
+    "GA": 17,
+    "points": 11,
+    "gamesPlayed": 12
   },
   "85": {
-    "wins": 2,
-    "draws": 2,
-    "losses": 1,
-    "GF": 7,
-    "GA": 6,
-    "points": 8,
-    "gamesPlayed": 5
+    "wins": 4,
+    "draws": 3,
+    "losses": 5,
+    "GF": 11,
+    "GA": 15,
+    "points": 15,
+    "gamesPlayed": 12
   },
   "86": {
-    "wins": 2,
-    "draws": 1,
-    "losses": 2,
-    "GF": 5,
-    "GA": 5,
-    "points": 7,
-    "gamesPlayed": 5
+    "wins": 3,
+    "draws": 4,
+    "losses": 5,
+    "GF": 17,
+    "GA": 18,
+    "points": 13,
+    "gamesPlayed": 12
   }
 }

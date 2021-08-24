@@ -10,7 +10,7 @@ public class Match
     public int homeTeamId, awayTeamId;
     public int homeScore = 0, awayScore = 0, homePens = 0, awayPens = 0, homeAggregate = 0, awayAggregate = 0; 
     public int winnerId = -1;
-    public bool mustFindWinner, twoLegged, replayIfDraw;
+    public bool mustFindWinner, twoLegged, replayIfDraw, awayGoalRule;
 
     public Match()
     {
@@ -68,23 +68,34 @@ public class Match
             }
         }
 
-        if ((mustFindWinner || twoLegged) && homeScore + homeAggregate == awayScore + awayAggregate) // Penalty shoot out
+
+        if (twoLegged)
         {
-            for (int i = 0; i < 5; i++)
+
+            if (homeScore + homeAggregate > awayScore + awayAggregate)
             {
-                if (Random.value < 0.8f)
-                    homePens++;
-                if (Random.value < 0.8f)
-                    awayPens++;
+                winnerId = homeTeamId;
+                return;
+            } else if (homeScore + homeAggregate < awayScore + awayAggregate)
+            {
+                winnerId = awayTeamId;
+                return;
             }
 
-            while (homePens == awayPens)
+            if (awayGoalRule && homeScore + homeAggregate == awayScore + awayAggregate)
             {
-                if (Random.value < 0.8f)
-                    homePens++;
-                if (Random.value < 0.8f)
-                    awayPens++;
+                if (homeAggregate > awayScore)
+                    winnerId = homeTeamId;
+                else if (homeAggregate < awayScore)
+                    winnerId = awayTeamId;
+                else
+                    penalties();
             }
+        } 
+        
+        if ((mustFindWinner || twoLegged) && homeScore + homeAggregate == awayScore + awayAggregate)
+        {
+            penalties();
         }
 
         if (homeScore > awayScore || homePens > awayPens)
@@ -92,5 +103,25 @@ public class Match
         else if (homeScore < awayScore || homePens < awayPens)
             winnerId = awayTeamId;
 
+    }
+
+
+    void penalties()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            if (Random.value < 0.8f)
+                homePens++;
+            if (Random.value < 0.8f)
+                awayPens++;
+        }
+
+        while (homePens == awayPens)
+        {
+            if (Random.value < 0.8f)
+                homePens++;
+            if (Random.value < 0.8f)
+                awayPens++;
+        }
     }
 }

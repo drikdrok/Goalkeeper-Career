@@ -66,4 +66,14 @@ public class ButtonScript : MonoBehaviour
 
     }
 
+
+    public void simWeek()
+    {
+        CompetitionManager.Instance.getCompetition("DEN1").simulateWeek();
+        CompetitionManager.Instance.getCompetition("DEN CUP").simulateWeek();
+        CompetitionManager.Instance.getCompetition("Euro Cup").simulateWeek();
+
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }

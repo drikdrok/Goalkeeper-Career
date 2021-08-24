@@ -48,26 +48,8 @@ public class EuroCup : MonoBehaviour
             if (competition.matchday % 2 == 0) //Even matchdays are after second leg
             {
                 competition.remainingTeams = new List<int>();
-                foreach(var leg2 in competition.matches[PlayerPrefs.GetInt("Week")])
-                {
-                    foreach(var leg1 in competition.matches[competition.lastLegWeek])
-                    {
-                        if (leg1.homeTeamId == leg2.awayTeamId || leg1.awayTeamId == leg2.homeTeamId) // Found first leg
-                        {
-                            if (leg1.homeScore + leg2.awayScore > leg1.awayScore + leg2.homeScore) // Winner over 2 legs
-                            { 
-                                competition.remainingTeams.Add(leg1.homeTeamId);
-                                Debug.Log("Leg Winner: " + leg1.homeTeamId);
-                            }
-                            else
-                            {
-                                competition.remainingTeams.Add(leg1.awayTeamId);
-                                Debug.Log("Leg Winner: " + leg1.awayTeamId);
-                            }
-                            break;
-                        }
-                    }
-                }
+                foreach (var match in competition.matches[PlayerPrefs.GetInt("Week")])
+                    competition.remainingTeams.Add(match.winnerId);
 
                 competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1, (competition.remainingTeams.Count == 2) ? "" : "2legs");
 

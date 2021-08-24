@@ -1534,5 +1534,181 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 192,
+    "tag": "HUESCA",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 193,
+    "tag": "ALMERI",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 194,
+    "tag": "PONFER",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 195,
+    "tag": "VDOLID",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 196,
+    "tag": "GIRONA",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 197,
+    "tag": "MIRAND",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 198,
+    "tag": "TENERI",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 199,
+    "tag": "SOCIE2",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 200,
+    "tag": "GIJÓN",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 201,
+    "tag": "FUENLA",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 202,
+    "tag": "IBIZA",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 203,
+    "tag": "LUGO",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 204,
+    "tag": "MÁLAGA",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 205,
+    "tag": "PALMAS",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 206,
+    "tag": "OVIEDO",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 207,
+    "tag": "BURGOS",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 208,
+    "tag": "LEGANE",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 209,
+    "tag": "ZARAGO",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 210,
+    "tag": "ALCORC",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 211,
+    "tag": "EIBAR",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 212,
+    "tag": "CARTAG",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 213,
+    "tag": "AMOREB",
+    "league": 15,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]

@@ -5,15 +5,16 @@
       "homeTeamId": 152,
       "awayTeamId": 135,
       "homeScore": 1,
-      "awayScore": 0,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": 152,
+      "winnerId": 135,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -27,7 +28,8 @@
       "winnerId": 151,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -41,53 +43,27 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
       "awayTeamId": 138,
-      "homeScore": 0,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 138,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 148,
-      "awayTeamId": 139,
-      "homeScore": 1,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 139,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 147,
-      "awayTeamId": 140,
       "homeScore": 2,
       "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": 147,
+      "winnerId": 149,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
-      "homeTeamId": 146,
-      "awayTeamId": 141,
+      "homeTeamId": 148,
+      "awayTeamId": 139,
       "homeScore": 0,
       "awayScore": 0,
       "homePens": 0,
@@ -97,27 +73,59 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 147,
+      "awayTeamId": 140,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 140,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 146,
+      "awayTeamId": 141,
+      "homeScore": 2,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 146,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
       "awayTeamId": 142,
       "homeScore": 1,
-      "awayScore": 3,
+      "awayScore": 0,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": 142,
+      "winnerId": 145,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
       "awayTeamId": 143,
       "homeScore": 0,
-      "awayScore": 2,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -125,13 +133,393 @@
       "winnerId": 143,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
     {
       "homeTeamId": 135,
       "awayTeamId": 151,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 152,
+      "awayTeamId": 150,
+      "homeScore": 2,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 152,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 136,
+      "awayTeamId": 149,
+      "homeScore": 0,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 149,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 137,
+      "awayTeamId": 148,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 137,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 138,
+      "awayTeamId": 147,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 139,
+      "awayTeamId": 146,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 146,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 140,
+      "awayTeamId": 145,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 141,
+      "awayTeamId": 144,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 142,
+      "awayTeamId": 143,
+      "homeScore": 0,
+      "awayScore": 3,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 143,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    }
+  ],
+  [
+    {
+      "homeTeamId": 150,
+      "awayTeamId": 135,
+      "homeScore": 2,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 150,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 149,
+      "awayTeamId": 151,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 149,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 148,
+      "awayTeamId": 152,
+      "homeScore": 1,
+      "awayScore": 3,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 152,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 147,
+      "awayTeamId": 136,
+      "homeScore": 2,
+      "awayScore": 3,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 136,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 146,
+      "awayTeamId": 137,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 137,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 145,
+      "awayTeamId": 138,
+      "homeScore": 3,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 145,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 144,
+      "awayTeamId": 139,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 143,
+      "awayTeamId": 140,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 142,
+      "awayTeamId": 141,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    }
+  ],
+  [
+    {
+      "homeTeamId": 135,
+      "awayTeamId": 149,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 150,
+      "awayTeamId": 148,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 148,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 151,
+      "awayTeamId": 147,
+      "homeScore": 2,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 151,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 152,
+      "awayTeamId": 146,
+      "homeScore": 0,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 146,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 136,
+      "awayTeamId": 145,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 137,
+      "awayTeamId": 144,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 138,
+      "awayTeamId": 143,
+      "homeScore": 0,
+      "awayScore": 3,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 143,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 139,
+      "awayTeamId": 142,
       "homeScore": 0,
       "awayScore": 0,
       "homePens": 0,
@@ -141,10 +529,58 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
-      "homeTeamId": 152,
+      "homeTeamId": 140,
+      "awayTeamId": 141,
+      "homeScore": 2,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 140,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    }
+  ],
+  [
+    {
+      "homeTeamId": 148,
+      "awayTeamId": 135,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 148,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 147,
+      "awayTeamId": 149,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 149,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 146,
       "awayTeamId": 150,
       "homeScore": 1,
       "awayScore": 0,
@@ -152,16 +588,199 @@
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": 152,
+      "winnerId": 146,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 145,
+      "awayTeamId": 151,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 144,
+      "awayTeamId": 152,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 143,
+      "awayTeamId": 136,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 142,
+      "awayTeamId": 137,
+      "homeScore": 2,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 142,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 141,
+      "awayTeamId": 138,
+      "homeScore": 0,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 140,
+      "awayTeamId": 139,
+      "homeScore": 1,
+      "awayScore": 3,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 139,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    }
+  ],
+  [
+    {
+      "homeTeamId": 135,
+      "awayTeamId": 147,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 135,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 148,
+      "awayTeamId": 146,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 146,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 149,
+      "awayTeamId": 145,
+      "homeScore": 0,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 150,
+      "awayTeamId": 144,
+      "homeScore": 1,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 144,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 151,
+      "awayTeamId": 143,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 143,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 152,
+      "awayTeamId": 142,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
-      "awayTeamId": 149,
-      "homeScore": 1,
-      "awayScore": 0,
+      "awayTeamId": 141,
+      "homeScore": 2,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -169,10 +788,73 @@
       "winnerId": 136,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
+      "awayTeamId": 140,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 137,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 138,
+      "awayTeamId": 139,
+      "homeScore": 2,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 138,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    }
+  ],
+  [
+    {
+      "homeTeamId": 146,
+      "awayTeamId": 135,
+      "homeScore": 2,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 146,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 145,
+      "awayTeamId": 147,
+      "homeScore": 2,
+      "awayScore": 3,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 147,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 144,
       "awayTeamId": 148,
       "homeScore": 1,
       "awayScore": 2,
@@ -183,10 +865,285 @@
       "winnerId": 148,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 143,
+      "awayTeamId": 149,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 143,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 142,
+      "awayTeamId": 150,
+      "homeScore": 1,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 150,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 141,
+      "awayTeamId": 151,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 151,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 140,
+      "awayTeamId": 152,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 139,
+      "awayTeamId": 136,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 139,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
+      "awayTeamId": 137,
+      "homeScore": 3,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 138,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    }
+  ],
+  [
+    {
+      "homeTeamId": 135,
+      "awayTeamId": 145,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 146,
+      "awayTeamId": 144,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 147,
+      "awayTeamId": 143,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 148,
+      "awayTeamId": 142,
+      "homeScore": 0,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 142,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 149,
+      "awayTeamId": 141,
+      "homeScore": 3,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 149,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 150,
+      "awayTeamId": 140,
+      "homeScore": 0,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 151,
+      "awayTeamId": 139,
+      "homeScore": 2,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 151,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 152,
+      "awayTeamId": 138,
+      "homeScore": 4,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 152,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 136,
+      "awayTeamId": 137,
+      "homeScore": 2,
+      "awayScore": 3,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": 137,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    }
+  ],
+  [
+    {
+      "homeTeamId": 144,
+      "awayTeamId": 135,
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 143,
+      "awayTeamId": 145,
+      "homeScore": 0,
+      "awayScore": 0,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 142,
+      "awayTeamId": 146,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homePens": 0,
+      "awayPens": 0,
+      "homeAggregate": 0,
+      "awayAggregate": 0,
+      "winnerId": -1,
+      "mustFindWinner": false,
+      "twoLegged": false,
+      "replayIfDraw": false,
+      "awayGoalRule": false
+    },
+    {
+      "homeTeamId": 141,
       "awayTeamId": 147,
       "homeScore": 1,
       "awayScore": 2,
@@ -197,439 +1154,29 @@
       "winnerId": 147,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 139,
-      "awayTeamId": 146,
-      "homeScore": 2,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 139,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
-      "awayTeamId": 145,
-      "homeScore": 3,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 140,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 141,
-      "awayTeamId": 144,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 141,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 142,
-      "awayTeamId": 143,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    }
-  ],
-  [
-    {
-      "homeTeamId": 150,
-      "awayTeamId": 135,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 149,
-      "awayTeamId": 151,
-      "homeScore": 0,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 151,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 148,
-      "awayTeamId": 152,
-      "homeScore": 0,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 152,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 147,
-      "awayTeamId": 136,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 146,
-      "awayTeamId": 137,
-      "homeScore": 0,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 137,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 145,
-      "awayTeamId": 138,
-      "homeScore": 2,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 144,
-      "awayTeamId": 139,
-      "homeScore": 0,
-      "awayScore": 4,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 139,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 143,
-      "awayTeamId": 140,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 142,
-      "awayTeamId": 141,
-      "homeScore": 3,
-      "awayScore": 3,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    }
-  ],
-  [
-    {
-      "homeTeamId": 135,
-      "awayTeamId": 149,
-      "homeScore": 2,
-      "awayScore": 3,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 149,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 150,
       "awayTeamId": 148,
-      "homeScore": 1,
+      "homeScore": 0,
       "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 148,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 151,
-      "awayTeamId": 147,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 151,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 152,
-      "awayTeamId": 146,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 152,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 136,
-      "awayTeamId": 145,
-      "homeScore": 2,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 137,
-      "awayTeamId": 144,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 137,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 138,
-      "awayTeamId": 143,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
-      "awayTeamId": 142,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 139,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 140,
-      "awayTeamId": 141,
-      "homeScore": 3,
-      "awayScore": 3,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    }
-  ],
-  [
-    {
-      "homeTeamId": 148,
-      "awayTeamId": 135,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 147,
       "awayTeamId": 149,
-      "homeScore": 1,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 149,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 146,
-      "awayTeamId": 150,
-      "homeScore": 0,
-      "awayScore": 3,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 150,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 145,
-      "awayTeamId": 151,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 145,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 144,
-      "awayTeamId": 152,
       "homeScore": 2,
       "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 144,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 143,
-      "awayTeamId": 136,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 143,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 142,
-      "awayTeamId": 137,
-      "homeScore": 0,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 137,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 141,
-      "awayTeamId": 138,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 140,
-      "awayTeamId": 139,
-      "homeScore": 1,
-      "awayScore": 3,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -637,126 +1184,13 @@
       "winnerId": 139,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
-    }
-  ],
-  [
-    {
-      "homeTeamId": 135,
-      "awayTeamId": 147,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 148,
-      "awayTeamId": 146,
-      "homeScore": 2,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 149,
-      "awayTeamId": 145,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 149,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 150,
-      "awayTeamId": 144,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 150,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 151,
-      "awayTeamId": 143,
-      "homeScore": 1,
-      "awayScore": 3,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 143,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 152,
-      "awayTeamId": 142,
-      "homeScore": 1,
-      "awayScore": 1,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 136,
-      "awayTeamId": 141,
-      "homeScore": 3,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": 136,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 137,
-      "awayTeamId": 140,
-      "homeScore": 2,
-      "awayScore": 2,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
-      "awayTeamId": 139,
-      "homeScore": 2,
+      "awayTeamId": 150,
+      "homeScore": 3,
       "awayScore": 0,
       "homePens": 0,
       "awayPens": 0,
@@ -765,383 +1199,29 @@
       "winnerId": 138,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
-    }
-  ],
-  [
-    {
-      "homeTeamId": 146,
-      "awayTeamId": 135,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 145,
-      "awayTeamId": 147,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 144,
-      "awayTeamId": 148,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 143,
-      "awayTeamId": 149,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 142,
-      "awayTeamId": 150,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 141,
-      "awayTeamId": 151,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 140,
-      "awayTeamId": 152,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 139,
-      "awayTeamId": 136,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 138,
-      "awayTeamId": 137,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    }
-  ],
-  [
-    {
-      "homeTeamId": 135,
-      "awayTeamId": 145,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 146,
-      "awayTeamId": 144,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 147,
-      "awayTeamId": 143,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 148,
-      "awayTeamId": 142,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 149,
-      "awayTeamId": 141,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 150,
-      "awayTeamId": 140,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 151,
-      "awayTeamId": 139,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 152,
-      "awayTeamId": 138,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 136,
-      "awayTeamId": 137,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    }
-  ],
-  [
-    {
-      "homeTeamId": 144,
-      "awayTeamId": 135,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 143,
-      "awayTeamId": 145,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 142,
-      "awayTeamId": 146,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 141,
-      "awayTeamId": 147,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 140,
-      "awayTeamId": 148,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 139,
-      "awayTeamId": 149,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
-    },
-    {
-      "homeTeamId": 138,
-      "awayTeamId": 150,
-      "homeScore": 0,
-      "awayScore": 0,
-      "homePens": 0,
-      "awayPens": 0,
-      "homeAggregate": 0,
-      "awayAggregate": 0,
-      "winnerId": -1,
-      "mustFindWinner": false,
-      "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
       "awayTeamId": 151,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 151,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
       "awayTeamId": 152,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1149,43 +1229,46 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
     {
       "homeTeamId": 135,
       "awayTeamId": 143,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 143,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
       "awayTeamId": 142,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 142,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
       "awayTeamId": 141,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1193,13 +1276,14 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
       "awayTeamId": 140,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1207,77 +1291,83 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
       "awayTeamId": 139,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 147,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
       "awayTeamId": 138,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 148,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
       "awayTeamId": 137,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 3,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 137,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
       "awayTeamId": 136,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 5,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 150,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
       "awayTeamId": 152,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 151,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -1285,77 +1375,82 @@
       "homeTeamId": 142,
       "awayTeamId": 135,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 135,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
       "awayTeamId": 143,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 143,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
       "awayTeamId": 144,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 144,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
       "awayTeamId": 145,
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 139,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
       "awayTeamId": 146,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 3,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 146,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
       "awayTeamId": 147,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1363,71 +1458,76 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
       "awayTeamId": 148,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 148,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
       "awayTeamId": 149,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 152,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
       "awayTeamId": 150,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 150,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
     {
       "homeTeamId": 135,
       "awayTeamId": 141,
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 135,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
       "awayTeamId": 140,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1435,27 +1535,29 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
       "awayTeamId": 139,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 143,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
       "awayTeamId": 138,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1463,13 +1565,14 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
       "awayTeamId": 137,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1477,13 +1580,14 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
       "awayTeamId": 136,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1491,27 +1595,29 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
       "awayTeamId": 152,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 3,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 152,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
       "awayTeamId": 151,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1519,21 +1625,23 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
       "awayTeamId": 150,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 149,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -1541,49 +1649,52 @@
       "homeTeamId": 140,
       "awayTeamId": 135,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 135,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
       "awayTeamId": 141,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 141,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
       "awayTeamId": 142,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 4,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 138,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
       "awayTeamId": 143,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1591,69 +1702,74 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
       "awayTeamId": 144,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 3,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 144,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
       "awayTeamId": 145,
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 152,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
       "awayTeamId": 146,
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 151,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
       "awayTeamId": 147,
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
       "awayAggregate": 0,
-      "winnerId": -1,
+      "winnerId": 147,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
       "awayTeamId": 148,
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "homePens": 0,
       "awayPens": 0,
       "homeAggregate": 0,
@@ -1661,7 +1777,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -1677,7 +1794,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -1691,7 +1809,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -1705,7 +1824,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -1719,7 +1839,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -1733,7 +1854,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -1747,7 +1869,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -1761,7 +1884,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -1775,7 +1899,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -1789,7 +1914,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -1805,7 +1931,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -1819,7 +1946,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -1833,7 +1961,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -1847,7 +1976,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -1861,7 +1991,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -1875,7 +2006,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -1889,7 +2021,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -1903,7 +2036,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -1917,7 +2051,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -1933,7 +2068,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -1947,7 +2083,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -1961,7 +2098,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -1975,7 +2113,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -1989,7 +2128,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -2003,7 +2143,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -2017,7 +2158,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -2031,7 +2173,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -2045,7 +2188,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2061,7 +2205,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -2075,7 +2220,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -2089,7 +2235,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -2103,7 +2250,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -2117,7 +2265,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -2131,7 +2280,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -2145,7 +2295,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -2159,7 +2310,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -2173,7 +2325,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2189,7 +2342,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -2203,7 +2357,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -2217,7 +2372,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -2231,7 +2387,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -2245,7 +2402,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -2259,7 +2417,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -2273,7 +2432,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -2287,7 +2447,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -2301,7 +2462,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2317,7 +2479,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -2331,7 +2494,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -2345,7 +2509,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -2359,7 +2524,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -2373,7 +2539,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -2387,7 +2554,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -2401,7 +2569,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -2415,7 +2584,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -2429,7 +2599,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2445,7 +2616,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -2459,7 +2631,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -2473,7 +2646,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -2487,7 +2661,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -2501,7 +2676,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -2515,7 +2691,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -2529,7 +2706,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -2543,7 +2721,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -2557,7 +2736,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2573,7 +2753,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -2587,7 +2768,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -2601,7 +2783,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -2615,7 +2798,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -2629,7 +2813,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -2643,7 +2828,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -2657,7 +2843,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -2671,7 +2858,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -2685,7 +2873,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2701,7 +2890,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -2715,7 +2905,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -2729,7 +2920,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -2743,7 +2935,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -2757,7 +2950,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -2771,7 +2965,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -2785,7 +2980,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -2799,7 +2995,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -2813,7 +3010,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2829,7 +3027,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -2843,7 +3042,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -2857,7 +3057,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -2871,7 +3072,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -2885,7 +3087,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -2899,7 +3102,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -2913,7 +3117,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -2927,7 +3132,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -2941,7 +3147,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -2957,7 +3164,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -2971,7 +3179,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -2985,7 +3194,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -2999,7 +3209,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -3013,7 +3224,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -3027,7 +3239,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -3041,7 +3254,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -3055,7 +3269,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -3069,7 +3284,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3085,7 +3301,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -3099,7 +3316,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -3113,7 +3331,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -3127,7 +3346,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -3141,7 +3361,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -3155,7 +3376,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -3169,7 +3391,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -3183,7 +3406,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -3197,7 +3421,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3213,7 +3438,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -3227,7 +3453,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -3241,7 +3468,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -3255,7 +3483,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -3269,7 +3498,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -3283,7 +3513,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -3297,7 +3528,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -3311,7 +3543,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -3325,7 +3558,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3341,7 +3575,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -3355,7 +3590,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -3369,7 +3605,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -3383,7 +3620,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -3397,7 +3635,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -3411,7 +3650,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -3425,7 +3665,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -3439,7 +3680,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -3453,7 +3695,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3469,7 +3712,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -3483,7 +3727,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -3497,7 +3742,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -3511,7 +3757,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -3525,7 +3772,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -3539,7 +3787,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -3553,7 +3802,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -3567,7 +3817,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -3581,7 +3832,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3597,7 +3849,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -3611,7 +3864,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -3625,7 +3879,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -3639,7 +3894,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -3653,7 +3909,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -3667,7 +3924,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -3681,7 +3939,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -3695,7 +3954,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -3709,7 +3969,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3725,7 +3986,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -3739,7 +4001,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -3753,7 +4016,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -3767,7 +4031,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -3781,7 +4046,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -3795,7 +4061,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -3809,7 +4076,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -3823,7 +4091,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -3837,7 +4106,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3853,7 +4123,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -3867,7 +4138,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -3881,7 +4153,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -3895,7 +4168,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -3909,7 +4183,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -3923,7 +4198,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -3937,7 +4213,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -3951,7 +4228,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -3965,7 +4243,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -3981,7 +4260,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -3995,7 +4275,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -4009,7 +4290,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -4023,7 +4305,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -4037,7 +4320,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -4051,7 +4335,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -4065,7 +4350,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 145,
@@ -4079,7 +4365,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -4093,7 +4380,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -4109,7 +4397,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 136,
@@ -4123,7 +4412,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 152,
@@ -4137,7 +4427,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 151,
@@ -4151,7 +4442,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 150,
@@ -4165,7 +4457,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 149,
@@ -4179,7 +4472,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 148,
@@ -4193,7 +4487,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 147,
@@ -4207,7 +4502,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 146,
@@ -4221,7 +4517,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [
@@ -4237,7 +4534,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 137,
@@ -4251,7 +4549,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 138,
@@ -4265,7 +4564,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 139,
@@ -4279,7 +4579,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 140,
@@ -4293,7 +4594,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 141,
@@ -4307,7 +4609,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 142,
@@ -4321,7 +4624,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 143,
@@ -4335,7 +4639,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     },
     {
       "homeTeamId": 144,
@@ -4349,7 +4654,8 @@
       "winnerId": -1,
       "mustFindWinner": false,
       "twoLegged": false,
-      "replayIfDraw": false
+      "replayIfDraw": false,
+      "awayGoalRule": false
     }
   ],
   [],

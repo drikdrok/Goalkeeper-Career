@@ -390,10 +390,13 @@ public class Competition
 
             matches[week].Add(match);
 
-            if (matchSpecifics == "2legs")
+            if (matchSpecifics == "2legs" || matchSpecifics == "2legsAway")
             {
                 match = new Match(remainingTeams[1], remainingTeams[0]);
                 match.twoLegged = true;
+                if (matchSpecifics == "2legsAway")
+                    match.awayGoalRule = true;
+
                 matches[week+1].Add(match);
             }
 

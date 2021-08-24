@@ -53,7 +53,7 @@ public class EngCup2 : MonoBehaviour
 
 
 
-        if (competition.remainingTeams.Count > 1 && competition.matchday != 7)
+        if (competition.remainingTeams.Count > 1 && competition.matchday != 6) //competition.matchday != 6 is because it should not generate after the first leg og semi final
             competition.generateGenericCup(PlayerPrefs.GetInt("Week") + 1, (competition.remainingTeams.Count == 4) ? "2legs" : "");
         
         competition.lastLegWeek = PlayerPrefs.GetInt("Week");
