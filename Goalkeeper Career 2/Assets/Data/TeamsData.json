@@ -2030,5 +2030,325 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 254,
+    "tag": "PSG",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 255,
+    "tag": "ANGERS",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 256,
+    "tag": "NICE",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 257,
+    "tag": "C FOOT",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 258,
+    "tag": "LENS",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 259,
+    "tag": "RENNES",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 260,
+    "tag": "MONTPE",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 261,
+    "tag": "NANTES",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 262,
+    "tag": "MARSEI",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 263,
+    "tag": "LORIEN",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 264,
+    "tag": "ST ETI",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 265,
+    "tag": "REIMS",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 266,
+    "tag": "METZ",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 267,
+    "tag": "BREST",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 268,
+    "tag": "BORDEA",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 269,
+    "tag": "LYON",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 270,
+    "tag": "LILLE",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 271,
+    "tag": "TROYES",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 272,
+    "tag": "MONACO",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 273,
+    "tag": "STRASB",
+    "league": 20,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 274,
+    "tag": "TOULOU",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 275,
+    "tag": "NÎMES",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 276,
+    "tag": "PARIS",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 277,
+    "tag": "SOCHAU",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 278,
+    "tag": "CAEN",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 279,
+    "tag": "AUXERR",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 280,
+    "tag": "LE HAV",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 281,
+    "tag": "RODEZ",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 282,
+    "tag": "PAU",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 283,
+    "tag": "Q-ROUE",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 284,
+    "tag": "NIORT",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 285,
+    "tag": "GUINGA",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 286,
+    "tag": "AJACCI",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 287,
+    "tag": "BASTIA",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 288,
+    "tag": "VA FC",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 289,
+    "tag": "AMIENS",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 290,
+    "tag": "GRENOB",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 291,
+    "tag": "DUNKER",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 292,
+    "tag": "DIJON",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 293,
+    "tag": "NANCY",
+    "league": 21,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]
