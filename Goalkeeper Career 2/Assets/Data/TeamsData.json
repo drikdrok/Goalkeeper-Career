@@ -1710,5 +1710,325 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 214,
+    "tag": "INTER",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 215,
+    "tag": "LAZIO",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 216,
+    "tag": "ROMA",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 217,
+    "tag": "NAPOLI",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 218,
+    "tag": "BOLOGN",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 219,
+    "tag": "SASSUO",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 220,
+    "tag": "ATALAN",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 221,
+    "tag": "MILAN",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 222,
+    "tag": "JUVENT",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 223,
+    "tag": "SPEZIA",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 224,
+    "tag": "UDINES",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 225,
+    "tag": "SALERN",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 226,
+    "tag": "VERONA",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 227,
+    "tag": "TORINO",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 228,
+    "tag": "SAMPDO",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 229,
+    "tag": "EMPOLI",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 230,
+    "tag": "FIOREN",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 231,
+    "tag": "VENEZI",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 232,
+    "tag": "GENOA",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 233,
+    "tag": "CAGLIA",
+    "league": 17,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 234,
+    "tag": "CEMONS",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 235,
+    "tag": "BRESCI",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 236,
+    "tag": "BENEVE",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 237,
+    "tag": "ASCOLI",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 238,
+    "tag": "CITTAD",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 239,
+    "tag": "PERUGI",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 240,
+    "tag": "PISA",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 241,
+    "tag": "COMO",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 242,
+    "tag": "CROTON",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 243,
+    "tag": "FROSIN",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 244,
+    "tag": "PARMA",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 245,
+    "tag": "MONZA",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 246,
+    "tag": "REGGIN",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 247,
+    "tag": "ALESSA",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 248,
+    "tag": "COSENZ",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 249,
+    "tag": "PORDEN",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 250,
+    "tag": "SPAL",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 251,
+    "tag": "VICENZ",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 252,
+    "tag": "TERNAN",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 253,
+    "tag": "LECCE",
+    "league": 18,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]
