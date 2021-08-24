@@ -90,17 +90,22 @@ public class Match
                     winnerId = awayTeamId;
                 else
                     penalties();
+
+                return;
             }
+
+            if (homeScore + homeAggregate == awayScore + awayAggregate)
+                penalties();
         } 
         
-        if ((mustFindWinner || twoLegged) && homeScore + homeAggregate == awayScore + awayAggregate)
+        if (mustFindWinner && homeScore == awayScore)
         {
             penalties();
         }
 
-        if (homeScore > awayScore || homePens > awayPens)
+        if (homeScore > awayScore)
             winnerId = homeTeamId;
-        else if (homeScore < awayScore || homePens < awayPens)
+        else if (homeScore < awayScore)
             winnerId = awayTeamId;
 
     }
@@ -123,5 +128,10 @@ public class Match
             if (Random.value < 0.8f)
                 awayPens++;
         }
+
+        if (homePens > awayPens)
+            winnerId = homeTeamId;
+        else
+            winnerId = awayTeamId;
     }
 }

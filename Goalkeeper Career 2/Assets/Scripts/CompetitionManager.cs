@@ -381,7 +381,7 @@ public class Competition
             else
                 match.mustFindWinner = true;
 
-            if (matchSpecifics == "2legs")
+            if (matchSpecifics == "2legs" || matchSpecifics == "2legsAway")
             {
                 match.mustFindWinner = false;
             }
