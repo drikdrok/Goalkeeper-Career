@@ -25,9 +25,8 @@ public class EngCup2 : MonoBehaviour
 
         competition.remainingTeams = new List<int>();
         foreach (var match in competition.matches[PlayerPrefs.GetInt("Week")])
-        {
             competition.remainingTeams.Add(match.winnerId);
-        }
+
 
         if (competition.matchday == 1)
         {
