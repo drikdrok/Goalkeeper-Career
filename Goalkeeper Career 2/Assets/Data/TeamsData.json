@@ -2350,5 +2350,293 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 294,
+    "tag": "SPORTI",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 295,
+    "tag": "BENFIC",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 296,
+    "tag": "E PRAI",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 297,
+    "tag": "PORTO",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 298,
+    "tag": "PORTIM",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 299,
+    "tag": "BRAGA",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 300,
+    "tag": "BOAVIS",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 301,
+    "tag": "GIL VI",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 302,
+    "tag": "VITÓRI",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 303,
+    "tag": "TONDEL",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 304,
+    "tag": "PACOS",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 305,
+    "tag": "AROUCA",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 306,
+    "tag": "VIZELA",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 307,
+    "tag": "MOREIN",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 308,
+    "tag": "S CLAR",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 309,
+    "tag": "FAMALI",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 310,
+    "tag": "B-SAD",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 311,
+    "tag": "MARITI",
+    "league": 23,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 312,
+    "tag": "BENF B",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 313,
+    "tag": "RIO A",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 314,
+    "tag": "LEIXÕE",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 315,
+    "tag": "SC COV",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 316,
+    "tag": "MAFRA",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 317,
+    "tag": "FEIREN",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 318,
+    "tag": "PENAFI",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 319,
+    "tag": "E AMAD",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 320,
+    "tag": "NACION",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 321,
+    "tag": "CASA P",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 322,
+    "tag": "ACAD V",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 323,
+    "tag": "TROFEN",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 324,
+    "tag": "CHAVES",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 325,
+    "tag": "PORTO2",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 326,
+    "tag": "VARZIM",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 327,
+    "tag": "FARANS",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 328,
+    "tag": "ACAD C",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 329,
+    "tag": "VILAFR",
+    "league": 24,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]

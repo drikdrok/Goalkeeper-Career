@@ -1,0 +1,164 @@
+{
+  "294": {
+    "wins": 1,
+    "draws": 2,
+    "losses": 4,
+    "GF": 7,
+    "GA": 11,
+    "points": 5,
+    "gamesPlayed": 7
+  },
+  "295": {
+    "wins": 1,
+    "draws": 5,
+    "losses": 1,
+    "GF": 11,
+    "GA": 11,
+    "points": 8,
+    "gamesPlayed": 7
+  },
+  "296": {
+    "wins": 1,
+    "draws": 1,
+    "losses": 5,
+    "GF": 4,
+    "GA": 9,
+    "points": 4,
+    "gamesPlayed": 7
+  },
+  "297": {
+    "wins": 3,
+    "draws": 2,
+    "losses": 2,
+    "GF": 11,
+    "GA": 9,
+    "points": 11,
+    "gamesPlayed": 7
+  },
+  "298": {
+    "wins": 0,
+    "draws": 3,
+    "losses": 4,
+    "GF": 7,
+    "GA": 11,
+    "points": 3,
+    "gamesPlayed": 7
+  },
+  "299": {
+    "wins": 3,
+    "draws": 2,
+    "losses": 2,
+    "GF": 11,
+    "GA": 8,
+    "points": 11,
+    "gamesPlayed": 7
+  },
+  "300": {
+    "wins": 1,
+    "draws": 3,
+    "losses": 3,
+    "GF": 7,
+    "GA": 10,
+    "points": 6,
+    "gamesPlayed": 7
+  },
+  "301": {
+    "wins": 2,
+    "draws": 1,
+    "losses": 4,
+    "GF": 7,
+    "GA": 10,
+    "points": 7,
+    "gamesPlayed": 7
+  },
+  "302": {
+    "wins": 3,
+    "draws": 2,
+    "losses": 2,
+    "GF": 12,
+    "GA": 13,
+    "points": 11,
+    "gamesPlayed": 7
+  },
+  "303": {
+    "wins": 3,
+    "draws": 2,
+    "losses": 2,
+    "GF": 9,
+    "GA": 10,
+    "points": 11,
+    "gamesPlayed": 7
+  },
+  "304": {
+    "wins": 3,
+    "draws": 4,
+    "losses": 0,
+    "GF": 11,
+    "GA": 8,
+    "points": 13,
+    "gamesPlayed": 7
+  },
+  "305": {
+    "wins": 3,
+    "draws": 0,
+    "losses": 4,
+    "GF": 5,
+    "GA": 6,
+    "points": 9,
+    "gamesPlayed": 7
+  },
+  "306": {
+    "wins": 1,
+    "draws": 4,
+    "losses": 2,
+    "GF": 4,
+    "GA": 7,
+    "points": 7,
+    "gamesPlayed": 7
+  },
+  "307": {
+    "wins": 4,
+    "draws": 2,
+    "losses": 1,
+    "GF": 13,
+    "GA": 11,
+    "points": 14,
+    "gamesPlayed": 7
+  },
+  "308": {
+    "wins": 5,
+    "draws": 1,
+    "losses": 1,
+    "GF": 15,
+    "GA": 7,
+    "points": 16,
+    "gamesPlayed": 7
+  },
+  "309": {
+    "wins": 3,
+    "draws": 2,
+    "losses": 2,
+    "GF": 13,
+    "GA": 8,
+    "points": 11,
+    "gamesPlayed": 7
+  },
+  "310": {
+    "wins": 2,
+    "draws": 3,
+    "losses": 2,
+    "GF": 11,
+    "GA": 11,
+    "points": 9,
+    "gamesPlayed": 7
+  },
+  "311": {
+    "wins": 4,
+    "draws": 1,
+    "losses": 2,
+    "GF": 12,
+    "GA": 10,
+    "points": 13,
+    "gamesPlayed": 7
+  }
+}
