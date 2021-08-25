@@ -2638,5 +2638,261 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 330,
+    "tag": "DJURGÅ",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 331,
+    "tag": "MALMÖ",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 332,
+    "tag": "AIK",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 333,
+    "tag": "ELFSBO",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 334,
+    "tag": "HAMMAR",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 335,
+    "tag": "KALMAR",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 336,
+    "tag": "NORRKÖ",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 337,
+    "tag": "HALMST",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 338,
+    "tag": "VARBER",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 339,
+    "tag": "HÄCKEN",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 340,
+    "tag": "GÖTEBO",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 341,
+    "tag": "DEGERF",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 342,
+    "tag": "SIRIUS",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 343,
+    "tag": "ÖREBRO",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 344,
+    "tag": "MJÄLLB",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 345,
+    "tag": "ÖSTERS",
+    "league": 26,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 346,
+    "tag": "VÄRNAM",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 347,
+    "tag": "HELSIN",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 348,
+    "tag": "LANDSK",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 349,
+    "tag": "NORRBY",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 350,
+    "tag": "TRELLE",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 351,
+    "tag": "SUNDSV",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 352,
+    "tag": "J-SÖDR",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 353,
+    "tag": "ESKILS",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 354,
+    "tag": "ÖST IF",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 355,
+    "tag": "AKROPO",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 356,
+    "tag": "ÖIS",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 357,
+    "tag": "BRAGE",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 358,
+    "tag": "GAIS",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 359,
+    "tag": "VASALU",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 360,
+    "tag": "FALKEN",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 361,
+    "tag": "VÄSTER",
+    "league": 27,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]

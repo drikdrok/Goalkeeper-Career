@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>Teams Data Generator</title>
+
+
+
+		<script type="text/javascript">
+
+			let teams = []
+			
+			function addTeam(){
+				teams.push(document.getElementById("team").value);
+
+				let s = "Teams: ";
+				for (let i = 0; i < teams.length; i++){
+					s = s + teams[i] + ", ";
+				}
+
+				document.getElementById("teams").innerHTML = s;
+				document.getElementById("team").value = ""
+			}
+
+
+			function generate(){
+				let output = "";
+
+				let league = document.getElementById("league").value;
+				let startId = document.getElementById("id").value;
+
+				for (let i = 0; i < teams.length; i++){
+					output = output + ", \n" +
+					"	{\n" +
+					'		"id": ' + (Number(startId) + i) + ",\n" +	
+					'		"tag": "' + teams[i] + '", \n' +
+					'		"league": ' + league + ",\n" +
+					'		"attackRating": 50,\n' + 
+					'		"midfieldRating": 50,\n' + 
+					'		"defenseRating": 50,\n' + 
+					"	}";
+				}
+
+				document.getElementById("output").innerHTML = output;
+			}
+
+
+
+
+			
+
+		</script>
+	</head>
+
+
+
+	<body>
+		<h1>Team Data Generator</h1>
+
+		<h2 id="teams">Teams: </h2>
+
+		Add Team: <input type="text" name="Team" id="team"> <button onclick="addTeam();" id="add"> Add </button> <br>
+		League: <input type="text" name="League" id="league"><br>
+		Start id: <input type="text" name="ID" id="id"> <br>
+		<button onclick="generate();">Generate</button> <br>
+		<textarea id="output"></textarea>
+
+		
+
+		<script type="text/javascript">
+			var input = document.getElementById("team");
+
+			input.addEventListener("keyup", function(event) {
+			  if (event.keyCode === 13) {
+			    event.preventDefault();
+			    document.getElementById("add").click();
+			  }
+			});
+		</script>
+
+
+	</body>
+</html>
