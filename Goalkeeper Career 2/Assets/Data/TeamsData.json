@@ -2894,5 +2894,261 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 362,
+    "tag": "MOLDE",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 363,
+    "tag": "BODØ",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 364,
+    "tag": "ROSENB",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 365,
+    "tag": "LILLES",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 366,
+    "tag": "KRISTI",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 367,
+    "tag": "VIKING",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 368,
+    "tag": "VÅLERE",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 369,
+    "tag": "HAUGES",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 370,
+    "tag": "STRØMS",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 371,
+    "tag": "ODD",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 372,
+    "tag": "SANDEF",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 373,
+    "tag": "SAPSBO",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 374,
+    "tag": "TROMSO",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 375,
+    "tag": "MJØNDA",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 376,
+    "tag": "STABÆK",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 377,
+    "tag": "BRANN",
+    "league": 28,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 378,
+    "tag": "HAMKAM",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 379,
+    "tag": "FREDER",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 380,
+    "tag": "JERV",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 381,
+    "tag": "AALESU",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 382,
+    "tag": "SOGNDA",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 383,
+    "tag": "ÅSANE",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 384,
+    "tag": "START",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 385,
+    "tag": "U/K IL",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 386,
+    "tag": "KFUM",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 387,
+    "tag": "RAUFOS",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 388,
+    "tag": "BRYNE",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 389,
+    "tag": "RANHEI",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 390,
+    "tag": "SANDNE",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 391,
+    "tag": "STRØMM",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 392,
+    "tag": "STJØRDA",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 393,
+    "tag": "GRORUD",
+    "league": 29,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]
