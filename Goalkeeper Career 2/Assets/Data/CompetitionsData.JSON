@@ -493,7 +493,7 @@
       133
     ],
     "remainingTeams": [
-      51,
+      -1,
       -1
     ],
     "type": "cup",
@@ -616,7 +616,7 @@
     "name": "GER CUP",
     "teamIds": [],
     "remainingTeams": [
-      74
+      162
     ],
     "type": "cup",
     "identifier": "GerCup",
@@ -1144,6 +1144,73 @@
     "remainingTeams": [],
     "type": "cup",
     "identifier": "ScoCup",
+    "matchday": 7,
+    "hasPlayedWeek": 6,
+    "lastLegWeek": 8,
+    "isInitialized": true,
+    "stats": null,
+    "groupStage": null,
+    "matches": null,
+    "lastSeasonTable": null
+  },
+  {
+    "name": "IRE1",
+    "teamIds": [
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425
+    ],
+    "remainingTeams": [],
+    "type": "league",
+    "identifier": "GenericLeague",
+    "matchday": 7,
+    "hasPlayedWeek": 6,
+    "lastLegWeek": 0,
+    "isInitialized": true,
+    "stats": null,
+    "groupStage": null,
+    "matches": null,
+    "lastSeasonTable": null
+  },
+  {
+    "name": "IRE2",
+    "teamIds": [
+      426,
+      427,
+      428,
+      429,
+      420,
+      431,
+      432,
+      433,
+      434,
+      435
+    ],
+    "remainingTeams": [],
+    "type": "league",
+    "identifier": "GenericLeague",
+    "matchday": 7,
+    "hasPlayedWeek": 6,
+    "lastLegWeek": 0,
+    "isInitialized": true,
+    "stats": null,
+    "groupStage": null,
+    "matches": null,
+    "lastSeasonTable": null
+  },
+  {
+    "name": "IRE CUP",
+    "teamIds": [],
+    "remainingTeams": [],
+    "type": "cup",
+    "identifier": "IreCup",
     "matchday": 7,
     "hasPlayedWeek": 6,
     "lastLegWeek": 8,

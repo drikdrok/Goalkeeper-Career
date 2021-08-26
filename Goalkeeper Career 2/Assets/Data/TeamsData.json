@@ -3326,5 +3326,165 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 416,
+    "tag": "SHAMRO",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 417,
+    "tag": "ST PAT",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 418,
+    "tag": "SLIGO",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 419,
+    "tag": "DERRY",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 420,
+    "tag": "BOHEMI",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 421,
+    "tag": "DROGHE",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 422,
+    "tag": "FINN H",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 423,
+    "tag": "WATERF",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 424,
+    "tag": "DUNDAL",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 425,
+    "tag": "LONGFO",
+    "league": 34,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 426,
+    "tag": "SHELBO",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 427,
+    "tag": "GALWAY",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 428,
+    "tag": "UC DUB",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 429,
+    "tag": "BRAY W",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 430,
+    "tag": "TREATY",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 431,
+    "tag": "ATHLON",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 432,
+    "tag": "CORK C",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 433,
+    "tag": "CABINT",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 434,
+    "tag": "COBH R",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 435,
+    "tag": "WEXFOR",
+    "league": 35,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]
