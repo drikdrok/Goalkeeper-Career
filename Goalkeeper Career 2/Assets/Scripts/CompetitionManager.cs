@@ -42,7 +42,7 @@ public class CompetitionManager : MonoBehaviour
         Debug.Log("Initializing Competitions...");
         foreach (var competition in competitions)
         {
-            Debug.Log(competition.name);
+           // Debug.Log(competition.name);
             if (System.IO.File.Exists("Assets/Data/Matches/" + competition.name + ".json") && System.IO.File.Exists("Assets/Data/Stats/" + competition.name + ".json") && System.IO.File.Exists("Assets/Data/LastSeason/" + competition.name + ".json"))
             {
                 competition.matches = SaveLoad.loadMatchesData(competition.name);

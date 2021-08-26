@@ -3150,5 +3150,181 @@
     "attackRating": 50,
     "midfieldRating": 50,
     "defenseRating": 50
+  },
+  {
+    "id": 394,
+    "tag": "HIBERN",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 395,
+    "tag": "ABERDE",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 396,
+    "tag": "CELTIC",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 397,
+    "tag": "RANGER",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 398,
+    "tag": "DUND U",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 399,
+    "tag": "MOTHER",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 400,
+    "tag": "ST JOH",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 401,
+    "tag": "ROSS C",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 402,
+    "tag": "DUNDEE",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 403,
+    "tag": "ST MIR",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 404,
+    "tag": "LIVING",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 405,
+    "tag": "HEARTS",
+    "league": 31,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 406,
+    "tag": "KILMAR",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 407,
+    "tag": "INVERN",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 408,
+    "tag": "P THIS",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 409,
+    "tag": "ARBROA",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 410,
+    "tag": "GREENO",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 411,
+    "tag": "QUEEN",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 412,
+    "tag": "RAITH",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 413,
+    "tag": "HAMILT",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 414,
+    "tag": "AYR U",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
+  },
+  {
+    "id": 415,
+    "tag": "DUNFER",
+    "league": 32,
+    "attackRating": 50,
+    "midfieldRating": 50,
+    "defenseRating": 50
   }
 ]
