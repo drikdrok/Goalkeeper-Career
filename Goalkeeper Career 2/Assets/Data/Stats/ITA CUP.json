@@ -65,11 +65,11 @@
   "231": {
     "wins": 4,
     "draws": 2,
-    "losses": 0,
+    "losses": 1,
     "GF": 8,
-    "GA": 4,
+    "GA": 5,
     "points": 14,
-    "gamesPlayed": 6
+    "gamesPlayed": 7
   },
   "243": {
     "wins": 1,
@@ -252,13 +252,13 @@
     "gamesPlayed": 3
   },
   "252": {
-    "wins": 5,
+    "wins": 6,
     "draws": 1,
     "losses": 0,
-    "GF": 6,
+    "GF": 7,
     "GA": 1,
-    "points": 16,
-    "gamesPlayed": 6
+    "points": 19,
+    "gamesPlayed": 7
   },
   "226": {
     "wins": 0,

@@ -135,13 +135,13 @@
     "gamesPlayed": 1
   },
   "320": {
-    "wins": 4,
+    "wins": 5,
     "draws": 0,
     "losses": 1,
-    "GF": 12,
+    "GF": 13,
     "GA": 5,
-    "points": 12,
-    "gamesPlayed": 5
+    "points": 15,
+    "gamesPlayed": 6
   },
   "303": {
     "wins": 0,
@@ -164,11 +164,11 @@
   "298": {
     "wins": 4,
     "draws": 1,
-    "losses": 0,
+    "losses": 1,
     "GF": 7,
-    "GA": 2,
+    "GA": 3,
     "points": 13,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   "300": {
     "wins": 0,

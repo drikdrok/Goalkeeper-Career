@@ -1,92 +1,92 @@
 {
   "426": {
     "wins": 2,
-    "draws": 2,
-    "losses": 2,
-    "GF": 7,
-    "GA": 4,
-    "points": 8,
-    "gamesPlayed": 6
+    "draws": 3,
+    "losses": 3,
+    "GF": 8,
+    "GA": 7,
+    "points": 9,
+    "gamesPlayed": 8
   },
   "427": {
     "wins": 3,
-    "draws": 1,
-    "losses": 2,
-    "GF": 7,
-    "GA": 5,
-    "points": 10,
-    "gamesPlayed": 6
+    "draws": 2,
+    "losses": 3,
+    "GF": 8,
+    "GA": 8,
+    "points": 11,
+    "gamesPlayed": 8
   },
   "428": {
-    "wins": 3,
+    "wins": 4,
+    "draws": 2,
+    "losses": 2,
+    "GF": 12,
+    "GA": 8,
+    "points": 14,
+    "gamesPlayed": 8
+  },
+  "429": {
+    "wins": 5,
     "draws": 1,
     "losses": 2,
     "GF": 10,
-    "GA": 7,
-    "points": 10,
-    "gamesPlayed": 6
-  },
-  "429": {
-    "wins": 3,
-    "draws": 1,
-    "losses": 2,
-    "GF": 6,
     "GA": 6,
-    "points": 10,
-    "gamesPlayed": 6
+    "points": 16,
+    "gamesPlayed": 8
   },
   "420": {
-    "wins": 2,
+    "wins": 3,
     "draws": 2,
-    "losses": 2,
-    "GF": 5,
-    "GA": 6,
-    "points": 8,
-    "gamesPlayed": 6
+    "losses": 3,
+    "GF": 7,
+    "GA": 8,
+    "points": 11,
+    "gamesPlayed": 8
   },
   "431": {
     "wins": 5,
-    "draws": 0,
+    "draws": 2,
     "losses": 1,
-    "GF": 12,
-    "GA": 6,
-    "points": 15,
-    "gamesPlayed": 6
+    "GF": 14,
+    "GA": 8,
+    "points": 17,
+    "gamesPlayed": 8
   },
   "432": {
-    "wins": 1,
-    "draws": 1,
-    "losses": 4,
-    "GF": 1,
-    "GA": 6,
-    "points": 4,
-    "gamesPlayed": 6
-  },
-  "433": {
-    "wins": 0,
+    "wins": 2,
     "draws": 2,
     "losses": 4,
     "GF": 3,
-    "GA": 10,
-    "points": 2,
-    "gamesPlayed": 6
+    "GA": 7,
+    "points": 8,
+    "gamesPlayed": 8
+  },
+  "433": {
+    "wins": 1,
+    "draws": 3,
+    "losses": 4,
+    "GF": 5,
+    "GA": 11,
+    "points": 6,
+    "gamesPlayed": 8
   },
   "434": {
     "wins": 0,
-    "draws": 5,
-    "losses": 1,
-    "GF": 5,
-    "GA": 7,
-    "points": 5,
-    "gamesPlayed": 6
+    "draws": 6,
+    "losses": 2,
+    "GF": 6,
+    "GA": 9,
+    "points": 6,
+    "gamesPlayed": 8
   },
   "435": {
     "wins": 3,
     "draws": 1,
-    "losses": 2,
-    "GF": 8,
-    "GA": 7,
+    "losses": 4,
+    "GF": 9,
+    "GA": 10,
     "points": 10,
-    "gamesPlayed": 6
+    "gamesPlayed": 8
   }
 }

@@ -272,11 +272,11 @@
   "198": {
     "wins": 1,
     "draws": 3,
-    "losses": 1,
+    "losses": 2,
     "GF": 3,
-    "GA": 2,
+    "GA": 3,
     "points": 6,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   "179": {
     "wins": 1,
@@ -297,13 +297,13 @@
     "gamesPlayed": 1
   },
   "175": {
-    "wins": 4,
+    "wins": 5,
     "draws": 1,
     "losses": 0,
-    "GF": 9,
+    "GF": 10,
     "GA": 4,
-    "points": 13,
-    "gamesPlayed": 5
+    "points": 16,
+    "gamesPlayed": 6
   },
   "181": {
     "wins": 0,
